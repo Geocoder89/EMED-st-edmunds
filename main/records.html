@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="../../index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Records</title>
+</head>
+
+<body>
+
+  <div class="sidebar d-flex flex-column justify-content-between  px-3">
+
+
+
+    <div class="d-flex">
+      <span><img class=" ml-1 mt-3 mb-5" src="../images/emed-sidebar.svg" alt=""></span>
+      <span class="mt-2"> <img src="../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
+    </div>
+
+
+    <div>
+      <p class="main-menu ml-2">Main Menu</p>
+      <div class="row">
+        <div class="sidebar-menu">
+          <a class="active" href="#">
+            <span class="sidebar-icon mr-2">
+              <img src='../images/icons/active-icons/dashboard.svg'>
+            </span>
+            Dashboard
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2">
+              <img src="../images/icons/inactive-icons/records.svg" alt="">
+            </span>
+            Records</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/nurse.svg" alt=""></span>
+            Nurse</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/consultant.svg" alt=""></span>
+            Consultant</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/optics.svg" alt=""></span>
+            Optics</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/pharmacy.svg" alt=""></span>
+            Pharmacy</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/billing.svg" alt=""></span>
+            Billing</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/logs.svg" alt=""></span>
+            Logs</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/reports.svg" alt=""></span>
+            Reports
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/user.svg" alt=""></span>
+            User Management
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="btn__logout">
+      <hr class="underline">
+      <div class="row">
+        <button class="btn logout-button text-white ml-2 mb-3">
+          <span><img src="../images/logout.svg" alt=""></span>
+          Logout</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="content">
+
+
+    <header class="d-flex justify-content-between align-items-center p-2">
+      <div class="col-md-6">
+        <div class="form-group mb-0">
+
+          <input type="text" class="form-control input-form w-75 pl-5" id="exampleInputPassword1" placeholder="Search">
+
+          <img src="/images/search_icon.svg" alt="search" class="search">
+
+        </div>
+      </div>
+
+      <div class=" d-flex">
+        <span class="bell-navbar px-3 py-2 text-white">
+          <img src="/images/bell.svg" alt=" bell">
+          3
+        </span>
+
+
+        <img src="../images/profile-image.svg" alt="img" class="ml-5">
+        <div class="ml-3 user mt-1">
+          Ayenibiowo Xavier<br>
+          <span class="name">Nurse</span>
+        </div>
+
+
+      </div>
+    </header>
+
+    <div class="wrapper-2 px-3 row-sizing">
+
+      <p class="dashboard-heading mt-3"> <img src="" alt=""> <img src="/images/icons/left-arrow.svg" alt="">Back</p>
+      <div class="d-flex justify-content-between">
+        <p class="mb-0 ml-2 dashboard-heading mt-3">Record Dashboard</p>
+        <p class="mb-0 dashboard-heading mt-3 mr-3">Mon, Jun 22, 2021
+          <span class="red-vertical-line mx-3"></span>
+
+          <span> <button type="button" class="btn red-btn mb-2">Add New Patient</button></span>
+        </p>
+
+
+
+      </div>
+
+      <div class="row records-row mt-2 mx-2">
+
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+
+
+
+
+
+              <div class="row">
+                <div class="col-md-12 card register-card p-4 mb-3">
+                  <div class="d-flex justify-content-between align-items-center p-3">
+
+                    <div class="">
+                      <p class="card-description text-white">Discharged Today</p>
+                      <p class="value mb-3 text-white ">80</p>
+                      <a class="card-description blue-bg text-white  p-2">View Details
+                        <span><img src="../images/details-white.svg" alt=""></span>
+                      </a>
+                    </div>
+                    <div class="blue p-2">
+                      <img class="mx-auto mt-3" src="/images/doc-white.svg" alt="">
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+
+
+              <div class="row">
+                <div class="col-md-12 card discharge-card p-4">
+                  <div class="d-flex justify-content-between align-items-center p-3">
+
+                    <div class="">
+                      <p class="card-description">Discharged Today</p>
+                      <p class="value mb-4">80</p>
+
+                      <a class="card-description grey my-3 p-2">View Details
+                        <span><img src="../images/details.svg" alt=""></span>
+                      </a>
+                    </div>
+                    <span class="gold-card-background">
+                      <img class="p-2 mt-2" src="/images/doc.svg" alt="">
+                    </span>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card community-card p-4">
+                <div class="d-flex justify-content-between align-items-center mt-2">
+
+                  <div class="">
+                    <p class="card-description">Community care</p>
+                    <p class="value mb-0  ">05</p>
+
+
+
+                  </div>
+
+                  <div>
+                    <span class="red-card-background ">
+                      <img class="p-2 mt-2" src="/images/doc.svg" alt="">
+                    </span>
+                  </div>
+
+
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center mt-2">
+
+                  <div class="">
+                    <p class="card-description">Corporate</p>
+                    <p class="value mb-0">05</p>
+
+
+
+
+                  </div>
+
+                  <div>
+                    <span class="sky-blue-background">
+                      <img class="p-2 mt-2" src="/images/doc.svg" alt="">
+                    </span>
+                  </div>
+
+
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center mt-2">
+
+                  <div class="">
+                    <p class="card-description">Private</p>
+                    <p class="value mb-0">05</p>
+
+
+
+
+                  </div>
+
+                  <div>
+                    <span class="gold-card-background">
+                      <img class="p-2 mt-2" src="/images/doc.svg" alt="">
+                    </span>
+                  </div>
+
+
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center mt-2">
+
+                  <div class="">
+                    <p class="card-description">HMO</p>
+                    <p class="value mb-3">05</p>
+
+
+
+                    <a class="card-description grey my-3 p-2">View Details
+                      <span><img src="../images/details.svg" alt=""></span>
+                    </a>
+                  </div>
+
+
+                  <div class="light-blue-background img">
+                    <span>
+                      <img class="p-2 mt-2" src="/images/doc.svg" alt="">
+                    </span>
+                  </div>
+
+
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6">
+          <div class="card patient-search-card p-3">
+            <p class="patient-heading mt-2">Search by Patients</p>
+
+
+
+                <form class="record-form">
+                  <div class="row">
+                    <div class="col-6 ">
+                      <div class="form-group mx-2">
+                        <label for="Patient Surname" class="profile-label">Patient Surname</label>
+                        <input type="text" class="form-control form-control-lg" id="Patient Surname">
+                      </div>
+
+                      <div class="form-group mx-2">
+                        <label for="Phone Number" class="profile-label">Phone Number</label>
+                        <input type="text" class="form-control form-control-lg" id="Phone Number">
+                      </div>
+
+
+                      <div class="form-group mx-2">
+                        <label for="Patient Type" class="profile-label">Patient Type</label>
+                        <input type="text" class="form-control form-control-lg" id="inputPassword4">
+                      </div>
+
+                    </div>
+
+
+
+                    <div class="col-6 ">
+                      <div class="form-group mx-2">
+                        <label for="inputEmail4" class="profile-label">Patient Type</label>
+                        <input type="text" class="form-control form-control-lg" id="inputEmail4">
+                      </div>
+
+                      <div class="form-group mx-2">
+                        <label for="Card Number" class="profile-label">Card Number</label>
+                        <input type="text" class="form-control form-control-lg" id="Card Number">
+                      </div>
+
+
+                      <div class="form-group mx-2">
+                        <div class="row">
+                          <div class="col-6">
+
+                            <label for="inputPassword4" class="profile-label">From</label>
+                            <input type="date" class="form-control" id="inputPassword4">
+                          </div>
+                          <div class="col-6">
+                            <label for="inputPassword4" class="profile-label">To</label>
+                            <input type="date" class="form-control" id="inputPassword4">
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+
+
+
+
+                  </div>
+
+
+                <button type="submit" class="btn search-button text-white mt-2">Search</button>
+
+
+              </form>
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+
+      <div class="row mt-4">
+
+        <div class="report-card p-3  mb-3 mx-3">
+          <div class="d-flex justify-content-between">
+            <p class="patient-heading mt-2">Search for Patients</p>
+            <p class="entries">
+              Show
+              <span>
+                <select class="p-2 mt-2 filter" name="" id="">
+                  <option value="">5</option>
+                </select>
+                Entries
+              </span>
+            </p>
+          </div>
+
+          <div class="row col-12 col-md-12 mt-3">
+            <div class="col-md-3">
+              <span class="sub-heading">
+                <img src="../images/filter.svg" alt="" class="mr-1">
+                Filter By
+                <select class="p-2 mt-2 filter ml-1" name="" id="">
+                  <option value="">Type</option>
+                </select>
+              </span>
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control input-form w-100 pl-5" id="exampleInputPassword1"
+                placeholder="Search...">
+
+              <img src="/images/icons/search-icon-black.svg" alt="search" class="search">
+            </div>
+
+            <div class="col-md-3 d-flex justify-content-between align-items-center">
+              <span class="action-text">
+                <img src="../images/icons/print.svg" alt="img" class="ml-5 mr-2"> Print
+              </span>
+
+
+
+              <span class="action-text">
+                <img src="../images/icons/download.svg" alt="img" class="mr-2">Export
+              </span>
+
+            </div>
+          </div>
+
+
+          <div class="row">
+            <table class="table table-borderless  table-striped mt-4 mx-3 px-3">
+              <thead>
+
+                <tr>
+
+                  <th scope="col">
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    </div>
+                  </th>
+
+                  <th class="table-heading" scope="col">Name of Patient </th>
+                  <th class="table-heading" scope="col">Card Number </th>
+                  <th class="table-heading" scope="col">Patient Type </th>
+                  <th class="table-heading" scope="col">Department</th>
+                  <th class="table-heading" scope="col">Age </th>
+                  <th class="table-heading" scope="col">Service Type </th>
+                  <th class="table-heading" scope="col">Date</th>
+                  <th></th>
+
+                </tr>
+              </thead>
+              <tbody>
+
+
+                <tr>
+
+                  <td>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    </div>
+                  </td>
+                  <td>
+                    <p class="table-content">Thecla Allen</p>
+                  </td>
+                  <td>
+                    <p class="table-content card-number">000001</p>
+                  </td>
+
+                  <td>
+                    <p class="table-content card-number">Private</p>
+                  </td>
+                  <td>
+                    <p class="table-content">Henrietta Sharp</p>
+                  </td>
+
+
+                  <td>
+                    <p class="table-content">76</p>
+                  </td>
+
+                  <td class="table-content">
+                    Existing Patient
+
+                  </td>
+
+
+                  <td class="table-content">
+                    29 April 2021
+
+                  </td>
+
+
+
+
+
+                  <td>
+                    <img src="/images/icons/menu-icon.svg" alt="">
+                  </td>
+
+
+
+
+
+
+                </tr>
+
+                <tr>
+                  <td>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    </div>
+                  </td>
+                  <td>
+                    <p class="table-content">Thecla Allen</p>
+                  </td>
+                  <td>
+                    <p class="table-content card-number">000001</p>
+                  </td>
+
+
+                  <td>
+                    <p class="table-content community-tag">Community</p>
+                  </td>
+
+                  <td>
+                    <p class="table-content">Henrietta Sharp</p>
+                  </td>
+
+
+                  <td>
+                    <p class="table-content">76</p>
+                  </td>
+
+                  <td class="table-content">
+                    Existing Patient
+
+                  </td>
+                  <td class="table-content">
+                    29 April 2021
+
+                  </td>
+
+                  <td>
+                    <img src="/images/icons/menu-icon.svg" alt="">
+                  </td>
+
+
+
+
+
+
+
+
+
+
+                </tr>
+
+
+
+                <tr>
+                  <td>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    </div>
+                  </td>
+                  <td>
+                    <p class="table-content">Thecla Allen</p>
+                  </td>
+                  <td>
+                    <p class="table-content card-number">000001</p>
+                  </td>
+
+                  <td>
+                    <p class="table-content hmo-tag">Hmo</p>
+                  </td>
+                  <td>
+                    <p class="table-content">Henrietta Sharp</p>
+                  </td>
+
+
+                  <td>
+                    <p class="table-content">76</p>
+                  </td>
+
+                  <td class="table-content">
+                    Existing Patient
+
+                  </td>
+
+
+                  <td class="table-content">
+                    29 April 2021
+
+                  </td>
+
+
+
+                  <td>
+                    <img src="/images/icons/menu-icon.svg" alt="">
+                  </td>
+
+
+
+
+
+
+
+
+                </tr>
+
+
+
+
+              </tbody>
+            </table>
+
+
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
