@@ -9,7 +9,7 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="./index.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="../../index.css">
+  <link rel="stylesheet" href="../index.css">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
     rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -103,7 +103,7 @@
 
           <input type="text" class="form-control input-form w-75 pl-5" id="exampleInputPassword1" placeholder="Search">
 
-          <img src="/images/search_icon.svg" alt="search" class="search">
+          <img src=../images/search_icon.svg" alt="search" class="search">
 
         </div>
       </div>
@@ -127,7 +127,7 @@
 
     <div class="wrapper px-3 row-sizing">
 
-      <p class="dashboard-heading mt-3"> <img src="" alt=""> <img src="/images/icons/left-arrow.svg" alt="">Back</p>
+      <p class="dashboard-heading mt-3"> <img src="" alt=""> <img src="../images/icons/left-arrow.svg" alt="">Back</p>
       <div class="d-flex justify-content-between mb-3">
         <p class="mb-0 ml-2 dashboard-heading mt-5">Nurse Dashboard</p>
         <p class="mb-0 dashboard-heading mt-5 mr-3">Mon, Jun 22, 2021</p>
@@ -141,11 +141,11 @@
       <div class=" general-card p-5  mb-3 mx-3 ">
 
         <div class="d-flex justify-content-between align-items-center mb-3">
-          <a href="optics.html" class="back-link  my-4"> <img src="/images/icons/left-arrow-black.svg" alt=""
+          <a href="optics.html" class="back-link  my-4"> <img src="../images/icons/left-arrow-black.svg" alt=""
               class="mr-2"> Go Back</a>
 
           <a type="button" class="btn edit-button text-white profile-heading px-3 py-2">
-            <img src="/images/edit.svg" alt="">
+            <img src="../images/edit.svg" alt="">
             Edit </a>
         </div>
 
@@ -153,12 +153,12 @@
         <div class="profile">
           <div class="row ">
             <div class="col-6">
-              <img src="/images/man.svg" alt="" class="my-3">
+              <img src="../images/man.svg" alt="" class="my-3">
             </div>
             <div class="col-6 card-2">
 
               <div class="blue-heading my-3">
-                <img src="/images/icons/Profile Icon.svg" alt="">
+                <img src="../images/icons/Profile Icon.svg" alt="">
                 <span class="profile-heading ml-2">My Profile</span>
 
 
@@ -200,7 +200,7 @@
             <div class="col-12">
 
               <div class="blue-heading my-3">
-                <img src="/images/icons/Profile Icon.svg" alt="">
+                <img src="../images/icons/Profile Icon.svg" alt="">
                 <span class="profile-heading ml-2">My Profile</span>
 
 
@@ -254,7 +254,7 @@
               <input type="text" class="form-control input-form w-75 pl-5" id="exampleInputPassword1"
                 placeholder="Search Visit">
 
-              <img src="/images/icons/search-icon-grey.svg" alt="search" class="search">
+              <img src="../images/icons/search-icon-grey.svg" alt="search" class="search">
 
             </div>
           </div>
@@ -283,13 +283,13 @@
           <thead>
 
             <tr>
-              <th class="table-heading" scope="col">S/N <img src="/images/icons/arrow-.png" alt=""></th>
-              <th class="table-heading" scope="col">Date <img src="/images/icons/arrow-.png" alt=""></th>
-              <th class="table-heading" scope="col">Visit Number <img src="/images/icons/arrow-.png" alt=""></th>
-              <th class="table-heading" scope="col">Service<img src="/images/icons/arrow-.png" alt="" class="ml-2"></th>
-              <th class="table-heading" scope="col">referral<img src="/images/icons/arrow-.png" alt=""></th>
-              <th class="table-heading" scope="col">Status<img src="/images/icons/arrow-.png" alt=""></th>
-              <th class="table-heading" scope="col">Action<img src="/images/icons/arrow-.png" alt=""></th>
+              <th class="table-heading" scope="col">S/N <img src="../images/icons/arrow-.png" alt=""></th>
+              <th class="table-heading" scope="col">Date <img src="../images/icons/arrow-.png" alt=""></th>
+              <th class="table-heading" scope="col">Visit Number <img src="../images/icons/arrow-.png" alt=""></th>
+              <th class="table-heading" scope="col">Service<img src="../images/icons/arrow-.png" alt="" class="ml-2"></th>
+              <th class="table-heading" scope="col">referral<img src="../images/icons/arrow-.png" alt=""></th>
+              <th class="table-heading" scope="col">Status<img src="../images/icons/arrow-.png" alt=""></th>
+              <th class="table-heading" scope="col">Action<img src="../images/icons/arrow-.png" alt=""></th>
 
             </tr>
           </thead>
@@ -365,8 +365,8 @@
               </td>
 
               <td>
-                <div class="triage px-1">
-                  <span class="mr-2 p-1">&nbsp;</span>
+                <div class="triage">
+                  <span class="mr-2 p-1"></span>
                   Triage
                 </div>
 
@@ -374,12 +374,13 @@
 
 
               <td>
-                <a type="button" href="" class="btn btn-sm gold-btn">
-                  <img src="/images/icons/gold-download.svg" alt="" class="mr-2">Download
+                <a type="button" href="" class="btn btn-sm gold-btn" data-toggle="modal" data-target="#downloadModal">
+                  <img src="../images/icons/gold-download.svg" alt="" class="mr-2">Download
                   </button>
 
               </td>
 
+            </tr>
 
 
 
@@ -411,10 +412,9 @@
 
               </td>
 
-
               <td>
-                <a type="button" href="" class="btn btn-sm gold-btn">
-                  <img src="/images/icons/gold-download.svg" alt="" class="mr-2">Download
+                <a type="button" href="" class="btn btn-sm gold-btn" data-toggle="modal" data-target="#downloadModal">
+                  <img src="../images/icons/gold-download.svg" alt="" class="mr-2">Download
                   </button>
 
               </td>
@@ -433,7 +433,7 @@
 
 
 
-            </tr>
+
 
 
 

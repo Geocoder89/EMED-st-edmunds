@@ -235,7 +235,6 @@ span.fa {
 
 .content-sizing {
   padding: 1px 16px;
-
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -315,7 +314,7 @@ span.fa {
   background: linear-gradient(180deg, #22333b 0%, rgba(34, 51, 59, 0.19) 100%),
     url(images/wrapper-image.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  height: 350px;
   border: 1px solid rgba(223, 228, 229, 0.5);
 }
 
@@ -323,20 +322,16 @@ span.fa {
   background: linear-gradient(180deg, #22333b 0%, rgba(34, 51, 59, 0.19) 100%),
     url(./images/wrapper-2.svg);
   background-repeat: no-repeat;
-  background-size: cover;
-  border: 1px solid rgba(223, 228, 229, 0.5);
-
-}
-
-
-.wrapper-3 {
-  background: linear-gradient(180deg, #22333B 0%, rgba(34, 51, 59, 0.19) 100%), url(/images/nurse-triage.svg);
   height: 350px;
   border: 1px solid rgba(223, 228, 229, 0.5);
 }
 
-
-
+.wrapper-3 {
+  background: linear-gradient(180deg, #22333b 0%, rgba(34, 51, 59, 0.19) 100%),
+    url(/images/nurse-triage.svg);
+  height: 350px;
+  border: 1px solid rgba(223, 228, 229, 0.5);
+}
 
 .dashboard-heading {
   font-family: "Source Sans Pro";
@@ -397,65 +392,58 @@ span.fa {
 
 .name {
   font-family: "Source Sans Pro";
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
 
-color: #333333;
-
+  color: #333333;
 }
 
 .card-heading {
   font-family: Source Sans Pro;
-font-style: normal;
-font-weight: 600;
-font-size: 18.1771px;
-line-height: 23px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.1771px;
+  line-height: 23px;
 
-color: #233B5A;
+  color: #233b5a;
 }
 .card-description {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  /* identical to box height */
 
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 18px;
-text-decoration: none;
-/* identical to box height */
+  /* 2nd color */
 
-
-/* 2nd color */
-
-color: #22333B;
-
+  color: #22333b;
 }
 
 .card-description:hover {
   text-decoration: none;
   cursor: pointer;
-  color: #22333B;
+  color: #22333b;
 }
-
 
 .card-value {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: bold;
-font-size: 29.2793px;
-line-height: 20px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29.2793px;
+  line-height: 20px;
 
-/* 2nd color */
+  /* 2nd color */
 
-color: #22333B;
-
+  color: #22333b;
 }
-
 
 .grey {
   background: rgba(34, 51, 59, 0.05);
-border-radius: 43.919px;
+  border-radius: 43.919px;
 }
 
 .black {
@@ -469,109 +457,90 @@ height: 100.65px;
 left: 0px;
 top: 0px; */
 
-/* 2nd accent */
+  /* 2nd accent */
 
-background: #8BE8CB;
-border-radius: 3.65992px;
+  background: #8be8cb;
+  border-radius: 3.65992px;
 }
 
 .grey-card {
-
-
-background: rgba(255, 255, 255, 0.8);
-border-radius: 3.65992px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 3.65992px;
 }
 
-
 .inner-description {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: normal;
-font-size: 10.9798px;
-line-height: 5px;
-/* identical to box height */
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.9798px;
+  line-height: 5px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-/* 2nd color */
+  /* 2nd color */
 
-color: #22333B;
-
+  color: #22333b;
 }
 
 .inner-value {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: bold;
-font-size: 21.9595px;
-line-height: 5px;
-/* identical to box height */
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.9595px;
+  line-height: 5px;
+  /* identical to box height */
 
+  /* 2nd color */
 
-/* 2nd color */
-
-color: #22333B;
-
-
+  color: #22333b;
 }
-
 
 .optics-card {
-  background: #22333B;
-border: 0.91498px solid rgba(34, 51, 59, 0.5);
-border-radius: 4.5749px;
-
+  background: #22333b;
+  border: 0.91498px solid rgba(34, 51, 59, 0.5);
+  border-radius: 4.5749px;
 }
-
 
 .general-card {
-
-
-/* neutral */
-
-background: #FFFFFF;
-border: 1px solid rgba(223, 228, 229, 0.5);
-border-radius: 5px;
-margin-top: -50px;
-    z-index: 90;
-}
-
-
-.nurse-inner-card {
-
-
   /* neutral */
 
-  background: #FFFFFF;
+  background: #ffffff;
+  border: 1px solid rgba(223, 228, 229, 0.5);
+  border-radius: 5px;
+  margin-top: -50px;
+  z-index: 90;
+}
+
+.nurse-inner-card {
+  /* neutral */
+
+  background: #ffffff;
   border: 1px solid rgba(223, 228, 229, 0.5);
   border-radius: 5px;
   margin-top: -160px;
-      z-index: 90;
-  }
+  z-index: 90;
+}
 .row-sizing {
   padding-bottom: 4rem;
 }
 
-
-
 .report-card {
-
-
   /* neutral */
 
-  background: #FFFFFF;
+  background: #ffffff;
   border: 1px solid rgba(223, 228, 229, 0.5);
   border-radius: 5px;
 
-      z-index: 90;
-  }
+  z-index: 90;
+}
 
-  .row-sizing {
-    padding-bottom: 4rem;
-  }
+.row-sizing {
+  padding-bottom: 4rem;
+}
 
 .table-heading {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -579,89 +548,55 @@ margin-top: -50px;
 }
 
 .table-content {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 13.0694px;
-line-height: 16px;
-/* identical to box height */
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.0694px;
+  line-height: 16px;
+  /* identical to box height */
 
+  /* text */
 
-/* text */
-
-color: #344563;
-
+  color: #344563;
 }
-
 
 .view-btn {
-  background: #FFF7E5;
+  background: #fff7e5;
   border-radius: 5.22777px;
-
 }
 
-
 .btn-text {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 12.1981px;
-line-height: 15px;
-/* identical to box height */
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.1981px;
+  line-height: 15px;
+  /* identical to box height */
 
+  /* text */
 
-/* text */
-
-color: #344563;
-
+  color: #344563;
 }
 
 .gold-btn {
-  font-family: 'Source Sans Pro';
-  background-color:   #FFF7E5;
- color: #FFAB00;
- font-size: 12.1981px;
-line-height: 15px;
+  font-family: "Source Sans Pro";
+  background-color: #fff7e5;
+  color: #ffab00;
+  font-size: 12.1981px;
+  line-height: 15px;
 }
 
 .gold-btn:hover {
-  color: #FFAB00;
+  color: #ffab00;
 }
-
-
 
 .consultation {
-/* green accent */
-
-background: #EAF4F6;
-
-border-radius: 5.3px;
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 15px;
-display: flex;
-align-items: center;
-color: #344563;
-width: 100px;
-height: 20px;
-
-}
-
-.consultation span {
-  background: #64C8BC;
-  width: 4px;
-  height: 4px;
-border-radius: 2.61388px;
-}
-
-
-.treatment {
   /* green accent */
-  background: #EBEFF5;
+
+  background: #eaf4f6;
+
   border-radius: 5.3px;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -671,26 +606,20 @@ border-radius: 2.61388px;
   color: #344563;
   width: 100px;
   height: 20px;
+}
 
-  }
-
-  .treatment span {
-    background: #344563;
-
-    width: 4px;
-    height: 4px;
+.consultation span {
+  background: #64c8bc;
+  width: 4px;
+  height: 4px;
   border-radius: 2.61388px;
-  }
+}
 
-
-
-.triage {
+.treatment {
   /* green accent */
-
-  background: #FBE9E9;
-
+  background: #ebeff5;
   border-radius: 5.3px;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -698,20 +627,44 @@ border-radius: 2.61388px;
   display: flex;
   align-items: center;
   color: #344563;
+  width: 100px;
+  height: 20px;
+}
 
+.treatment span {
+  background: #344563;
 
-  }
-
-  .triage span {
-    background: #D32027;
-
-    width: 4px;
-    height: 4px;
+  width: 4px;
+  height: 4px;
   border-radius: 2.61388px;
-  }
+}
+
+.triage {
+  /* green accent */
+
+  background: #fbe9e9;
+
+  border-radius: 5.3px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+}
+
+.triage span {
+  background: #d32027;
+
+  width: 4px;
+  height: 4px;
+  border-radius: 2.61388px;
+}
 
 .conversation-btn {
-  background: #EAF4F6;
+  background: #eaf4f6;
   width: auto;
   /* height: 4px; */
 }
@@ -721,181 +674,165 @@ border-radius: 2.61388px;
 }
 
 .back-link {
-  font-family: 'Rubik',sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-
-/* text */
-
-color: #344563;
-
-}
-
-.back-link:hover,.back-link:visited{
-  text-decoration: none;
-  font-family: 'Rubik',sans-serif;
+  font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   /* identical to box height, or 150% */
 
+  /* text */
+
+  color: #344563;
+}
+
+.back-link:hover,
+.back-link:visited {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
 
   /* text */
 
   color: #344563;
   text-decoration: none;
   cursor: pointer;
-
 }
 
 .edit-button {
-  background: #22333B;
-border-radius: 4px;
+  background: #22333b;
+  border-radius: 4px;
 }
 
 .bg-card {
-  background: #FFFFFF;
-box-shadow: 0px 8.75px 26.25px rgba(209, 213, 223, 0.5);
-border-radius: 4.375px;
+  background: #ffffff;
+  box-shadow: 0px 8.75px 26.25px rgba(209, 213, 223, 0.5);
+  border-radius: 4.375px;
 }
 
 .blue-heading {
-  background: #3C609D;
-box-shadow: 0px 1.75px 1.75px rgba(0, 0, 0, 0.04);
-border-radius: 3.5px;
-padding: 17.5px;
+  background: #3c609d;
+  box-shadow: 0px 1.75px 1.75px rgba(0, 0, 0, 0.04);
+  border-radius: 3.5px;
+  padding: 17.5px;
 }
-
 
 .profile-heading {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 17.5px;
-line-height: 18px;
-color: #FFFFFF;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.5px;
+  line-height: 18px;
+  color: #ffffff;
 }
-
-
-
 
 .profile-description > div:nth-child(odd) {
   background: rgba(60, 96, 157, 0.1);
-border-radius: 3.5px;
-/* padding: 17.5px; */
+  border-radius: 3.5px;
+  /* padding: 17.5px; */
 }
 
-
 .profile-label {
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height, or 150% */
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
 
+  /* text */
 
-/* text */
-
-color: #344563;
-
+  color: #344563;
 }
 
 .profile-value {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 21px;
-/* identical to box height, or 150% */
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
 
+  /* text */
 
-/* text */
-
-color: #344563;
+  color: #344563;
 }
-
-
 
 .action-text {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-letter-spacing: -0.201968px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.201968px;
 
-color: #253858;
+  color: #253858;
 }
-
 
 .profile {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-gap: 4rem
+  grid-gap: 4rem;
 }
 
 .modal-heading {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 23px;
-/* identical to box height */
-margin: 0 auto;
-letter-spacing: 0.1px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  margin: 0 auto;
+  letter-spacing: 0.1px;
 
-/* Header text color */
+  /* Header text color */
 
-color: #0E0E0E;
+  color: #0e0e0e;
 }
-
 
 .modal-input {
   /* light bg */
   width: 300px;
   height: 48px;
-background: #F9F9FC;
-/* light bg */
+  background: #f9f9fc;
+  /* light bg */
 
-border: 1px solid #F9F9FC;
-box-sizing: border-box;
-border-radius: 2px;
+  border: 1px solid #f9f9fc;
+  box-sizing: border-box;
+  border-radius: 2px;
 }
 
 select {
-  font-family: 'Open Sans';
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
 
-letter-spacing: 0.1px;
+  letter-spacing: 0.1px;
 
-/* inactive color */
+  /* inactive color */
 
-color: #B5B5B5;
+  color: #b5b5b5;
 }
-
 
 .back-btn {
   width: 113px;
   height: 47px;
 
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
   /* inactive color */
 
-  background: #B5B5B5;
+  background: #b5b5b5;
   border-radius: 5px;
 }
 
@@ -907,69 +844,63 @@ color: #B5B5B5;
   border: none;
 }
 
-
 .save-btn {
   width: 136px;
   height: 47px;
   left: 143px;
   top: 0px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
   /* 2nd color */
 
-  background: #22333B;
+  background: #22333b;
   border-radius: 5px;
 }
-
 
 input[type="file"] {
   display: none;
 }
 
-
 .custom-file-upload {
   width: 300px;
   height: 48px;
-background: #F9F9FC;
-/* light bg */
-font-family: "Source Sans Pro", sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 19px;
+  background: #f9f9fc;
+  /* light bg */
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
 
-/* inactive color */
-color: #B5B5B5;
+  /* inactive color */
+  color: #b5b5b5;
 
-border: 1px solid #F9F9FC;
-box-sizing: border-box;
-border-radius: 2px;
+  border: 1px solid #f9f9fc;
+  box-sizing: border-box;
+  border-radius: 2px;
 }
 
-
-
-.custom-file-input:lang(en)~.custom-file-label::after {
+.custom-file-input:lang(en) ~ .custom-file-label::after {
   content: url(./images/download.svg);
   background: transparent;
 }
 
-
 .red-vertical-line {
   width: 29px;
-height: 0px;
-background: #d32027;
-border: 2px solid #D32027;
-transform: rotate(90deg);
+  height: 0px;
+  background: #d32027;
+  border: 2px solid #d32027;
+  transform: rotate(90deg);
 }
 
 .red-btn {
-  background: #D32027;
-border-radius: 5px;
-padding: 10px 20px;
-font-family: 'Open Sans';
+  background: #d32027;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -983,440 +914,492 @@ font-family: 'Open Sans';
   cursor: pointer;
 }
 
-
-
-
-.register-card
- {
+.register-card {
   /* width: 275px;
   height: 187px; */
 
-
-  background: linear-gradient(123.78deg, #0F2851 8.18%, #143D83 62.09%, #0C7076 118.29%);
+  background: linear-gradient(
+    123.78deg,
+    #0f2851 8.18%,
+    #143d83 62.09%,
+    #0c7076 118.29%
+  );
   border-radius: 5px;
   margin-bottom: -50px;
- }
+}
 
-
- .discharge-card {
+.discharge-card {
   /* width: 275px;
   height: 180px; */
 
-
-  background: #FFFFFF;
-  border: 1px solid #E7E7E7;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
   border-radius: 5px;
   margin-bottom: -60px;
- }
+}
 
- .yellow-card-background img {
-  background: #FCD79C;
+.yellow-card-background img {
+  background: #fcd79c;
+}
 
- }
+.card-row {
+  margin-top: -50px;
+}
 
-
- .card-row {
-   margin-top: -50px;
- }
-
-
- .community-card {
-  border: 1px solid #E7E7E7;
+.community-card {
+  border: 1px solid #e7e7e7;
   border-radius: 5px;
 
-background: #FFFFFF;
- }
+  background: #ffffff;
+}
 
- .patient-search-card {
+.patient-search-card {
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+}
 
-  background: #FFFFFF;
-border: 1px solid #E7E7E7;
-border-radius: 5px;
- }
-
-
- .report-card {
-  background: #FFFFFF;
+.report-card {
+  background: #ffffff;
   border: 1px solid rgba(223, 228, 229, 0.5);
   border-radius: 5px;
   width: 1118px;
- }
+}
 
- .patient-heading {
-  font-family: 'Source Sans Pro';
+.patient-heading {
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 23px;
   /* identical to box height */
 
+  color: #233b5a;
+}
 
-  color: #233B5A;
-
- }
-
- .entries {
-  font-family: 'Open Sans';
+.entries {
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
- }
-
-
- .filter {
-  border-radius: 4px;
-  outline: none;
-
- }
-
- .card-number {
- color: #063D99;
-
- }
- .community-tag {
-  color: #06A77D;
-
- }
-
- .hmo-tag {
-  color: #D32027;
-
- }
-
- .value
-{
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 40px
 }
 
+.filter {
+  border-radius: 4px;
+  outline: none;
+}
+
+.card-number {
+  color: #063d99;
+}
+.community-tag {
+  color: #06a77d;
+}
+
+.hmo-tag {
+  color: #d32027;
+}
+
+.value {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
 
 .blue-bg {
   background: rgba(255, 255, 255, 0.05);
-border-radius: 48px;
+  border-radius: 48px;
 }
 
 .card-icon {
   width: 60px;
-height: 60px;
+  height: 60px;
 }
 
 .blue {
   background: rgba(255, 255, 255, 0.05);
 }
 
-
-
 .red-card-background img {
-  background: #F3AFB2;
-opacity: 0.4;
-border-radius: 3.75293px;
-
+  background: #f3afb2;
+  opacity: 0.4;
+  border-radius: 3.75293px;
 }
 
 .gold-card-background img {
   /* other color */
 
-  background: #FFDD99;
+  background: #ffdd99;
 
-border-radius: 3.75293px;
+  border-radius: 3.75293px;
 }
 
 .light-blue-background img {
   /* 2nd accent */
 
-background: #8BE8CB;
-border-radius: 3.75293px;
+  background: #8be8cb;
+  border-radius: 3.75293px;
 }
 
 .sky-blue-background img {
-  background: #AAD7E2;
+  background: #aad7e2;
 
-border-radius: 3.75293px;
+  border-radius: 3.75293px;
 }
 
 .card-icon img {
- display: flex;
- justify-content: center;
- align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .search-card-input {
-
-
-background: #F9F9FC;
-border-radius: 4px;
+  background: #f9f9fc;
+  border-radius: 4px;
 }
-
 
 .search-button {
   /* 2nd color */
 
-background: #22333B;
-border-radius: 5px;
-padding: 10px 20px;
-width: 140px;
+  background: #22333b;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 140px;
 
-font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
 }
 
-
-
-::-webkit-datetime-edit { color: transparent; }
+/* ::-webkit-datetime-edit { color: transparent; }
 :focus::-webkit-datetime-edit { color: #000; }
-
-
+ */
 
 .nurse-card {
+  width: 265.35px;
 
-width: 265.35px;
-
-
-
-border: 0.671766px solid rgba(223, 228, 229, 0.5);
-border-radius: 2.68706px;
+  border: 0.671766px solid rgba(223, 228, 229, 0.5);
+  border-radius: 2.68706px;
 }
 
-
 .nurse-triage-card {
-  background: #FBFBFB;
-
-
+  background: #fbfbfb;
 }
 
 .triage-card-heading {
   font-size: 11px;
   line-height: 14px;
-  color: #22333B;
+  color: #22333b;
 }
 
 .nurse-value-dark {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: bold;
-font-size: 21.4965px;
-line-height: 27px;
-/* 2nd color */
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.4965px;
+  line-height: 27px;
+  /* 2nd color */
 
-color: #22333B;
+  color: #22333b;
 }
 
 .nurse-description-dark {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 9.40472px;
-line-height: 12px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9.40472px;
+  line-height: 12px;
 
-
-color: #22333B;
-
+  color: #22333b;
 }
 
+.counselling-value {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.4965px;
+  line-height: 27px;
+  /* 2nd color */
 
-
- .counselling-value{
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: bold;
-font-size: 21.4965px;
-line-height: 27px;
-/* 2nd color */
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 .counselling-card-heading {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 11px;
-line-height: 14px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14px;
 
-
-color: #FFFFFF;
-
+  color: #ffffff;
 }
 
-
 .nurse-inner-value {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
 
-  color: #22333B;
+  color: #22333b;
 }
 
 .nurse-inner-description {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 9px;
   line-height: 11px;
 
-
   /* 2nd color */
 
-  color: #22333B;
-
-
+  color: #22333b;
 }
-
 
 .nurse-inner-description-white {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 9px;
   line-height: 11px;
 
-
   /* 2nd color */
 
-  color: #FFFFFF;
-
-
+  color: #ffffff;
 }
-
 
 .gold-card {
-  background: #FCD79C;
-border-radius: 2.68706px;
+  background: #fcd79c;
+  border-radius: 2.68706px;
 }
-
 
 .red-text {
- /* Primary color */
+  /* Primary color */
 
-color: #D32027;
-
+  color: #d32027;
 }
 
-
 .initiate-btn {
-  background: #FBE9E9;
+  background: #fbe9e9;
 
   border-radius: 5.3px;
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
   outline: none;
 }
 
 
-.gender-tab {
-
-/* dark-emed */
-
-background: #64C8BC;
-mix-blend-mode: normal;
-border-radius: 5.22777px;
-width: 50%;
+.initiate-btn:hover {
+  color: #d32027;
 }
 
+.gender-tab {
+  /* dark-emed */
 
-
-
+  background: #64c8bc;
+  mix-blend-mode: normal;
+  border-radius: 5.22777px;
+  width: 50%;
+}
 
 .black-badge {
-  background: #22333B;
+  background: #22333b;
   width: 4px;
   height: 4px;
-border-radius: 2.61388px;
+  border-radius: 2.61388px;
 }
-
 
 .nurse-sidebar-text {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
 
-
-/* neutral */
-color: #0E0E0E;
-
+  /* neutral */
+  color: #0e0e0e;
 }
-
 
 .nurse-sidebar-text {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
 
-cursor: pointer;
-/* neutral */
-color: #0E0E0E;
-text-decoration: none;
-
+  cursor: pointer;
+  /* neutral */
+  color: #0e0e0e;
+  text-decoration: none;
 }
-
-
 
 .nurse-sidebar-text:hover {
-  font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
 
-cursor: pointer;
-/* neutral */
-color: #0E0E0E;
-text-decoration: none;
-
+  cursor: pointer;
+  /* neutral */
+  color: #0e0e0e;
+  text-decoration: none;
 }
 
 .triage-active {
+  /* 2nd color */
 
-/* 2nd color */
+  background: #22333b;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-background: #22333B;
-border-radius: 5px;
-color: #FFFFFF;
-text-decoration: none;
+.triage-active:hover {
+  /* 2nd color */
+
+  background: #22333b;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nurse-heading-wrapper {
+  background: #ffffff;
+  border: 1px solid rgba(223, 228, 229, 0.5);
+  box-shadow: 0px 2px 4px #f9f9fc;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.nurse-form-heading {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.nurse-input {
+  background: #f9f9fc;
+  border-radius: 2px;
+}
+
+.custom-control-label {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #8be8cb;
+  background-color: #8be8cb;
+}
+
+.custom-control-label:before {
+  border-color: #8be8cb;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #8be8cb;
+  color: #fff;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='cyan' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+}
+
+.nurse-btn-group {
+  margin-top: 210px;
+}
+
+.tabs-link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* inactive color */
+
+  color: #b5b5b5;
+
+  color: #6a7d83;
+}
+.nav-tabs {
+  border-bottom: 1px solid #d4d4d4 !important;
+}
+.nav-tabs .nav-link {
+  border: transparent;
+}
+.tabs-link.active,
+.tabs-link:focus,
+.tabs-link:hover {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Header text color */
+
+  color: #0e0e0e !important;
+
+  /* identical to box height */
+  border-bottom: 3px solid #8be8cb !important;
+  background: transparent !important  ;
+  /* color: #1b998b !important; */
+}
+
+.operation-text {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  /* dark-emed */
+
+  color: #64c8bc;
+}
+
+.nurse-btn-operation {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 50%;
+}
+
+
+.nurse-dropdown {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #1D2B4F;
 cursor: pointer;
 
 }
 
+.nurse-dropdown:hover {
+   background:  #ffffff;
+   cursor: pointer;
+
+}
 
 
-.triage-active:hover {
+.nurse-dropdown:nth-child(even) {
+  background: #8BE8CB;
+color: #ffffff;
 
-  /* 2nd color */
-
-  background: #22333B;
-  border-radius: 5px;
-  color: #FFFFFF;
-  text-decoration: none;
-  cursor: pointer;
-
-  }
-
-  .nurse-heading-wrapper {
-    background: #FFFFFF;
-border: 1px solid rgba(223, 228, 229, 0.5);
-box-shadow: 0px 2px 4px #F9F9FC;
-border-radius: 5px 5px 0px 0px;
-
-  }
-
-
-  .nurse-form-heading {
-    font-family: 'Source Sans Pro';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 30px;
-
-color: #000000;
-
-  }
+  /* padding: 17.5px; */
+}

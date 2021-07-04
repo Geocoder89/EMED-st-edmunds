@@ -146,18 +146,20 @@
             <div class="col-3">
               <ul class="nav flex-column px-3 mt-5">
                 <li class="nav-item mb-3">
-                  <a class="nav-link triage-active nurse-sidebar-text" href="#">Triage and vitals
-                   <img class="ml-2" src="../../images/check.svg" alt="">
+                  <a class="nav-link nurse-sidebar-text" href="#">Triage and vitals
+
                   </a>
                 </li>
                 <li class="nav-item mb-3 ">
-                  <a class="nav-link nurse-sidebar-text" href="#">Glasses counselling</a>
+                  <a class="nav-link nurse-sidebar-text" href="#">Glasses counselling </a>
                 </li>
                 <li class="nav-item mb-3">
                   <a class="nav-link nurse-sidebar-text" href="#">Surgery counselling</a>
                 </li>
                 <li class="nav-item mb-3">
-                  <a class="nav-link nurse-sidebar-text" href="#">Procedure counselling</a>
+                  <a class="nav-link triage-active nav-link nurse-sidebar-text" href="#">Procedure counselling
+                    <img class="ml-2" src="../../images/check.svg" alt="">
+                  </a>
                 </li>
               </ul>
             </div>
@@ -165,8 +167,8 @@
             <div class="col-9">
 
                   <div class="nurse-heading-wrapper mb-2 p-4">
-                    <p class="nurse-form-heading">Triage and vitals</p>
-                    <p class="modal-heading">Input triage and vitals information below</p>
+                    <p class="nurse-form-heading">Procedure</p>
+                    <p class="modal-heading">Input surgery counselling information below</p>
                   </div>
 
 
@@ -175,12 +177,19 @@
                   <div class="row">
                     <div class="col-6 ">
                       <div class="form-group mx-2">
-                        <label for="bp" class="profile-label">Blood pressure ( mmHg )</label>
-                        <input type="text" class="form-control nurse-input" id="bp" placeholder="Systolic">
+                        <label for="user" class="profile-label">User</label>
+                        <input type="text" class="form-control nurse-input" id="user" placeholder="Input text">
                       </div>
 
                       <div class="form-group mx-2">
-                        <label for="Diastolic field" class="profile-label">Another blood pressure ?</label>
+                        <label for="Counselling Note" class="profile-label">Counselling Note</label>
+                        <textarea class="form-control nurse-input" id="Counselling Note" rows="6" placeholder="Enter counselling note"></textarea>
+
+                      </div>
+
+
+                      <div class="form-group mx-2">
+                        <label for="Counselling" class="profile-label">Counselling?</label>
                         <div>
                           <div class="custom-control custom-radio custom-control-inline">
                             <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
@@ -195,84 +204,52 @@
                       </div>
 
 
-                      <div class="form-group mx-2 mt-2">
-                        <label for="rbs" class="profile-label">Random Blood Sugar (RBS)</label>
-                        <input type="text" class="form-control nurse-input" id="rbs" placeholder="Enter RBS">
-                      </div>
-
-
-                      <div class="form-group mx-2">
-                        <label for="temperature" class="profile-label">Temperature (C)</label>
-                        <input type="text" class="form-control nurse-input" id="temperature" placeholder="Enter Temperature">
-                      </div>
-
-
-                      <div class="form-group mx-2">
-                        <label for="height" class="profile-label">Height (m) </label>
-                        <input type="text" class="form-control nurse-input" id="height" placeholder="Enter height">
-                      </div>
-
-
-                      <div class="form-group mx-2">
-                        <label for="height" class="profile-label">Oxygen Saturation </label>
-                        <input type="text" class="form-control nurse-input" id="height" placeholder="Enter value">
-                      </div>
-
-                      <div class="form-group mx-2">
-                        <label for="Counselling" class="profile-label">Counselling?</label>
-                        <div>
-                          <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadioInline3">Yes</label>
-                          </div>
-                          <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadioInline4">No</label>
-                          </div>
+                        <div class="custom-control custom-checkbox my-3">
+                          <input type="checkbox" class="custom-control-input" id="customCheck1">
+                          <label class="custom-control-label profile-label" for="customCheck1">Glasses Counselling</label>
                         </div>
 
-                      </div>
+                        <div class="custom-control custom-checkbox my-3">
+                          <input type="checkbox" class="custom-control-input" id="customCheck2">
+                          <label class="custom-control-label profile-label" for="customCheck2">Surgery Counselling</label>
+                        </div>
+
+                        <div class="custom-control custom-checkbox my-3">
+                          <input type="checkbox" class="custom-control-input" id="customCheck3">
+                          <label class="custom-control-label profile-label" for="customCheck3">Procedure Counselling</label>
+                        </div>
+
+
+
+
+
+
+
+
+
                     </div>
 
 
 
                     <div class="col-6 ">
                       <div class="form-group mx-2">
-                        <label for="Diastolic" class="profile-label">Diastolic field</label>
-                        <input type="text" class="form-control nurse-input" id="Diastolic" placeholder="Enter diastolic field">
-                      </div>
-
-                      <div class="form-group mx-2">
-                        <label for="pulse" class="profile-label">Pulse (bpm)</label>
-                        <input type="text" class="form-control nurse-input" id="pulse" placeholder="Enter pulse">
+                        <label for="timestamp" class="profile-label">Timestamp </label>
+                        <input type="date" class="form-control nurse-input" id="timestamp" >
                       </div>
 
 
-                      <div class="form-group mx-2">
-                        <label for="fbs" class="profile-label">Fasting Blood Sugar (FBS)</label>
-                        <input type="text" class="form-control nurse-input" id="fbs" placeholder="Enter FBS">
+                      <div class="form-group mx-2 mb-5">
+                        <label for="Counselling Feedback" class="profile-label">Counselling Feedback</label>
+                        <textarea class="form-control nurse-input" id="Counselling Feedback" rows="6" placeholder="Enter Counselling Feedback"></textarea>
+
                       </div>
 
 
 
-                      <div class="form-group mx-2">
-                        <label for="fbs" class="profile-label">Weight (kg)</label>
-                        <input type="text" class="form-control nurse-input" id="fbs" placeholder="Enter Weight">
-                      </div>
 
 
-                      <div class="form-group mx-2">
-                        <label for="fbs" class="profile-label">BMI</label>
-                        <input type="text" class="form-control nurse-input" id="fbs" placeholder="BMI input">
-                      </div>
 
-                      <div class="form-group mx-2">
-                        <label for="fbs" class="profile-label">Pain Score</label>
-                        <input type="text" class="form-control nurse-input" id="fbs" placeholder="Select pain score">
-                      </div>
-
-
-                      <div class="form-group my-5">
+                      <div class="form-group nurse-btn-group">
                         <button type="button" class="btn back-btn text-white mr-3" >Back</button>
                         <button type="button" class="btn save-btn text-white">Submit</button>
                       </div>
