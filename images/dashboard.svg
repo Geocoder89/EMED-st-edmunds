@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="baseline-insert_chart_outlined-24px" viewBox="0 0 14 14">
+    <defs>
+        <style>
+            .cls-1{fill:#b7c0cd}.cls-2{fill:none}
+        </style>
+    </defs>
+    <path id="Path_5" d="M6.363 11.361H5.174v-4.18h1.189zm2.377 0H7.552V5.389H8.74zm2.377 0H9.929V8.972h1.189zm1.483 1.254H3.689V4.194H12.6zM12.6 3H3.689A1.2 1.2 0 0 0 2.5 4.194v8.361a1.2 1.2 0 0 0 1.189 1.195H12.6a1.2 1.2 0 0 0 1.189-1.194V4.194A1.2 1.2 0 0 0 12.6 3z" class="cls-1" data-name="Path 5" transform="translate(-1.146 -1.375)"/>
+    <path id="Path_6" d="M0 0h14v14H0z" class="cls-2" data-name="Path 6"/>
+</svg>
