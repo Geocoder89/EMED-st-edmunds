@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="baseline-account_balance_wallet-24px" viewBox="0 0 14 14">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#b7c0cd}
+        </style>
+    </defs>
+    <path id="Path_12" d="M0 0h14v14H0z" class="cls-1" data-name="Path 12"/>
+    <path id="Path_13" d="M13.424 11.67v.578a1.161 1.161 0 0 1-1.158 1.152H4.158A1.157 1.157 0 0 1 3 12.248V4.156A1.157 1.157 0 0 1 4.158 3h8.108a1.161 1.161 0 0 1 1.158 1.156v.578H8.212A1.157 1.157 0 0 0 7.054 5.89v4.624a1.157 1.157 0 0 0 1.158 1.156zm-5.212-1.156H14V5.89H8.212zm2.316-1.445A.867.867 0 1 1 11.4 8.2a.867.867 0 0 1-.872.869z" class="cls-2" data-name="Path 13" transform="translate(-1.202 -1.202)"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="baseline-how_to_reg-24px" viewBox="0 0 14 14">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none;fill-rule:evenodd}.cls-2{fill:#b7c0cd}
+        </style>
+    </defs>
+    <path id="Path_9" d="M0 0h14v14H0z" class="cls-1" data-name="Path 9"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(1.667 2.889)">
+        <path id="Path_10" d="M6.333 11.222L8 9.589a5.189 5.189 0 0 0-.556-.033C5.961 9.556 3 10.3 3 11.778v1.111h5zm1.111-2.778a2.222 2.222 0 1 0-2.222-2.222 2.222 2.222 0 0 0 2.222 2.222" class="cls-2" data-name="Path 10" transform="translate(-3 -4)"/>
+        <path id="Path_11" d="M13.928 16.944L12 15l.778-.783 1.15 1.156 2.85-2.872.778.783z" class="cls-2" data-name="Path 11" transform="translate(-6.333 -7.778)"/>
+    </g>
+</svg>
