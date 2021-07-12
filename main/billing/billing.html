@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="./index.css"> -->
+  <link rel="stylesheet" href="../../index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" >
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <script src="https://www.amcharts.com/lib/4/core.js"></script>
+  <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+  <title>Billing</title>
+</head>
+
+<body>
+
+  <div class="sidebar d-flex flex-column justify-content-between  px-3">
+
+
+
+    <div class="d-flex">
+      <span><img class=" ml-1 mt-3 mb-5" src="../../images/emed-sidebar.svg" alt=""></span>
+      <span class="mt-2"> <img src="../../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
+    </div>
+
+
+    <div>
+      <p class="main-menu ml-2"></p>
+      <div class="row">
+        <div class="sidebar-menu">
+          <a class="active" href="#">
+            <span class="sidebar-icon mr-2">
+              <img src='../../images/icons/active-icons/dashboard.svg'>
+            </span>
+            Dashboard
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2">
+              <img src="../../images/icons/inactive-icons/records.svg" alt="">
+            </span>
+            Records</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/nurse.svg" alt=""></span>
+            Nurse</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/consultant.svg" alt=""></span>
+            Consultant</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/optics.svg" alt=""></span>
+            Optics</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/pharmacy.svg" alt=""></span>
+            Pharmacy</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/billing.svg" alt=""></span>
+            Billing</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/logs.svg" alt=""></span>
+            Logs</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/reports.svg" alt=""></span>
+            Reports
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/user.svg" alt=""></span>
+            User Management
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="btn__logout">
+      <hr class="underline">
+      <div class="row">
+        <button class="btn logout-button text-white ml-2 mb-3">
+          <span><img src="../../images/logout.svg" alt=""></span>
+          Logout</button>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <div class="content">
+    <main class="col-sm-9 col-lg-10 col-xs-12 offset-sm-3 offset-lg-2 c_main"></main>
+    <!-- <header class="marc">
+      <div class="container-fluid header__control">
+          <ul class="nav header__list ">
+              <div class="mr-auto">
+                  <div class="navbar-toggle d-inline">
+                      <button type="button" class="navbar-toggler pageclr" id="spin">
+                          <span class="navbar-toggle-bar bar1"></span>
+                          <span class="navbar-toggle-bar bar2"></span>
+                          <span class="navbar-toggle-bar bar3"></span>
+                      </button>
+                  </div>
+                  <a href="Lab1.html" class="bew">
+                      <div class="gun"><i class="fas fa-arrow-left mr-2"></i>Back to Laboratory</div>
+                  </a>
+              </div>
+
+
+              <li class="header__item header__item--1">
+                  <a href="#" class="header__link"><i class="far fa-bell mr-1"></i><span
+                          class="badge badge-pill badge-danger">5</span></a>
+                  <div class="header__dropdown">
+                      <ul class="header__list-child">
+                          <li class="header__item-child">
+                              <a href="#" class="header__link-child">notification 1</a>
+                          </li>
+                          <li class="header__item-child">
+                              <a href="#" class="header__link-child">notification 2</a>
+                          </li>
+                      </ul>
+                  </div>
+              </li>
+              <li class="header__item">
+                  <div class="header__link">Thur 20, 11:57am</div>
+              </li>
+              <li class="header__item">
+                  <a href="#" class="header__link">Adewale Jr</a>
+                  <div class="header__dropdown">
+                      <ul class="header__list-child">
+                          <li class="header__item-child">
+                              <a href="#" class="header__link-child"><i class="fas fa-sign-out-alt mr-1"
+                                      style="color:red;"></i>logout</a>
+                          </li>
+
+                      </ul>
+                  </div>
+              </li>
+
+          </ul>
+   </header> -->
+  
+   <header class="d-flex justify-content-between align-items-center p-2">
+    <div class="col-md-6">
+      <div class="form-group mb-0">
+
+         <input type="text" class="form-control input-form w-75 pl-5" id="exampleInputPassword1" placeholder="Search">
+
+        <img src="../../images/search_icon.svg" alt="search" class="search">
+
+      </div>
+    </div>
+
+    <div class=" d-flex">
+      <span class="bell-navbar px-3 py-2 text-white">
+        <img src="../../images/bell.svg" alt=" bell">
+        3
+      </span>
+
+
+      <img src="../../images/profile-image.svg" alt="img" class="ml-5">
+      <div class="ml-3 user mt-1">
+        Anthony Sapa<br>
+        <span class="name">Biller </span>
+      </div>
+
+
+    </div>
+  </header>
+  <div class="wrapper px-3">
+    <div class="d-flex justify-content-between mb-3">
+      <p class="mb-0 dashboard-heading mt-5">Billing Dashboard</p>
+      <p class="mb-0 dashboard-heading mt-5 mr-3">Mon, Jun 22, 2021</p>
+    </div>
+    </div>
+   <div class="col-7">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item mr-4 tabs" role="presentation">
+          <a class="nav-link tabs-link active" id="bill-mgt-tab" data-toggle="tab" href="#bill-mgt" role="tab"
+            aria-controls="bill-mgt" aria-selected="true">Billing Management</a>
+        </li>
+        <li class="nav-item tabs" role="presentation">
+          <a class="nav-link tabs-link" id="billing-tab" data-toggle="tab" href="#billing" role="tab"
+            aria-controls="billing" aria-selected="false">Billing</a>
+        </li>
+  
+      </ul>
+    </div>
+    <div class="tab-content" id="myTabContent">
+
+      <div class="container " id="bill-mgt" role="tabpanel" aria-labelledby="bill-mgt-tab">
+        <div class="bard">
+            <div class="card-body d-flex justify-content-between align-items-center">
+                <p class="marle"><img src="../../images/i-red.svg"><span class="scorch ml-2">You can create a new
+                        category of hospital services and sub categories.</span></p>
+                <button type="button" class="btn content__btn content__btn--nexst w-auto mb-3"
+                    data-toggle="modal" data-target="#exampleModal" id="AddMoreBtn">+ Add More Category
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <!-- <div class="mx-auto"> -->
+    
+                            <div class="modal-body">
+                                <div class="d-flex flex-column p-5">
+                                    <p class="fined text-center">Create new category</p>
+                                    <p class="mash text-center">Fill the form below if you want to create
+                                        new category of items with price</p>
+                                    <form>
+                                        <div class="form-group add___row">
+                                            <label for="exampleInputEmail1" class="bist">Category
+                                                Name</label>
+                                            <input type="text" class="form-control content__input"
+                                                id="exampleInputName" aria-describedby="text"
+                                                placeholder="Registrations">
+                                        </div>
+                                        <a href="#" class="peas">
+                                            <p class="text-center">+ Add Items</p>
+                                        </a>
+                                        <div class="form-row add___row mb-3">
+                                            <div class="col-sm-6 add__col">
+                                                <label for="exampleFormControlSelect1"
+                                                    class="bist">Name</label>
+                                                <input type="text" class="form-control content__input"
+                                                    placeholder="Enter Name">
+                                            </div>
+                                            <div class="col-sm-6 add__col">
+                                                <label for="exampleFormControlSelect1" class="bist">Price
+                                                    (NGN)</label>
+                                                <input type="text" class="form-control content__input"
+                                                    placeholder="Enter Price">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-center salam">
+                                            <button type="button"
+                                                class="btn content__btn content__btn--nexxt mb-0"
+                                                id="updateBtn">Save</button>
+                                            <button type="button"
+                                                class="btn content__btn content__btn--back ml-3 mb=0"
+                                                id="cancelBtn" data-dismiss="modal">Cancel</button>
+                                        </div>
+    
+    
+                                    </form>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="emotion mt-4">
+            <div class="row">
+                
+                    <div class="col-sm-3">
+                        <div class="card sore p-2">
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="dropdown dropleft wild">
+                                    <a class="pressure" href="#" role="button" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ...
+                                    </a>
+    
+                                    <div class="dropdown-menu kity" aria-labelledby="dropdownMenuLink">
+                                        <button type="button" class="btn khal" data-toggle="modal"
+                                            data-target=".bd-example-modal-md"><i
+                                                class="far fa-trash-alt binned mr-2"></i>Delete Category</button>
+                                    </div>
+                                    <div class="modal fade bd-example-modal-md" tabindex="-1" role="dialog"
+                                    aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-md" role="document">
+                                        <div class="modal-content">
+    
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-column p-5">
+                                                    <p class="fined text-center">Delete Pharmacy</p>
+                                                    <p class="mash text-center">Are you sure you want to
+                                                        delete this category
+                                                        and all items under?</p>
+                                                    <div class="d-flex justify-content-center salam">
+                                                        <button type="button"
+                                                            class="btn content__btn content__btn--nexxt mb-0"
+                                                            id="updateBtn">Save</button>
+                                                        <button type="button"
+                                                            class="btn content__btn content__btn--back ml-3 mb=0"
+                                                            id="cancelBtn"
+                                                            data-dismiss="modal">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="d-flex justify-content-start">
+                                <img src="../../images/round-beaker.svg" alt="">
+                            </div>
+                            <div class="d-block mt-3">
+                                <p class="wstrn">Pharmacy</p>
+                                <p class="greep">48 Drugs</p>
+                            </div>
+                            <div class="mt-4">
+                                    <div class="d-flex justify-content-between">
+                                            <p class="sicko">Created : 14/03/2020</p><span><a href="#"><img src="../../images/arrow-right.svg" alt=""></a></span>
+                                    </div>
+    
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card sore p-2">
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="dropdown dropleft wild">
+                                    <a class="pressure" href="#" role="button" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ...
+                                    </a>
+    
+                                    <div class="dropdown-menu kity" aria-labelledby="dropdownMenuLink">
+                                        <button type="button" class="btn khal" data-toggle="modal"
+                                            data-target=".bd-example-modal-md"><i
+                                                class="far fa-trash-alt binned mr-2"></i>Delete Category</button>
+                                    </div>
+                                    <div class="modal fade bd-example-modal-md" tabindex="-1" role="dialog"
+                                    aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-md" role="document">
+                                        <div class="modal-content">
+    
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-column p-5">
+                                                    <p class="fined text-center">Delete Radiology</p>
+                                                    <p class="mash text-center">Are you sure you want to
+                                                        delete this category
+                                                        and all items under?</p>
+                                                    <div class="d-flex justify-content-center salam">
+                                                        <button type="button"
+                                                            class="btn content__btn content__btn--nexxt mb-0"
+                                                            id="updateBtn">Save</button>
+                                                        <button type="button"
+                                                            class="btn content__btn content__btn--back ml-3 mb=0"
+                                                            id="cancelBtn"
+                                                            data-dismiss="modal">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="d-flex justify-content-start">
+                                <img src="../../images/barrel.svg" alt="">
+                            </div>
+                            <div class="d-block mt-3">
+                                <p class="wstrn">Radiology</p>
+                                <p class="greep">48 Services</p>
+                            </div>
+                            <div class="mt-4">
+                                    <div class="d-flex justify-content-between">
+                                            <p class="sicko">Created : 14/03/2020</p><span><a href="#"><img src="../../images/arrow-right.svg" alt=""></a></span>
+                                    </div>
+    
+                                </div>
+                        </div>
+                    </div>
+                    
+                
+        
+                
+                    <div class="col-sm-3">
+                        <div class="card sore p-2">
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="dropdown dropleft wild">
+                                    <a class="pressure" href="#" role="button" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ...
+                                    </a>
+    
+                                    <div class="dropdown-menu kity" aria-labelledby="dropdownMenuLink">
+                                        <button type="button" class="btn khal" data-toggle="modal"
+                                            data-target=".bd-example-modal-md"><i
+                                                class="far fa-trash-alt binned mr-2"></i>Delete Category</button>
+                                    </div>
+                                    <div class="modal fade bd-example-modal-md" tabindex="-1" role="dialog"
+                                    aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-md" role="document">
+                                        <div class="modal-content">
+    
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-column p-5">
+                                                    <p class="fined text-center">Delete Laboratory</p>
+                                                    <p class="mash text-center">Are you sure you want to
+                                                        delete this category
+                                                        and all items under?</p>
+                                                    <div class="d-flex justify-content-center salam">
+                                                        <button type="button"
+                                                            class="btn content__btn content__btn--nexxt mb-0"
+                                                            id="updateBtn">Save</button>
+                                                        <button type="button"
+                                                            class="btn content__btn content__btn--back ml-3 mb=0"
+                                                            id="cancelBtn"
+                                                            data-dismiss="modal">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="d-flex justify-content-start">
+                                <img src="../../images/lab-pink.svg" alt="">
+                            </div>
+                            <div class="d-block mt-3">
+                                <p class="wstrn">Laboratory</p>
+                                <p class="greep">22 Lab Tests</p>
+                            </div>
+                            <div class="mt-4">
+                                    <div class="d-flex justify-content-between">
+                                            <p class="sicko">Created : 14/03/2020</p><span><a href="bill-management2.html"><img src="../../images/arrow-right.svg" alt=""></a></span>
+                                    </div>
+    
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card sore p-2">
+                            <div class="d-flex justify-content-end align-items-center">
+                                <div class="dropdown dropleft wild">
+                                    <a class="pressure" href="#" role="button" id="dropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ...
+                                    </a>
+    
+                                    <div class="dropdown-menu kity" aria-labelledby="dropdownMenuLink">
+                                        <button type="button" class="btn khal" data-toggle="modal"
+                                            data-target=".bd-example-modal-md"><i
+                                                class="far fa-trash-alt binned mr-2"></i>Delete Category</button>
+                                    </div>
+                                    <div class="modal fade bd-example-modal-md" tabindex="-1" role="dialog"
+                                    aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-md" role="document">
+                                        <div class="modal-content">
+    
+                                            <div class="modal-body">
+                                                <div class="d-flex flex-column p-5">
+                                                    <p class="fined text-center">Delete Antenatal</p>
+                                                    <p class="mash text-center">Are you sure you want to
+                                                        delete this category
+                                                        and all items under?</p>
+                                                    <div class="d-flex justify-content-center salam">
+                                                        <button type="button"
+                                                            class="btn content__btn content__btn--nexxt mb-0"
+                                                            id="updateBtn">Save</button>
+                                                        <button type="button"
+                                                            class="btn content__btn content__btn--back ml-3 mb=0"
+                                                            id="cancelBtn"
+                                                            data-dismiss="modal">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="d-flex justify-content-start">
+                                <img src="../../images/baby-girl.svg" alt="">
+                            </div>
+                            <div class="d-block mt-3">
+                                <p class="wstrn">Antenatal</p>
+                                <p class="greep">2 Services</p>
+                            </div>
+                            <div class="mt-4">
+                                    <div class="d-flex justify-content-between">
+                                            <p class="sicko">Created : 14/03/2020</p><span><a href="#"><img src="../../images/arrow-right.svg" alt=""></a></span>
+                                    </div>
+    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+      <div class="container booze" id="billing" role="tabpanel" aria-labelledby="billing-tab">
+        <div class="container">
+            <div class="d-flex pt-3 mb-3">
+                <div class="align-items-center">
+                    <div class="search-box-container ml-0">
+                        <input class="searchbox content__searchbox" type="search" name="search"
+                            placeholder="Search Patient">
+                        <button type="button"
+                            class="btn btn-primary btn-sm content__searchbtn">Search</button>
+                    </div>
+                </div>
+                <div class="ml-auto">
+                    <select class="form-control form-control-sm ">
+                        <option>- - Filter By - -</option>
+                    </select>
+                </div>
+            </div>
+            <table class="table table-striped table-responsive-md">
+            <thead>
+                <tr>
+                    <th scope="col"><p class="tunchie mt-3">PATIENT NAME</p></th>
+                    <th scope="col"><p class="tunchie mt-3">CARD NO</p></th>
+                    <th scope="col"><p class="tunchie mt-3">PATIENT TYPE</p></th>
+                    <th scope="col"><p class="tunchie mt-3">DATE AND TIME</p></th>
+                    <th scope="col"><p class="tunchie mt-3">SERVICES</p></th>
+                    <th scope="col"><p class="tunchie mt-3">AMOUNT (NGN)</p></th>
+                    <th scope="col"><p class="tunchie mt-3">PAYMENT STATUS</p></th>
+                    <th scope="col"><p class="tunchie mt-3">ACTION</p></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><p class="tunchie">Josefina</p></td>
+                    <td><p class="tunchie">2763</p></td>
+                    <td><p class="tunchie">New</p></td>
+                    <td><p class="tunchie">EMED/91969</p></td>
+                    <td><span class="badge tactors">Consultation</span></td>
+                    <td><p class="tunchie">4849</p></td>
+                    <td><span class="badge barage-secondaray">Pending</span></td>
+                    <td><a href="#" class="bluk"><img src="../../images/upload.svg" class="mr-2" alt=""><button type="button" class="btn btn-primary bluk" data-toggle="modal"
+                        data-target=".bd-example-modal-md">Update</button>
+    
+                    <div class="modal fade bd-example-modal-md" tabindex="-1" role="dialog"
+                        aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-md" role="document">
+                            <div class="modal-body bg-white">
+                                <div class="d-flex flex-column p-5">
+                                    <p class="fined text-center">Update Payment</p>
+                                    <p class="mash text-center">Update payment status for patient in the form below</p>
+                                </div>
+                                <div class="d-flex justify-content-around endigo">
+                                    <p class="sekkle">Name</p><span class="soke">Josefina</span>
+                                </div>
+                                <div class="d-flex justify-content-around endigo">
+                                    <p class="sekkle">Service</p><span class="soke">Consultation</span>
+                                </div>
+                                <div class="d-flex justify-content-around endigo">
+                                    <p class="sekkle">Patient Type</p><span class="soke">Follow Up</span>
+                                </div>
+                                <div class="d-flex justify-content-around endigo">
+                                    <p class="sekkle">Amount(NGN)</p><span class="soke">4849</span>
+                                </div>
+                                <div class="col-8 offset-2 align-items-center">
+                                <div class="form-group add___row">
+                                    <label for="exampleInputName" class="bist">Receipt Number</label>
+                                    <input type="number" class="form-control content__input"
+                                        id="exampleInputNumber" aria-describedby="number"
+                                        placeholder="Enter Receipt Number">
+                                </div>
+                            </div>
+                            
+                                <div class="modal-footer justify-content-center">
+                                    <button type="button" class="btn pop">Update Payment</button>
+                                    <button type="button" class="btn gedifok" data-dismiss="modal">Cancel</button>   
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div></a></td>
+                </tr>
+                <tr>
+                    <td><p class="tunchie">Violet Wright</p></td>
+                    <td><p class="tunchie">2763</p></td>
+                    <td><p class="tunchie">Follow Up</p></td>
+                    <td><p class="tunchie">EMED/91969</p></td>
+                    <td><span class="badge tactors">Consultation</span></td>
+                    <td><p class="tunchie">4849</p></td>
+                    <td><span class="badge pupa">Paid</span></td>
+                    <td><img src="../../images/nope.svg" class="mr-2" alt=""><span class="kub">No actions</span></td>
+                </tr>
+                <tr>
+                    <td><p class="tunchie">Lily</p></td>
+                    <td><p class="tunchie">2763</p></td>
+                    <td><p class="tunchie">New</p></td>
+                    <td><p class="tunchie">EMED/91969</p></td>
+                    <td><span class="badge tactors">Consultation</span></td>
+                    <td><p class="tunchie">4849</p></td>
+                    <td><span class="badge barage-secondaray">Pending</span></td>
+                    <td><a href="#" class="bluk"><img src="../../images/upload.svg" class="mr-2" alt="">Update</a></td>
+                </tr>
+                <tr>
+                    <td><p class="tunchie">Lydia</p></td>
+                    <td><p class="tunchie">2763</p></td>
+                    <td><p class="tunchie">Follow Up</p></td>
+                    <td><p class="tunchie">EMED/91969</p></td>
+                    <td><span class="badge tactors">Consultation</span></td>
+                    <td><p class="tunchie">4849</p></td>
+                    <td><span class="badge pupa">Paid</span></td>
+                    <td><img src="../../images/nope.svg" class="mr-2" alt=""><span class="kub">No actions</span></td>
+                </tr>
+                <tr>
+                    <td><p class="tunchie">Florence Nash</p></td>
+                    <td><p class="tunchie">2763</p></td>
+                    <td><p class="tunchie">Follow Up</p></td>
+                    <td><p class="tunchie">EMED/91969</p></td>
+                    <td><span class="badge tactors">Consultation</span></td>
+                    <td><p class="tunchie">4849</p></td>
+                    <td><span class="badge barage-secondaray">Pending</span></td>
+                    <td><a href="#" class="bluk"><img src="../../images/upload.svg" class="mr-2" alt="">Update</a></td>
+                </tr>
+                <tr>
+                    <td><p class="tunchie">Ola Blair</p></td>
+                    <td><p class="tunchie">2763</p></td>
+                    <td><p class="tunchie">Follow Up</p></td>
+                    <td><p class="tunchie">EMED/91969</p></td>
+                    <td><span class="badge tactors">Consultation</span></td>
+                    <td><p class="tunchie">4849</p></td>
+                    <td><span class="badge pupa">Paid</span></td>
+                    <td><img src="../../images/nope.svg" class="mr-2" alt=""><span class="kub">No actions</span></td>
+                </tr>
+            </tbody>
+        </table>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-end content__page-nav pb-5">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link _active" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </div>
+</main>
+    </div>
+  </body>
+</html>
