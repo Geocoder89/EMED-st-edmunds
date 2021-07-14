@@ -124,12 +124,13 @@
     <div class="wrapper-3 px-3">
       <div class="d-flex justify-content-between">
         <div>
+          <p class="dashboard-heading my-3"><img src="../../images/icons/left-arrow.svg" class="mx-2 " alt="">Back</p>
           <p class="mb-0 dashboard-heading mt-5">Alaka Adebayo</p>
           <p class="mb-0 dashboard-heading">EMED/58434/0620/VPH</p>
           <p class="gender-tab p-2 text-center btn-text"><span><img class="mr-2" src="../../images/black-dot.svg" alt=""></span>Female</p>
         </div>
         <div>
-          <p class="mb-0 dashboard-heading mt-5 mr-3">Mon, Jun 22, 2021</p>
+          <p class="mb-0 dashboard-heading mt-5 mr-3">Mon, Jun 22, 2021 <span class="red-vertical-line mx-4"></span></p>
         </div>
 
 
@@ -146,20 +147,18 @@
             <div class="col-3">
               <ul class="nav flex-column px-3 mt-5">
                 <li class="nav-item mb-3">
-                  <a class="nav-link nurse-sidebar-text" href="#">Triage and vitals
-
+                  <a class="nav-link triage-active nurse-sidebar-text" href="#">Laboratory
+                   <img class="ml-2" src="../../images/check.svg" alt="">
                   </a>
                 </li>
                 <li class="nav-item mb-3 ">
-                  <a class="nav-link nurse-sidebar-text" href="#">Glasses counselling </a>
+                  <a class="nav-link nurse-sidebar-text" href="#">Ophthalmic</a>
                 </li>
                 <li class="nav-item mb-3">
-                  <a class="nav-link nurse-sidebar-text" href="#">Surgery counselling</a>
+                  <a class="nav-link nurse-sidebar-text" href="#">Procedure</a>
                 </li>
                 <li class="nav-item mb-3">
-                  <a class="nav-link triage-active nav-link nurse-sidebar-text" href="#">Procedure counselling
-                    <img class="ml-2" src="../../images/check.svg" alt="">
-                  </a>
+                  <a class="nav-link nurse-sidebar-text" href="#">Surgery</a>
                 </li>
               </ul>
             </div>
@@ -167,101 +166,105 @@
             <div class="col-9">
 
                   <div class="nurse-heading-wrapper mb-2 p-4">
-                    <p class="nurse-form-heading">Procedure</p>
-                    <p class="modal-heading">Input surgery counselling information below</p>
+                    <p class="nurse-form-heading">Laboratory</p>
+                    <p class="modal-heading">Laboratory information below</p>
                   </div>
 
 
+                  <table class="table table-borderless table-striped investigations-table  mt-4">
+                    <thead >
+                      <tr >
+                        <th class="table-heading" scope="col">S/N <img src="/images/icons/arrow-.png" alt=""></th>
+                        <th class="table-heading" scope="col">Type of Test <img src="/images/icons/arrow-.png" alt=""></th>
+                        <th class="table-heading" scope="col">Date <img src="/images/icons/arrow-.png" alt="" ></th>
+                        <th class="table-heading" scope="col">Price<img src="/images/icons/arrow-.png" alt=""></th>
+                        <th class="table-heading" scope="col">Result status<img src="/images/icons/arrow-.png" alt=""></th>
+                        <th class="table-heading" scope="col">Action <img src="/images/icons/arrow-.png" alt=""></th>
 
-                <form class="mt-3 px-5">
-                  <div class="row">
-                    <div class="col-6 ">
-                      <div class="form-group mx-2">
-                        <label for="user" class="profile-label">User</label>
-                        <input type="text" class="form-control nurse-input" id="user" placeholder="Input text">
-                      </div>
-
-                      <div class="form-group mx-2">
-                        <label for="Counselling Note" class="profile-label">Counselling Note</label>
-                        <textarea class="form-control nurse-input" id="Counselling Note" rows="6" placeholder="Enter counselling note"></textarea>
-
-                      </div>
-
-
-                      <div class="form-group mx-2">
-                        <label for="Counselling" class="profile-label">Counselling?</label>
-                        <div>
-                          <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadioInline1">Yes</label>
-                          </div>
-                          <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-                            <label class="custom-control-label" for="customRadioInline2">No</label>
-                          </div>
-                        </div>
-
-                      </div>
+                      </tr>
+                    </thead>
+                    <tbody>
 
 
-                        <div class="custom-control custom-checkbox my-3">
-                          <input type="checkbox" class="custom-control-input" id="customCheck1">
-                          <label class="custom-control-label profile-label" for="customCheck1">Glasses Counselling</label>
-                        </div>
+                      <tr>
+                        <td>
+                          <p class="table-content">1</p>
+                        </td>
+                        <td>
+                          <p class="table-content">H. PYLORI (SERUM) </p>
+                        </td>
 
-                        <div class="custom-control custom-checkbox my-3">
-                          <input type="checkbox" class="custom-control-input" id="customCheck2">
-                          <label class="custom-control-label profile-label" for="customCheck2">Surgery Counselling</label>
-                        </div>
+                        <td>
+                          <p class="table-content">2021-02-10</p>
+                        </td>
 
-                        <div class="custom-control custom-checkbox my-3">
-                          <input type="checkbox" class="custom-control-input" id="customCheck3">
-                          <label class="custom-control-label profile-label" for="customCheck3">Procedure Counselling</label>
-                        </div>
+
+                        <td>
+                          <p class="table-content">6000</p>
+                        </td>
 
 
 
 
 
+                          <td>
+                            <div class="triage red-text p-1">
+                           <img src="../../images/red-square.svg" alt="" class="mr-2">
+                              Awaiting Result
+                            </div>
+
+                          </td>
 
 
+                          <td>
+                            <div class="">
+                              <a href="nurse-lab-entry.html" class="btn consultation p-1 w-100 green-text">
+                                <img src="../../images/edit-pencil.svg" alt="" class="mr-2">
+                              Enter result
+                              </a>
 
+                            </div>
 
-                    </div>
-
-
-
-                    <div class="col-6 ">
-                      <div class="form-group mx-2">
-                        <label for="timestamp" class="profile-label">Timestamp </label>
-                        <input type="date" class="form-control nurse-input" id="timestamp" >
-                      </div>
-
-
-                      <div class="form-group mx-2 mb-5">
-                        <label for="Counselling Feedback" class="profile-label">Counselling Feedback</label>
-                        <textarea class="form-control nurse-input" id="Counselling Feedback" rows="6" placeholder="Enter Counselling Feedback"></textarea>
-
-                      </div>
+                          </td>
 
 
 
 
 
 
-                      <div class="form-group nurse-btn-group">
-                        <button type="button" class="btn back-btn text-white mr-3" >Back</button>
-                        <button type="button" class="btn save-btn text-white">Submit</button>
-                      </div>
-                    </div>
 
 
 
 
 
 
-                  </div>
-                </form>
+
+
+
+                      </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </tbody>
+                  </table>
+
+
+                  <button class="btn back-btn float-right mr-2 text-white my-3" type="submit">Finish</button>
+
             </div>
           </div>
       </div>

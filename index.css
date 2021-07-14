@@ -312,7 +312,7 @@ span.fa {
 
 .wrapper {
   background: linear-gradient(180deg, #22333b 0%, rgba(34, 51, 59, 0.19) 100%),
-    url(images/wrapper-image.png);
+    url(images/wrapper-image.svg);
   background-repeat: no-repeat;
   height: 350px;
   border: 1px solid rgba(223, 228, 229, 0.5);
@@ -543,7 +543,7 @@ top: 0px; */
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 17px;
 }
 
@@ -590,6 +590,58 @@ top: 0px; */
   color: #ffab00;
 }
 
+
+
+.available {
+  background: #EBEFF5;
+
+  border-radius: 5.3px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  color:#3C609D;
+}
+
+.available span {
+  background:#3C609D;
+  width: 4px;
+  height: 4px;
+  border-radius: 2.61388px
+}
+
+
+
+
+.triage {
+  /* green accent */
+
+  background: #fbe9e9;
+
+  border-radius: 5.3px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+  width: 80%;
+}
+
+.triage span {
+  background: #d32027;
+
+  width: 4px;
+  height: 4px;
+  border-radius: 2.61388px;
+}
+
 .consultation {
   /* green accent */
 
@@ -604,9 +656,10 @@ top: 0px; */
   display: flex;
   align-items: center;
   color: #344563;
-  width: 100px;
-  height: 20px;
+  width: 80%;
+
 }
+
 
 .consultation span {
   background: #64c8bc;
@@ -639,29 +692,7 @@ top: 0px; */
   border-radius: 2.61388px;
 }
 
-.triage {
-  /* green accent */
 
-  background: #fbe9e9;
-
-  border-radius: 5.3px;
-  font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 15px;
-  display: flex;
-  align-items: center;
-  color: #344563;
-}
-
-.triage span {
-  background: #d32027;
-
-  width: 4px;
-  height: 4px;
-  border-radius: 2.61388px;
-}
 
 .conversation-btn {
   background: #eaf4f6;
@@ -1181,6 +1212,14 @@ input[type="file"] {
   color: #d32027;
 }
 
+.green-text {
+  color: #64C8BC;
+}
+
+.green-text:hover {
+  color: #64C8BC;
+}
+
 .initiate-btn {
   background: #fbe9e9;
 
@@ -1566,14 +1605,14 @@ ul.sub_menu{
   color: #a3a6b4;
 }
 
-.table td,
+/* .table td,
 .table th {
   font-family: 'Roboto';
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
   color: #4d4f5c;
-}
+} */
 
 .summit {
   font-size: 18px;
@@ -1595,3 +1634,115 @@ ul.sub_menu{
   max-height: 250px;
   height: 100%;
 }
+
+
+.investigation-btn {
+  background: #D32027;
+  border-radius: 5.22777px;
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 12.1981px;
+line-height: 15px;
+
+}
+
+
+.total-investigations-card {
+  background: #344563;
+border: 1.26138px solid rgba(34, 51, 59, 0.5);
+border-radius: 6.30689px;
+}
+
+.pending-investigations-card  {
+  background: #F3AFB2;
+border: 1.26138px solid rgba(34, 51, 59, 0.5);
+border-radius: 6.30689px;
+}
+
+.total-orders-card {
+  background: #64C8BC;
+border: 1.26138px solid rgba(34, 51, 59, 0.5);
+border-radius: 6.30689px;
+}
+
+.investigation-card-heading {
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+word-break: keep-all;
+}
+
+
+.investigation-value {
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: bold;
+font-size: 34.481px;
+line-height: 43px;
+}
+
+
+.investigation-description-blue {
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 15.0855px;
+line-height: 19px;
+
+background: rgba(255, 255, 255, 0.05);
+border-radius: 51.7215px;
+
+}
+
+.details {
+  margin-top: 100px;
+  width: 50%;
+}
+
+
+
+
+.red-text {
+  color: #D32027;
+}
+
+
+.test-button {
+  padding: 14px 40px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  background: #B5B5B5;
+border-radius: 5px;
+}
+
+.submit-btn {
+  padding: 14px 40px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  background: #22333b;
+border-radius: 5px;
+}
+
+
+.action-buttons {
+  margin-bottom: 140px;
+}
+
+
+
+input[type="time"]:before {
+  font-family: "Source Sans Pro", sans-serif;
+
+}
+
+
