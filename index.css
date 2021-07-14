@@ -1443,8 +1443,64 @@ color: #ffffff;
   /* padding: 17.5px; */
 }
 
+.tabs-link {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
 
+  color: #6a7d83;
+}
+.nav-tabs {
+  border-bottom: 1px solid #d4d4d4 !important;
+}
+.nav-tabs .nav-link {
+  border: none !important;
+}
+.tabs-link.active,
+.tabs-link:focus,
+.tabs-link:hover {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  border-bottom: 2px solid #80d1c1 !important;
+  background: transparent !important  ;
+  color: #1b998b !important;
+}
 
+.header {
+  height: 20rem;
+  max-height: 20rem;
+  background: url(../img/beaker.png);
+  background: url(../img/beaker.png);
+  background: url(../img/beaker.png);
+  background: url(../img/beaker.png);
+  -o-object-fit: contain;
+  object-fit: contain;
+  background-size: cover;
+  font-family: 'Roboto';
+  /* background-color: #302b63;
+height: 60px; */
+}
+
+.mac {
+  height: 15rem;
+  max-height: 20rem;
+  background: url(../img/bills.png);
+  background: url(../img/bills.png);
+  background: url(../img/bills.png);
+  background: url(../img/bills.png);
+  object-fit: contain;
+  background-size: cover;
+  font-family: 'Roboto';
+  /* background-color: #302b63;
+height: 60px; */
+}
 
 /* PHARMACY-REPORT */
 
