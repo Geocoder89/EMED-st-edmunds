@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="./index.css"> -->
+  <link rel="stylesheet" href="../index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" >
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+ 
+  <title>Pharmacy</title>
+</head>
+
+<body>
+
+  <div class="sidebar d-flex flex-column justify-content-between  px-3">
+
+
+
+    <div class="d-flex">
+      <span><img class=" ml-1 mt-3 mb-5" src="../images/emed-sidebar.svg" alt=""></span>
+      <span class="mt-2"> <img src="../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
+    </div>
+
+
+    <div>
+      <p class="main-menu ml-2"></p>
+      <div class="row">
+        <div class="sidebar-menu">
+          <a class="active" href="#">
+            <span class="sidebar-icon mr-2">
+              <img src='../images/icons/active-icons/dashboard.svg'>
+            </span>
+            Dashboard
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2">
+              <img src="../images/icons/inactive-icons/records.svg" alt="">
+            </span>
+            Records</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/nurse.svg" alt=""></span>
+            Nurse</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/consultant.svg" alt=""></span>
+            Consultant</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/optics.svg" alt=""></span>
+            Optics</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/pharmacy.svg" alt=""></span>
+            Pharmacy</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/billing.svg" alt=""></span>
+            Billing</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/logs.svg" alt=""></span>
+            Logs</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/reports.svg" alt=""></span>
+            Reports
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/user.svg" alt=""></span>
+            User Management
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="btn__logout">
+      <hr class="underline">
+      <div class="row">
+        <button class="btn logout-button text-white ml-2 mb-3">
+          <span><img src="../images/logout.svg" alt=""></span>
+          Logout</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+    <div class="content">
+
+
+        <header class="d-flex justify-content-between align-items-center p-2">
+            <div class="col-md-6">
+              <div class="form-group mb-0">
+      
+                 <input type="text" class="form-control input-form w-75 pl-5" id="exampleInputPassword1" placeholder="Search">
+      
+                <img src="../images/search_icon.svg" alt="search" class="search">
+      
+              </div>
+            </div>
+      
+            <div class=" d-flex">
+              <span class="bell-navbar px-3 py-2 text-white">
+                <img src="../images/bell.svg" alt=" bell">
+                3
+              </span>
+      
+      
+              <img src="../images/profile-image.svg" alt="img" class="ml-5">
+              <div class="ml-3 user mt-1">
+                Ayenibiowo Xavier<br>
+                <span class="name">Pharmacy </span>
+              </div>
+      
+      
+            </div>
+          </header>
+      
+          <div class="wrapper px-3">
+            <div class="d-flex justify-content-between mb-3">
+              <p class="mb-0 dashboard-heading mt-5">Pharmacy Dashboard</p>
+              <p class="mb-0 dashboard-heading mt-5 mr-3">Mon, Jun 22, 2021</p>
+            </div>
+            
+          </div>
+ 
+<div class="container add px-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="add__letteriing"><i class="fas fa-prescription-bottle-alt mr-3 add__fas"></i>Add New Medicine</h3>
+        </div>
+        <div class="col-md-6">
+            <p class="text-right">Import Medicine ( CSV )<span class="badge badge-pill badge-primary ml-2"><a href="https://emediaries.com/pharmacy/drugs/import" class="content__a_import"> Import<i class="fas fa-download ml-2"></i></a></span></p>
+        </div>
+    </div>
+    <hr class="my-3">
+    <form action="https://emediaries.com/pharmacy/drugs/add" method="post">
+    <input type="hidden" name="_token" value="vHu7hASqg17nKJ52QN39SCeWM2H49onnhNf55t4G">                <div class="form-row add__row">
+            <div class="col add__col">
+                <label for="exampleFormControlSelect1">Medicine Name</label>
+                <input type="text" class="form-control content__input" placeholder="Enter Medicine Generic name" name="name">
+            </div>
+            <div class="col">
+                <label for="exampleFormControlSelect1">Brand Name</label>
+                <input type="text" class="form-control content__input" placeholder="Enter brand Name" name="brand_name">
+            </div>
+
+        </div>
+        
+        <div class="form-row add__row">
+            <div class="col add__col">
+                <label for="exampleFormControlSelect1">Price</label>
+                <input type="text" class="form-control content__input" placeholder="Price of drug" name="price">
+            </div>
+            <div class="col">
+                <label for="exampleFormControlSelect1">Registration Number</label>
+                <input type="number" class="form-control content__input" placeholder="000-000-000" name="reg_no">
+            </div>
+        </div>
+        <div class="form-row add__row">
+            <div class="col add__col">
+                <label for="exampleFormControlSelect1">Manufacturer</label>
+                <textarea id="manufacturer" cols="30" rows="2" class="form-control content__input" name="manufacturer" placeholder="Drug Manufacturer"></textarea>
+            </div>
+            <div class="col add__col">
+                <label for="exampleFormControlSelect1">Medicine Type</label>
+                <select name="med_type" id="med_type" class="form-control content__input">
+                    <option value="">Select Medicine Type</option>
+                                                    <option value="1">Tablet</option>
+                                                    <option value="2">Syrup</option>
+                                                    <option value="4">Capsule</option>
+                                                    <option value="7">Cream</option>
+                                                    <option value="9">Injection</option>
+                                                    <option value="17">SUSPENSION</option>
+                                                    <option value="18">OINTMENT</option>
+                                                    <option value="19">EAR DROP</option>
+                                                    <option value="20">NASAL DROP</option>
+                                                    <option value="21">POWDER</option>
+                                                    <option value="22">INSERT</option>
+                                                    <option value="23">SUPPOSITORIES</option>
+                                                    <option value="24">SATCHET</option>
+                                                    <option value="25">AMPOULE</option>
+                                                    <option value="26">BOTTLE</option>
+                                                    <option value="27">TUBE</option>
+                                                    <option value="28">VIAL</option>
+                                                    <option value="29">PREFILL ED</option>
+                                                    <option value="30">DROP</option>
+                                                    <option value="31">Caplet</option>
+                                                    <option value="32">NEBULES</option>
+                                            </select>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end content__end--flex">
+            <a href="https://emediaries.com/pharmacy/drugs/type"><button type="button" class="btn content__btn content__btn--back mr-3" id="cancelBtn">CANCEL</button></a>
+            <button type="submit" style="margin-bottom:50px" class="btn content__btn content__btn--nexxt" id="updateBtn">SUBMIT</button>
+        </div>
+    </form>
+
+</div>
+ 
+    </div>
+
+
+   </body>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" >
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" >
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" >
+</script>
+ <script src="assets/pharmacy.js"></script>
+
+</html>    

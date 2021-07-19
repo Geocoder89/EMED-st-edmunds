@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="./index.css"> -->
+  <link rel="stylesheet" href="../index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" >
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <script src="https://www.amcharts.com/lib/4/core.js"></script>
+  <script src="https://www.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+  <title>Pharmacy</title>
+</head>
+
+<body>
+
+  <div class="sidebar d-flex flex-column justify-content-between  px-3">
+
+
+
+    <div class="d-flex">
+      <span><img class=" ml-1 mt-3 mb-5" src="../images/emed-sidebar.svg" alt=""></span>
+      <span class="mt-2"> <img src="../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
+    </div>
+
+
+    <div>
+      <p class="main-menu ml-2"></p>
+      <div class="row">
+        <div class="sidebar-menu">
+          <a class="active" href="#">
+            <span class="sidebar-icon mr-2">
+              <img src='../images/icons/active-icons/dashboard.svg'>
+            </span>
+            Dashboard
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2">
+              <img src="../images/icons/inactive-icons/records.svg" alt="">
+            </span>
+            Records</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/nurse.svg" alt=""></span>
+            Nurse</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/consultant.svg" alt=""></span>
+            Consultant</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/optics.svg" alt=""></span>
+            Optics</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/pharmacy.svg" alt=""></span>
+            Pharmacy</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/billing.svg" alt=""></span>
+            Billing</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/logs.svg" alt=""></span>
+            Logs</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/reports.svg" alt=""></span>
+            Reports
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/user.svg" alt=""></span>
+            User Management
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="btn__logout">
+      <hr class="underline">
+      <div class="row">
+        <button class="btn logout-button text-white ml-2 mb-3">
+          <span><img src="../images/logout.svg" alt=""></span>
+          Logout</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+    <div class="content">
+
+
+        <header class="d-flex justify-content-between align-items-center p-2">
+            <div class="col-md-6">
+              <div class="form-group mb-0">
+      
+                 <input type="text" class="form-control input-form w-75 pl-5" id="exampleInputPassword1" placeholder="Search">
+      
+                <img src="../images/search_icon.svg" alt="search" class="search">
+      
+              </div>
+            </div>
+      
+            <div class=" d-flex">
+              <span class="bell-navbar px-3 py-2 text-white">
+                <img src="../images/bell.svg" alt=" bell">
+                3
+              </span>
+      
+      
+              <img src="../images/profile-image.svg" alt="img" class="ml-5">
+              <div class="ml-3 user mt-1">
+                Ayenibiowo Xavier<br>
+                <span class="name">Pharmacy </span>
+              </div>
+      
+      
+            </div>
+          </header>
+      
+          <div class="container-fluid conteent">
+            <div class="card content__caard">
+              <div class="container content__container">
+                  <div class="d-flex justify-content-end">
+                  <a href="#" class="content__a_print ">Print <i class="fas fa-print ml-2"></i></span></a>
+                  <a href="#" class="content__a_export">Export <i class="fas fa-download ml-2"></i></span></a>
+              </div>
+                  <div class="d-flex mt-5 content__d-flex">
+                  <h3 class="content__headliner">Inventory</h3>
+                  <!-- <a href="#" class="content__add">+ Add New Pharmacy</a> -->
+              </div>
+              
+              
+              <div class="d-flex justify-content-between">
+                      <div class="d-flex align-items-center content__d">
+                  <div class="line">
+                      <form class="form-inline">
+                              <div class="">
+                                      <p class="mb-0">Import Shipment ( CSV )<span class="badge badge-pill badge-primary ml-2"><a href="#" class="content__a_import"> Import<i class="fas fa-download ml-2"></i></span></a></span></p>
+                               </div>
+                                  <select class="form-control form-control-sm content__form-controll">
+                                          <option>10 enteries</option>
+                                        </select>
+                                       </form>
+                                  </div>
+                                  </div>
+                                  </div>
+                                  
+                  <table class="table table-striped content__table">
+                      <thead>
+                        <tr>
+                          <td scope="col ">DATE RECIEVED</td>
+                          <td scope="col">DRUG NAME</td>
+                          <td scope="col">BATCH NO</td>
+                          <td scope="col">MFG DATE</td>
+                          <td scope="col">EXP DATE</td>
+                          <td scope="col">QTY RECIEVED</td>
+                          <td scope="col">SUPPLIER</td>
+                          <td scope="col">SHIPMENT NOS</td> 
+                          <td scope="col">STOCK</td>  
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td scope="row">29/01/1970</td>
+                          <td>Pennicilins</td>
+                          <td>A- 001</td>
+                          <td>14/01/1995</td>
+                           <td>14/08/1995</td>
+                          <td>11</td>
+                          <td>Medplus pharmacies</td>
+                          <td>10022</td>
+                          <td>580</td>
+                        </tr>
+                        <tr>
+                              <td scope="row">29/01/1970</td>
+                          <td>Pennicilins</td>
+                          <td>A- 001</td>
+                          <td>14/01/1995</td>
+                           <td>14/08/1995</td>
+                          <td>11</td>
+                          <td>Medplus pharmacies</td>
+                          <td>10022</td>
+                          <td>580</td>
+                        </tr>
+                        <tr>
+                              <td scope="row">29/01/1970</td>
+                          <td>Pennicilins</td>
+                          <td>A- 001</td>
+                          <td>14/01/1995</td>
+                           <td>14/08/1995</td>
+                          <td>11</td>
+                          <td>Medplus pharmacies</td>
+                          <td>10022</td>
+                          <td>580</td>
+                        </tr>
+                        <tr>
+                              <td scope="row">29/01/1970</td>
+                          <td>Pennicilins</td>
+                          <td>A- 001</td>
+                          <td>14/01/1995</td>
+                           <td>14/08/1995</td>
+                          <td>11</td>
+                          <td>Medplus pharmacies</td>
+                          <td>10022</td>
+                          <td>580</td>
+                        </tr>
+                        <tr>
+                              <td scope="row">29/01/1970</td>
+                          <td>Pennicilins</td>
+                          <td>A- 001</td>
+                          <td>14/01/1995</td>
+                           <td>14/08/1995</td>
+                          <td>11</td>
+                          <td>Medplus pharmacies</td>
+                          <td>10022</td>
+                          <td>580</td>
+                        </tr>
+                        <tr>
+                              <td scope="row">29/01/1970</td>
+                              <td>Pennicilins</td>
+                              <td>A- 001</td>
+                              <td>14/01/1995</td>
+                               <td>14/08/1995</td>
+                              <td>11</td>
+                              <td>Medplus pharmacies</td>
+                              <td>10022</td>
+                              <td>580</td> 
+                        </tr>
+                        <tr>
+                              <td scope="row">29/01/1970</td>
+                              <td>Pennicilins</td>
+                              <td>A- 001</td>
+                              <td>14/01/1995</td>
+                               <td>14/08/1995</td>
+                              <td>11</td>
+                              <td>Medplus pharmacies</td>
+                              <td>10022</td>
+                              <td>580</td> 
+                        </tr>
+                        <tr>
+                              <td scope="row">29/01/1970</td>
+                              <td>Pennicilins</td>
+                              <td>A- 001</td>
+                              <td>14/01/1995</td>
+                               <td>14/08/1995</td>
+                              <td>11</td>
+                              <td>Medplus pharmacies</td>
+                              <td>10022</td>
+                              <td>580</td> 
+                        </tr>
+                        <tr>
+                              <td scope="row">29/01/1970</td>
+                          <td>Pennicilins</td>
+                          <td>A- 001</td>
+                          <td>14/01/1995</td>
+                           <td>14/08/1995</td>
+                          <td>11</td>
+                          <td>Medplus pharmacies</td>
+                          <td>10022</td>
+                          <td>580</td> 
+                        </tr>
+                        <tr>
+                              <td scope="row">29/01/1970</td>
+                          <td>Pennicilins</td>
+                          <td>A- 001</td>
+                          <td>14/01/1995</td>
+                           <td>14/08/1995</td>
+                          <td>11</td>
+                          <td>Medplus pharmacies</td>
+                          <td>10022</td>
+                          <td>580</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="d-flex justify-content-between">
+                    <p class="content__foot-note">Showing results for 10 of 25 Shipments</p>
+                    <nav aria-label="Page navigation example ">
+                          <ul class="pagination justify-content-end content__page-nav">
+                            <li class="page-item disabled">
+                              <!-- <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a> -->
+                            </li>
+                            <li class="page-item"><a class="page-link _active" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                              <!-- <a class="page-link" href="#">Next</a> -->
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
+              </div>
+            </div>
+         </div>
+ 
+ 
+    </div>
+
+
+   </body>
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" >
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" >
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" >
+</script>
+ <script src="assets/pharmacy.js"> 
+</script>
+
+</html>    
