@@ -9,7 +9,7 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="../../index.css">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
     rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -23,8 +23,8 @@
 
 
     <div class="d-flex">
-      <span><img class=" ml-1 mt-3 mb-5" src="../images/emed-sidebar.svg" alt=""></span>
-      <span class="mt-2"> <img src="../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
+      <span><img class=" ml-1 mt-3 mb-5" src="../../images/emed-sidebar.svg" alt=""></span>
+      <span class="mt-2"> <img src="../../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
     </div>
 
 
@@ -34,39 +34,39 @@
         <div class="sidebar-menu">
           <a class="active" href="#">
             <span class="sidebar-icon mr-2">
-              <img src='../images/icons/active-icons/dashboard.svg'>
+              <img src='../../images/icons/active-icons/dashboard.svg'>
             </span>
             Dashboard
           </a>
           <a href="#">
             <span class="sidebar-icon mr-2">
-              <img src="../images/icons/inactive-icons/records.svg" alt="">
+              <img src="../../images/icons/inactive-icons/records.svg" alt="">
             </span>
             Records</a>
           <a href="#">
-            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/nurse.svg" alt=""></span>
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/nurse.svg" alt=""></span>
             Nurse</a>
           <a href="#">
-            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/consultant.svg" alt=""></span>
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/consultant.svg" alt=""></span>
             Consultant</a>
           <a href="#">
-            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/optics.svg" alt=""></span>
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/optics.svg" alt=""></span>
             Optics</a>
           <a href="#">
-            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/pharmacy.svg" alt=""></span>
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/pharmacy.svg" alt=""></span>
             Pharmacy</a>
           <a href="#">
-            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/billing.svg" alt=""></span>
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/billing.svg" alt=""></span>
             Billing</a>
           <a href="#">
-            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/logs.svg" alt=""></span>
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/logs.svg" alt=""></span>
             Logs</a>
           <a href="#">
-            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/reports.svg" alt=""></span>
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/reports.svg" alt=""></span>
             Reports
           </a>
           <a href="#">
-            <span class="sidebar-icon mr-2"><img src="../images/icons/inactive-icons/user.svg" alt=""></span>
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/user.svg" alt=""></span>
             User Management
           </a>
         </div>
@@ -79,7 +79,7 @@
       <hr class="underline">
       <div class="row">
         <button class="btn logout-button text-white ml-2 mb-3">
-          <span><img src="../images/logout.svg" alt=""></span>
+          <span><img src="../../images/logout.svg" alt=""></span>
           Logout</button>
       </div>
     </div>
@@ -111,7 +111,7 @@
         </span>
 
 
-        <img src="../images/profile-image.svg" alt="img" class="ml-5">
+        <img src="../../images/profile-image.svg" alt="img" class="ml-5">
         <div class="ml-3 user mt-1">
           Ayenibiowo Xavier<br>
           <span class="name">Optics </span>
@@ -122,9 +122,23 @@
     </header>
 
     <div class="wrapper px-3">
+
       <div class="d-flex justify-content-between mb-3">
-        <p class="mb-0 dashboard-heading mt-5">Optics Dashboard</p>
-        <p class="mb-0 dashboard-heading mt-5 mr-3">Mon, Jun 22, 2021</p>
+
+        <div>
+          <p class="mb-0 dashboard-heading mt-5">Optics</p>
+          <a href="investigation-order.html" type="button" class="btn investigation-btn text-white p-2 mb-4">
+            <img class="mx-2" src="../../images/medical-report.svg
+            " alt="">
+            Investigation orders
+            <img class="ml-2" src="../../images/arrow-right-.svg" alt="">
+          </a>
+        </div>
+
+        <div>
+          <p class="mb-0 dashboard-heading mt-5 mr-3">Mon, Jun 22, 2021 <span class="red-vertical-line mx-3"></span></p>
+
+        </div>
       </div>
       <div class="row mb-4 row-sizing">
         <div class="col-md-4 p-3 ml-3 d-flex justify-content-between align-items-center triage-card">
@@ -132,7 +146,7 @@
             <p class="card-description mt-2">Triage and vitals</p>
             <p class="card-value">10</p>
             <a class="card-description grey p-2">View Details
-              <span><img src="../images/details.svg" alt=""></span>
+              <span><img src="../../images/details.svg" alt=""></span>
             </a>
           </div>
           <div class="green-card d-flex justify-content-between align-items-center p-3">
@@ -153,7 +167,7 @@
             <p class="card-description mt-2 text-white">Optics</p>
             <p class="card-value text-white">150</p>
             <a class="card-description black text-white p-2">View Details
-              <span><img src="../images/details-white.svg" alt=""></span>
+              <span><img src="../../images/details-white.svg" alt=""></span>
             </a>
           </div>
           <div class="grey-card d-flex justify-content-between align-items-center p-3">

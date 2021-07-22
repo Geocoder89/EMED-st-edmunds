@@ -339,11 +339,19 @@ span.fa {
   font-weight: 600;
   font-size: 18px;
   line-height: 23px;
+  text-decoration: none;
   /* identical to box height */
 
   /* neutral */
 
   color: #ffffff;
+}
+
+.dashboard-heading:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+
 }
 
 .triage-card {
@@ -543,7 +551,7 @@ top: 0px; */
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 17px;
 }
 
@@ -551,7 +559,7 @@ top: 0px; */
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
-  font-size: 13.0694px;
+  font-size: 12px;
   line-height: 16px;
   /* identical to box height */
 
@@ -569,7 +577,7 @@ top: 0px; */
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
-  font-size: 12.1981px;
+  font-size: 11px;
   line-height: 15px;
   /* identical to box height */
 
@@ -650,23 +658,18 @@ top: 0px; */
   border-radius: 5.3px;
   font-family: "Source Sans Pro";
   font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 15px;
-  display: flex;
-  align-items: center;
   color: #344563;
-  width: 80%;
+  width: 60%;
 
 }
 
 
-.consultation span {
+/* .consultation span {
   background: #64c8bc;
   width: 4px;
   height: 4px;
   border-radius: 2.61388px;
-}
+} */
 
 .treatment {
   /* green accent */
@@ -994,7 +997,6 @@ input[type="file"] {
   background: #ffffff;
   border: 1px solid rgba(223, 228, 229, 0.5);
   border-radius: 5px;
-  width: 1118px;
 }
 
 .patient-heading {
@@ -1214,10 +1216,21 @@ input[type="file"] {
 
 .green-text {
   color: #64C8BC;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 12.1981px;
+line-height: 15px;
 }
 
 .green-text:hover {
   color: #64C8BC;
+  font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 12.1981px;
+line-height: 15px;
 }
 
 .initiate-btn {

@@ -127,20 +127,20 @@
 
     <div class="wrapper-2 px-3 row-sizing">
 
-      <p class="dashboard-heading mt-3"> <img src="" alt=""> <img src="../../images/icons/left-arrow.svg" alt="">Back</p>
-      <div class="d-flex justify-content-between">
+      <!-- <p class="dashboard-heading mt-3"> <img src="" alt=""> <img src="../../images/icons/left-arrow.svg" alt="">Back</p> -->
+      <div class="d-flex justify-content-between mt-4">
         <p class="mb-0 ml-2 dashboard-heading mt-3">Record Dashboard</p>
         <p class="mb-0 dashboard-heading mt-3 mr-3">Mon, Jun 22, 2021
           <span class="red-vertical-line mx-3"></span>
 
-          <span> <button type="button" class="btn red-btn mb-2">Add New Patient</button></span>
+          <span> <a type="button" href="add-patient.html" class="btn red-btn mb-2">Add New Patient</a></span>
         </p>
 
 
 
       </div>
 
-      <div class="row records-row mt-2 mx-2">
+      <div class="row records-row mt-3 mx-2">
 
         <div class="col-md-6">
           <div class="row">
@@ -155,14 +155,15 @@
                   <div class="d-flex justify-content-between align-items-center p-3">
 
                     <div class="">
-                      <p class="card-description text-white">Discharged Today</p>
-                      <p class="value mb-3 text-white ">80</p>
-                      <a class="card-description blue-bg text-white  p-2">View Details
+                      <p class="card-description text-white">Total patients</p>
+                      <p class="value mb-3 text-white ">110</p>
+                      <!-- <a class="card-description blue-bg text-white  p-2">View Details
                         <span><img src="../../images/details-white.svg" alt=""></span>
-                      </a>
+                      </a> -->
                     </div>
-                    <div class="blue p-2">
-                      <img class="mx-auto mt-3" src="../../images/doc-white.svg" alt="">
+                    <div class="">
+                      <p class="card-description text-white">Visit today</p>
+                      <p class="value mb-3 text-white ">10</p>
                     </div>
 
                   </div>
@@ -173,20 +174,21 @@
 
 
               <div class="row">
-                <div class="col-md-12 card discharge-card p-4">
+                <div class="col-md-12 card discharge-card p-4 mt-5">
                   <div class="d-flex justify-content-between align-items-center p-3">
 
-                    <div class="">
-                      <p class="card-description">Discharged Today</p>
-                      <p class="value mb-4">80</p>
+                    <div class="mt-1">
+                      <p class="card-description">Follow-up today</p>
+                      <p class="value mb-4">6</p>
 
-                      <a class="card-description grey my-3 p-2">View Details
+                      <!-- <a class="card-description grey my-3 p-2">View Details
                         <span><img src="../../images/details.svg" alt=""></span>
-                      </a>
+                      </a> -->
                     </div>
-                    <span class="gold-card-background">
-                      <img class="p-2 mt-2" src="../../images/doc.svg" alt="">
-                    </span>
+                    <div class="ml-2">
+                      <p class="card-description">Registered today</p>
+                      <p class="value mb-3">10</p>
+                    </div>
 
                   </div>
                 </div>
@@ -293,70 +295,70 @@
 
 
 
-                <form class="record-form">
-                  <div class="row">
-                    <div class="col-6 ">
-                      <div class="form-group mx-2">
-                        <label for="Patient Surname" class="profile-label">Patient Surname</label>
-                        <input type="text" class="form-control form-control-lg" id="Patient Surname">
-                      </div>
+            <form class="record-form">
+              <div class="row">
+                <div class="col-6 ">
+                  <div class="form-group mx-2">
+                    <label for="Patient Surname" class="profile-label">Patient Surname</label>
+                    <input type="text" class="form-control form-control-lg" id="Patient Surname">
+                  </div>
 
-                      <div class="form-group mx-2">
-                        <label for="Phone Number" class="profile-label">Phone Number</label>
-                        <input type="text" class="form-control form-control-lg" id="Phone Number">
-                      </div>
-
-
-                      <div class="form-group mx-2">
-                        <label for="Patient Type" class="profile-label">Patient Type</label>
-                        <input type="text" class="form-control form-control-lg" id="inputPassword4">
-                      </div>
-
-                    </div>
-
-
-
-                    <div class="col-6 ">
-                      <div class="form-group mx-2">
-                        <label for="inputEmail4" class="profile-label">Patient Type</label>
-                        <input type="text" class="form-control form-control-lg" id="inputEmail4">
-                      </div>
-
-                      <div class="form-group mx-2">
-                        <label for="Card Number" class="profile-label">Card Number</label>
-                        <input type="text" class="form-control form-control-lg" id="Card Number">
-                      </div>
-
-
-                      <div class="form-group mx-2">
-                        <div class="row">
-                          <div class="col-6">
-
-                            <label for="inputPassword4" class="profile-label">From</label>
-                            <input type="date" class="form-control" id="inputPassword4">
-                          </div>
-                          <div class="col-6">
-                            <label for="inputPassword4" class="profile-label">To</label>
-                            <input type="date" class="form-control" id="inputPassword4">
-                          </div>
-                        </div>
-
-                      </div>
-
-                    </div>
-
-
-
-
-
-
+                  <div class="form-group mx-2">
+                    <label for="Phone Number" class="profile-label">Phone Number</label>
+                    <input type="text" class="form-control form-control-lg" id="Phone Number">
                   </div>
 
 
-                <button type="submit" class="btn search-button text-white mt-2">Search</button>
+                  <div class="form-group mx-2">
+                    <label for="Patient Type" class="profile-label">Patient Type</label>
+                    <input type="text" class="form-control form-control-lg" id="inputPassword4">
+                  </div>
+
+                </div>
 
 
-              </form>
+
+                <div class="col-6 ">
+                  <div class="form-group mx-2">
+                    <label for="inputEmail4" class="profile-label">Patient Type</label>
+                    <input type="text" class="form-control form-control-lg" id="inputEmail4">
+                  </div>
+
+                  <div class="form-group mx-2">
+                    <label for="Card Number" class="profile-label">Card Number</label>
+                    <input type="text" class="form-control form-control-lg" id="Card Number">
+                  </div>
+
+
+                  <div class="form-group mx-2">
+                    <div class="row">
+                      <div class="col-6">
+
+                        <label for="inputPassword4" class="profile-label">From</label>
+                        <input type="date" class="form-control" id="inputPassword4">
+                      </div>
+                      <div class="col-6">
+                        <label for="inputPassword4" class="profile-label">To</label>
+                        <input type="date" class="form-control" id="inputPassword4">
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+
+
+
+
+              </div>
+
+
+              <button type="submit" class="btn search-button text-white mt-2">Search</button>
+
+
+            </form>
 
 
 
@@ -430,192 +432,99 @@
 
 
           <div class="row">
-            <table class="table table-borderless  table-striped mt-4 mx-3 px-3">
+            <table class="table table-borderless  table-striped mt-4 mx-3">
               <thead>
-
                 <tr>
+                  <th class="table-heading" scope="col">S/N <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+                  <th class="table-heading" scope="col">Patients Name <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+                  <th class="table-heading" scope="col">Card No <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+                  <th class="table-heading" scope="col">Patient Type <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+                  <th class="table-heading" scope="col">Name of
+                    patient type<span><img src="/images/icons/arrow-.png" alt=""></span></th>
 
-                  <th scope="col">
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    </div>
-                  </th>
+                  <th class="table-heading" scope="col">Patient No<span><img src="/images/icons/arrow-.png" alt=""></span></th>
+                  <th class="table-heading" scope="col">Time of arrival <span><img src="/images/icons/arrow-.png" alt=""></span></th>
 
-                  <th class="table-heading" scope="col">Name of Patient </th>
-                  <th class="table-heading" scope="col">Card Number </th>
-                  <th class="table-heading" scope="col">Patient Type </th>
-                  <th class="table-heading" scope="col">Department</th>
-                  <th class="table-heading" scope="col">Age </th>
-                  <th class="table-heading" scope="col">Service Type </th>
-                  <th class="table-heading" scope="col">Date</th>
-                  <th></th>
-
+                  <th class="table-heading" scope="col">Patient Status <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+                  <th class="table-heading" scope="col">View<span><img src="/images/icons/arrow-.png" alt=""></span></th>
+                  <th class="table-heading" scope="col">Action <span><img src="/images/icons/arrow-.png" alt=""></span></th>
                 </tr>
               </thead>
               <tbody>
 
-
                 <tr>
-
-                  <td>
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    </div>
+                  <td class="table-content">1</td>
+                  <td class="table-content">Alaka Adebayo</td>
+                  <td class="table-content">8863333</td>
+                  <td class="table-content">HMO</td>
+                  <td class="table-content">Axa Mansard</td>
+                  <td class="table-content">EMED/81130/0620/VPH</td>
+                  <td class="table-content">17 Jun 2021 10:56 AM </td>
+                  <td class="table-content">Follow Up</td>
+                  <td> <a type="button" href="" class="btn btn-sm gold-btn">
+                      <img src="/images/gold-eye.svg" alt="" class="mr-2">View
+                    </a>
                   </td>
                   <td>
-                    <p class="table-content">Thecla Allen</p>
+                    <a type="button" href="#" class="btn btn-sm conversation-btn btn-text">
+                      <img src="/images/timer.svg" alt="" class="mr-2">Initiate Visit
+                   </a>
                   </td>
-                  <td>
-                    <p class="table-content card-number">000001</p>
-                  </td>
-
-                  <td>
-                    <p class="table-content card-number">Private</p>
-                  </td>
-                  <td>
-                    <p class="table-content">Henrietta Sharp</p>
-                  </td>
-
-
-                  <td>
-                    <p class="table-content">76</p>
-                  </td>
-
-                  <td class="table-content">
-                    Existing Patient
-
-                  </td>
-
-
-                  <td class="table-content">
-                    29 April 2021
-
-                  </td>
-
-
-
-
-
-                  <td>
-                    <img src="../../images/icons/menu-icon.svg" alt="">
-                  </td>
-
-
-
-
-
-
-                </tr>
-
-                <tr>
-                  <td>
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    </div>
-                  </td>
-                  <td>
-                    <p class="table-content">Thecla Allen</p>
-                  </td>
-                  <td>
-                    <p class="table-content card-number">000001</p>
-                  </td>
-
-
-                  <td>
-                    <p class="table-content community-tag">Community</p>
-                  </td>
-
-                  <td>
-                    <p class="table-content">Henrietta Sharp</p>
-                  </td>
-
-
-                  <td>
-                    <p class="table-content">76</p>
-                  </td>
-
-                  <td class="table-content">
-                    Existing Patient
-
-                  </td>
-                  <td class="table-content">
-                    29 April 2021
-
-                  </td>
-
-                  <td>
-                    <img src="../../images/icons/menu-icon.svg" alt="">
-                  </td>
-
-
-
-
-
-
-
-
-
-
                 </tr>
 
 
 
                 <tr>
-                  <td>
-                    <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    </div>
+                  <td class="table-content">1</td>
+                  <td class="table-content">Alaka Adebayo</td>
+                  <td class="table-content">8863333</td>
+                  <td class="table-content">HMO</td>
+                  <td class="table-content">Axa Mansard</td>
+                  <td class="table-content">EMED/81130/0620/VPH</td>
+                  <td class="table-content">17 Jun 2021 10:56 AM </td>
+                  <td class="table-content">Follow Up</td>
+                  <td> <a type="button" href="" class="btn btn-sm gold-btn">
+                      <img src="/images/gold-eye.svg" alt="" class="mr-2">View
+                    </a>
                   </td>
                   <td>
-                    <p class="table-content">Thecla Allen</p>
+                    <a type="button" href="#" class="btn btn-sm conversation-btn btn-text">
+                      <img src="/images/timer.svg" alt="" class="mr-2">Initiate Visit
+                   </a>
                   </td>
-                  <td>
-                    <p class="table-content card-number">000001</p>
-                  </td>
-
-                  <td>
-                    <p class="table-content hmo-tag">Hmo</p>
-                  </td>
-                  <td>
-                    <p class="table-content">Henrietta Sharp</p>
-                  </td>
-
-
-                  <td>
-                    <p class="table-content">76</p>
-                  </td>
-
-                  <td class="table-content">
-                    Existing Patient
-
-                  </td>
-
-
-                  <td class="table-content">
-                    29 April 2021
-
-                  </td>
-
-
-
-                  <td>
-                    <img src="../../images/icons/menu-icon.svg" alt="">
-                  </td>
-
-
-
-
-
-
-
-
                 </tr>
+
+
+
+                <tr>
+                  <td class="table-content">1</td>
+                  <td class="table-content">Alaka Adebayo</td>
+                  <td class="table-content">8863333</td>
+                  <td class="table-content">HMO</td>
+                  <td class="table-content">Axa Mansard</td>
+                  <td class="table-content">EMED/81130/0620/VPH</td>
+                  <td class="table-content">17 Jun 2021 10:56 AM </td>
+                  <td class="table-content">Follow Up</td>
+                  <td> <a type="button" href="" class="btn btn-sm gold-btn">
+                      <img src="/images/gold-eye.svg" alt="" class="mr-2">View
+                    </a>
+                  </td>
+                  <td>
+                    <a type="button" href="#" class="btn btn-sm conversation-btn btn-text">
+                      <img src="/images/timer.svg" alt="" class="mr-2">Initiate Visit
+                   </a>
+                  </td>
+                </tr>
+
+
+
 
 
 
 
               </tbody>
             </table>
+
 
 
 
