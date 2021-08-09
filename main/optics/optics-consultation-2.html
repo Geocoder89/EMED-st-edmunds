@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="../../index.css">
+  <link rel="stylesheet" href="./css/optics.css">
+  <link rel="stylesheet" href="">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <title>Nurse</title>
+</head>
+
+<body>
+
+  <div class="sidebar d-flex flex-column justify-content-between  px-3">
+
+
+
+    <div class="d-flex">
+      <span><img class=" ml-1 mt-3 mb-5" src="../../images/emed-sidebar.svg" alt=""></span>
+      <span class="mt-2"> <img src="../../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
+    </div>
+
+
+    <div>
+      <p class="main-menu ml-2">Main Menu</p>
+      <div class="row">
+        <div class="sidebar-menu">
+          <a class="active" href="#">
+            <span class="sidebar-icon mr-2">
+              <img src='../../images/icons/active-icons/dashboard.svg'>
+            </span>
+            Dashboard
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2">
+              <img src="../../images/icons/inactive-icons/records.svg" alt="">
+            </span>
+            Records</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/nurse.svg" alt=""></span>
+            Nurse</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/consultant.svg" alt=""></span>
+            Consultant</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/optics.svg" alt=""></span>
+            Optics</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/pharmacy.svg" alt=""></span>
+            Pharmacy</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/billing.svg" alt=""></span>
+            Billing</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/logs.svg" alt=""></span>
+            Logs</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/reports.svg" alt=""></span>
+            Reports
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/user.svg" alt=""></span>
+            User Management
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="btn__logout">
+      <hr class="underline">
+      <div class="row">
+        <button class="btn logout-button text-white ml-2 mb-3">
+          <span><img src="../../images/logout.svg" alt=""></span>
+          Logout</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="content">
+
+
+    <header class="d-flex justify-content-between align-items-center p-2">
+      <div class="col-md-6">
+        <div class="form-group mb-0">
+
+          <input type="text" class="form-control input-form w-75 pl-5" id="exampleInputPassword1" placeholder="Search">
+
+          <img src="/images/search_icon.svg" alt="search" class="search">
+
+        </div>
+      </div>
+
+      <div class=" d-flex">
+        <span class="bell-navbar px-3 py-2 text-white">
+          <img src="/images/bell.svg" alt=" bell">
+          3
+        </span>
+
+
+        <img src="../../images/profile-image.svg" alt="img" class="ml-5">
+        <div class="ml-3 user mt-1">
+          Ayenibiowo Xavier<br>
+          <span class="name">Optics </span>
+        </div>
+
+
+      </div>
+    </header>
+
+    <div class="wrapper-3 px-3">
+      <div class="row mt-4">
+        <a href="optics.html" class="back">
+          <img src="" alt="" />
+          <img src="../../images/icons/left-arrow.svg" alt="" />Back</a
+        >
+      </div>
+      <div class="d-flex justify-content-between mb-3">
+        <div>
+          <p class="mb-0 dashboard-heading mt-5">Alaka Adebayo</p>
+          <p class="mb-0 dashboard-heading">EMED/58434/0620/VPH</p>
+          <p class="gender-tab mt-1 mb-3  p-2 text-center btn-text"><span><img class="mr-1" src="../../images/profile-eye.svg"
+                alt=""></span>Profile</p>
+        </div>
+        <div>
+          <p class="mb-0 dashboard-heading mt-5 mr-3">Mon, Jun 22, 2021</p>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+    <div class="nurse-inner-card  mb-3 mx-3">
+
+
+
+      <div class="wizard">
+
+        <div class="row">
+          <div class="col-3">
+
+            <div class="optics-tab d-flex justify-content-between align-items-center  mx-2 mt-4">
+
+              <div class="row">
+                <div class="col-12 px-3">
+                  <div class="optics-tab-heading">
+
+                    <p class="optics-text mx-1">
+                      <span><img src="../../images/pulse.svg" alt="" class="m-2 img-fluid"></span>
+                      Triage and vitals info <img class="ml-5 img-fluid" src="../../images/optics-dropdown.svg" alt="">
+
+
+                    </p>
+
+
+
+                  </div>
+
+                  <!-- temperature row -->
+                  <div class="row">
+                    <div class="col-12 my-2">
+                      <span class="temp-description ml-1 mb-2 p-2">
+                        <img src="../../images/celsius 1.svg" alt="" class="img-fluid mr-3">
+                        Temperature
+                      </span>
+                      <span class=" vitals-value float-right mr-1">25c</span>
+                    </div>
+
+                  </div>
+
+                  <!-- blood pressure row -->
+
+                  <div class="row ">
+                    <div class="col-12 my-2">
+                      <span class="pressure-description ml-1 mb-2 p-2">
+                        <img src="../../images/celsius-red.svg" alt="" class="img-fluid mr-2">
+                        Blood pressure</span>
+                      <span class=" vitals-value float-right mr-1">52/52</span>
+                    </div>
+
+                  </div>
+
+
+
+                  <!-- pulse row -->
+                  <div class="row ">
+                    <div class="col-12 my-2">
+                      <span class="pulse-description ml-1 mb-2 p-2">
+                        <img src="../../images/pulse-icon.svg" alt="" class="img-fluid mr-2">
+                        Pulse</span>
+                      <span class=" vitals-value float-right mr-1">52</span>
+                    </div>
+
+                  </div>
+
+
+                  <!-- bmi row -->
+                  <div class="row ">
+                    <div class="col-12 my-2">
+                      <span class="bmi-description ml-1 mb-2 p-2">
+                        <img src="../../images/bmi 1.svg" alt="" class="img-fluid mr-2">
+                        BMI</span>
+                      <span class=" vitals-value float-right mr-1">0.54554</span>
+                    </div>
+
+                  </div>
+
+
+                  <!-- Oxygen row -->
+
+                  <div class="row ">
+                    <div class="col-12 my-2">
+                      <span class="oxygen-description ml-1 mb-2 p-2">
+                        <img src="../../images/oxygen 1.svg" alt="" class="img-fluid mr-2">
+                        Oxygen saturation</span>
+                      <span class=" vitals-value float-right mr-1">14</span>
+                    </div>
+
+                  </div>
+                  <!-- Weight row -->
+                  <div class="row ">
+                    <div class="col-12 my-2">
+                      <span class="bmi-description ml-1 mb-2 p-2">
+                        <img src="../../images/bmi 1.svg" alt="" class="img-fluid mr-2">
+                        Weight</span>
+                      <span class=" vitals-value float-right mr-1">65</span>
+                    </div>
+
+                  </div>
+
+                  <!-- sugar level row -->
+                  <div class="row ">
+                    <div class="col-12 mt-2 mb-3">
+                      <span class="sugar-description ml-1 mb-2 p-2">
+                        <img src="../../images/sugar-blood-level 1.svg" alt="" class="img-fluid mr-2">
+                        Sugar level</span>
+                      <span class=" vitals-value float-right mr-1">50</span>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+
+
+
+
+
+
+
+            </div>
+
+
+            <div class="visit-tab  my-4  mx-2 ">
+              <div class="row">
+                <div class="col-12">
+                  <div class="optics-tab-heading">
+
+                    <p class="optics-text mx-1">
+                      <span><img src="../../images/pharmacy 1.svg" alt="" class="m-2 img-fluid"></span>
+                      Previous Visit <img class="drop-down img-fluid" src="../../images/optics-dropdown.svg" alt="">
+
+
+                    </p>
+
+
+
+                  </div>
+
+
+                  <table class="table table-striped">
+
+                    <tbody>
+                      <tr>
+                        <td>
+                          <img src="../../images/health-report 1.svg" alt="">
+                          <span class="visit-text">VIS21948893</span>
+                        </td>
+                        <td>
+                          <span class="visit-text">17 feb 2021</span>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <img src="../../images/health-report 1.svg" alt="">
+                          <span class="visit-text">VIS21948893</span>
+                        </td>
+                        <td>
+                          <span class="visit-text">17 May 2021</span>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <img src="../../images/health-report 1.svg" alt="">
+                          <span class="visit-text">VIS21948893</span>
+                        </td>
+                        <td>
+                          <span class="visit-text">17 Jun 2021</span>
+                        </td>
+                      </tr>
+
+
+                      <tr>
+                        <td>
+                          <img src="../../images/health-report 1.svg" alt="">
+                          <span class="visit-text">VIS21948893</span>
+                        </td>
+                        <td>
+                          <span class="visit-text">17 Jul 2021</span>
+                        </td>
+                      </tr>
+                    </tbody>
+
+
+                  </table>
+
+
+
+
+
+
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <div class="col-9 px-3">
+
+            <div class="nurse-heading-wrapper mb-2 p-4">
+              <p class="nurse-form-heading">Optics</p>
+              <p class="modal-heading">Input information below</p>
+            </div>
+
+
+            <form id="secondStep" class="mt-4">
+
+              <!-- visual acuity -->
+              <label for="visualAcuity" class="profile-label mt-2 mx-4">Visual Acuity</label>
+
+
+              <div class="row mx-1">
+                <div class="col-3"></div>
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">Distance</p>
+                </div>
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">Near</p>
+                </div>
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">Pinhole</p>
+                </div>
+              </div>
+
+
+
+
+              <div class="row mx-1">
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">OD</p>
+                </div>
+                <div class="col-3">
+                  <input type="text" class="consultation-input" placeholder="Input value">
+                </div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+              </div>
+
+
+              <div class="row mx-1">
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">OS</p>
+                </div>
+                <div class="col-3">
+                  <input type="text" class="consultation-input" placeholder="Input value">
+                </div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+              </div>
+
+
+              <div class="row mx-1">
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">OU</p>
+                </div>
+                <div class="col-3">
+                  <input type="text" class="consultation-input" placeholder="Input value">
+                </div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+              </div>
+
+              <!-- focimeter reading -->
+
+
+              <label for="visualAcuity" class="profile-label mt-4 mx-4">Focimeter Reading</label>
+
+
+              <div class="row mx-1">
+                <div class="col-3"></div>
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">Distance</p>
+                </div>
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">Near</p>
+                </div>
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">Pinhole</p>
+                </div>
+              </div>
+
+
+
+
+              <div class="row mx-1">
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">OD</p>
+                </div>
+                <div class="col-3">
+                  <input type="text" class="consultation-input" placeholder="Input value">
+                </div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+              </div>
+
+
+              <div class="row mx-1">
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">OS</p>
+                </div>
+                <div class="col-3">
+                  <input type="text" class="consultation-input" placeholder="Input value">
+                </div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+              </div>
+
+
+              <div class="row mx-1">
+                <div class="col-3">
+                  <p class="green-bg p-3 text-center">OU</p>
+                </div>
+                <div class="col-3">
+                  <input type="text" class="consultation-input" placeholder="Input value">
+                </div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+                <div class="col-3"> <input type="text" class="consultation-input" placeholder="Input value"></div>
+              </div>
+
+
+              <a class="addNew ml-4">Add Focimeter +</a>
+
+
+              <p class="ml-4 mt-3 green-heading">Cover Test</p>
+              <div class="row">
+
+                <div class="col-6">
+                  <div class="form-group ml-4 mt-3">
+                    <label for="typeOD" class="profile-label">Type <br>OD</label>
+
+                    <select class="form-control consultation-select" id="typeOD"> <span><img
+                      src="../../images/optics-dropdown.svg" alt=""></span>
+                  <option disabled selected>Select Type</option>
+                  <option value="1" class="select-text">Tropia</option>
+                  <option value="2" class="select-text">Phoria</option>
+                  <option value="3" class="select-text">Ortho</option>
+
+
+                </select>
+                  </div>
+
+
+                </div>
+                <div class="col-6">
+                  <div class="form-group ml-4 mt-3">
+                    <label for="typeOD" class="profile-label">Type <br>OS</label>
+
+                    <select class="form-control consultation-select" id="typeOD"> <span><img
+                      src="../../images/optics-dropdown.svg" alt=""></span>
+                  <option disabled selected>Select Type</option>
+                  <option value="1" class="select-text">Tropia</option>
+                  <option value="2" class="select-text">Phoria</option>
+                  <option value="3" class="select-text">Ortho</option>
+
+
+                </select>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="row mt-1">
+                <div class="col-6">
+                  <div class="form-group ml-4 mt-3">
+                    <label for="typeOD" class="profile-label">Duration <br>OD</label>
+
+                    <select class="form-control consultation-select" id="typeOD"> <span><img
+                      src="../../images/optics-dropdown.svg" alt=""></span>
+                  <option disabled selected>Select Duration</option>
+                  <option value="1" class="select-text">Constant</option>
+                  <option value="2" class="select-text">Intermittent</option>
+                  <option value="3" class="select-text">Alternating</option>
+
+
+                </select>
+                  </div>
+
+
+                </div>
+                <div class="col-6">
+                  <div class="form-group ml-4 mt-3">
+                    <label for="durationOS" class="profile-label">Duration <br>OS</label>
+
+                    <select class="form-control consultation-select" id="durationOS"> <span><img
+                      src="../../images/optics-dropdown.svg" alt=""></span>
+                  <option disabled selected>Select Duration</option>
+                  <option value="1" class="select-text">Constant</option>
+                  <option value="2" class="select-text">Intermittent</option>
+                  <option value="3" class="select-text">Alternating</option>
+
+                </select>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="row mt-1">
+                <div class="col-6">
+                  <div class="form-group ml-4 mt-3">
+                    <label for="directionOD" class="profile-label">Direction <br>OD</label>
+
+                    <select class="form-control consultation-select" id="directionOD"> <span><img
+                      src="../../images/optics-dropdown.svg" alt=""></span>
+                  <option disabled selected>Select Direction</option>
+                  <option value="1" class="select-text">Exo</option>
+                  <option value="2" class="select-text">Eso</option>
+                  <option value="3" class="select-text">Hyper</option>
+                  <option value="4" class="select-text">Hypo</option>
+                  <option value="5" class="select-text">Incyclo</option>
+                  <option value="6" class="select-text">Excyclo</option>
+
+
+                </select>
+                  </div>
+
+
+                </div>
+                <div class="col-6">
+                  <div class="form-group ml-4 mt-3">
+                    <label for="directionOS" class="profile-label">Direction <br>OS</label>
+
+                    <select class="form-control consultation-select" id="directionOS"> <span><img
+                      src="../../images/optics-dropdown.svg" alt=""></span>
+                  <option disabled selected>Select Type</option>
+                  <option value="1" class="select-text">Exo</option>
+                  <option value="2" class="select-text">Eso</option>
+                  <option value="3" class="select-text">Hyper</option>
+                  <option value="4" class="select-text">Hypo</option>
+                  <option value="5" class="select-text">Incyclo</option>
+                  <option value="6" class="select-text">Excyclo</option>
+
+                </select>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row mt-1">
+                <div class="col-6">
+                  <div class="form-group ml-4 mt-3">
+                    <label for="" class="profile-label">Colour Vision Test</label>
+                    <input type="text" class="consultation-input" placeholder="Enter colour vision test">
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="row mt-1">
+                <div class="col-6">
+                  <div class="form-group ml-4 mt-3">
+                    <label for="typeOD" class="profile-label">Refraction</label>
+
+                    <select class="form-control consultation-select" id="typeOD"> <span><img
+                      src="../../images/optics-dropdown.svg" alt=""></span>
+                  <option disabled selected>Select refraction type</option>
+                  <option value="1" class="select-text">Subjective Refraction</option>
+                  <option value="2" class="select-text">Cycloplegic Refraction</option>
+                  <option value="3" class="select-text">Post-cycloplegic Refraction</option>
+                  <option value="4" class="select-text">Both</option>
+                  <option value="5" class="select-text">All</option>
+
+
+                </select>
+                  </div>
+
+
+                </div>
+
+              </div>
+
+
+              <div class="row my-3">
+                <div class="col-3"></div>
+                <div class="col-3 mx-1 black-bg">OD</div>
+                <div class="col-3 mx-1  black-bg">OS</div>
+              </div>
+
+              <div class="row">
+                <div class="col-2 ml-5"></div>
+                <div class="col-1 green-bg p-3 mx-1">SPH</div>
+                <div class="col-1 green-bg p-3 mx-1">CYL</div>
+                <div class="col-1 green-bg p-3 mx-1">Axis</div>
+                <div class="col-1 green-bg p-3 mx-1">SPH</div>
+                <div class="col-1 green-bg p-3 mx-1">CYL</div>
+                <div class="col-1 green-bg p-3 mx-1">Axis</div>
+              </div>
+
+              <div class="row my-3">
+                <div class="col-2 offset-1 green-bg p-3 mr-2">Distance</div>
+                <div class="col-1"><input type="text" class="consultation-input-sm px-4 mx-1" placeholder="00"></div>
+                <div class="col-1"><input type="text" class="consultation-input-sm px-4 mx-1" placeholder="00"></div>
+                <div class="col-1"><input type="text" class="consultation-input-sm px-4 mx-1" placeholder="00"></div>
+                <div class="col-1"><input type="text" class="consultation-input-sm px-4 mx-1" placeholder="00"></div>
+                <div class="col-1"><input type="text" class="consultation-input-sm px-4 mx-1" placeholder="00"></div>
+                <div class="col-1"><input type="text" class="consultation-input-sm px-4 mx-1" placeholder="00"></div>
+              </div>
+
+
+              <div class="row my-3">
+                <div class="col-2 offset-1 green-bg p-3 mr-2">Near</div>
+                <div class="col-1"><input type="text" class="consultation-input-sm mx-1" placeholder="00"></div>
+                <div class="col-1"><input type="text" class="consultation-input-sm  mx-1" placeholder="00"></div>
+                <div class="col-1"><input type="text" class="consultation-input-sm  mx-1" placeholder="00"></div>
+                <div class="col-1"><input type="text" class="consultation-input-sm  mx-1" placeholder="00"></div>
+                <div class="col-1"><input type="text" class="consultation-input-sm  mx-1" placeholder="00"></div>
+                <div class="col-1"><input type="text" class="consultation-input-sm  mx-1" placeholder="00"></div>
+              </div>
+
+              <div class="row my-3">
+                <div class="col-lg-6">
+                  <div class="form-group ml-5">
+                    <label for="externalExamination" class="profile-label">External Examination</label>
+                    <textarea name="" id="externalExamination" cols="6" rows="6" class="form-control nurse-input"
+                      placeholder="Enter external examination"></textarea>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group mx-2">
+                    <label for="internalExamination" class="profile-label">Internal Examination</label>
+                    <textarea name="" id="internalExamination" cols="6" rows="6" class="form-control nurse-input"
+                      placeholder="Enter Internal examination"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row my-3">
+                <div class="form-group mx-2 ml-5">
+                  <label for="Counselling" class="profile-label">Glasses Recommendation?</label>
+                  <div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                        class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline1">Yes</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                        class="custom-control-input">
+                      <label class="custom-control-label" for="customRadioInline2">No</label>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+                <ul class="list-inline action-btns pull-right d-flex mx-3">
+                <li><button type="button" class="btn back-btn text-white prev-step mr-3">Back</button></li>
+
+                <li><button type="button" class="btn submit-btn text-white next-step">Submit</button></li>
+              </ul>
+            </form>
+
+
+
+
+
+
+
+
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+
+  <script src="js/optics.js"></script>
+
+</body>
+
+</html>

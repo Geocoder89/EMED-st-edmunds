@@ -333,6 +333,12 @@ span.fa {
   border: 1px solid rgba(223, 228, 229, 0.5);
 }
 
+
+.wrapper-4 {
+  background: linear-gradient(180deg, #22333B -30%, rgba(34, 51, 59, 0.19) 100%), url(/images/wrapper-4.svg);
+border: 1px solid rgba(223, 228, 229, 0.5);
+}
+
 .dashboard-heading {
   font-family: "Source Sans Pro";
   font-style: normal;
@@ -353,6 +359,9 @@ span.fa {
   color: #ffffff;
 
 }
+
+
+
 
 .triage-card {
   background: #ffffff;
@@ -577,8 +586,8 @@ top: 0px; */
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
-  font-size: 11px;
-  line-height: 15px;
+  font-size: 14px;
+  line-height: 20px;
   /* identical to box height */
 
   /* text */
@@ -771,7 +780,7 @@ top: 0px; */
 }
 
 .profile-label {
-  font-family: "Source Sans Pro";
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -997,6 +1006,7 @@ input[type="file"] {
   background: #ffffff;
   border: 1px solid rgba(223, 228, 229, 0.5);
   border-radius: 5px;
+  width: 100%;
 }
 
 .patient-heading {
