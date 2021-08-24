@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/consultation.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <title>Consultant</title>
+</head>
+
+<body>
+
+  <div class="sidebar d-flex flex-column justify-content-between  px-3">
+
+
+
+    <div class="d-flex">
+      <span><img class=" ml-1 mt-3 mb-5" src="../images/emed-sidebar.svg" alt=""></span>
+      <span class="mt-2"> <img src="../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
+    </div>
+
+
+    <div>
+      <p class="main-menu ml-2">Main Menu</p>
+      <div class="row">
+        <div class="sidebar-menu">
+          <a class="active" href="#">
+            <span class="sidebar-icon mr-2">
+              <img src='../../images/icons/active-icons/dashboard.svg'>
+            </span>
+            Dashboard
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2">
+              <img src="../../images/icons/inactive-icons/records.svg" alt="">
+            </span>
+            Records</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/nurse.svg" alt=""></span>
+            Nurse</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/consultant.svg" alt=""></span>
+            Consultant</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/optics.svg" alt=""></span>
+            Optics</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/pharmacy.svg" alt=""></span>
+            Pharmacy</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/billing.svg" alt=""></span>
+            Billing</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/logs.svg" alt=""></span>
+            Logs</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/reports.svg" alt=""></span>
+            Reports
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/user.svg" alt=""></span>
+            User Management
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="btn__logout">
+      <hr class="underline">
+      <div class="row">
+        <button class="btn logout-button text-white ml-2 mb-3">
+          <span><img src="../images/logout.svg" alt=""></span>
+          Logout</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="content">
+
+
+    <header class="d-flex justify-content-between align-items-center p-2">
+      <div class="col-md-6">
+        <div class="form-group mb-0">
+
+           <input type="text" class="form-control input-form w-75 pl-5" id="exampleInputPassword1" placeholder="Search">
+
+          <img src="../../images/search_icon.svg" alt="search" class="search">
+
+        </div>
+      </div>
+
+      <div class=" d-flex">
+        <span class="bell-navbar px-3 py-2 text-white">
+          <img src="../../images/bell.svg" alt=" bell">
+          3
+        </span>
+
+
+        <img src="../../images/profile-image.svg" alt="img" class="ml-5">
+        <div class="ml-3 user mt-1">
+          Ayenibiowo Xavier<br>
+          <span class="name">Optics </span>
+        </div>
+
+
+      </div>
+    </header>
+
+    <div class="wrapper px-3">
+      <div class="d-flex justify-content-between mb-5">
+        <div>
+          <p class="mb-0 dashboard-heading mt-5">Consultant</p>
+
+        </div>
+
+        <div>
+          <p class="mb-0 dashboard-heading mt-5 mr-3">Mon, Jun 22, 2021 <span class="red-vertical-line mx-3"></span></p>
+
+        </div>
+
+      </div>
+      <div class="row  mb-4 row-sizing">
+
+        <div class="col-md-3  ">
+          <div class="p-3 d-flex justify-content-between align-items-center nurse-triage-card">
+            <div>
+              <p class="card-description mt-2 triage-card-heading">Consultation</p>
+            <p class="nurse-value-dark">10</p>
+            <a class="card-description nurse-description-dark grey p-2">View Details
+              <span><img src="../../images/details.svg" alt=""></span>
+            </a>
+            </div>
+
+
+
+            <div class="green-card d-flex justify-content-between align-items-center p-3">
+              <div class="mr-1">
+                <p class="nurse-inner-description mt-2">Awaiting</p>
+                <p class="nurse-inner-value">34</p>
+              </div>
+
+              <div>
+                <p class="nurse-inner-description mt-2">Completed</p>
+                <p class="nurse-inner-value">16</p>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+
+        <div class="col-md-3  ">
+          <div class="p-3 d-flex justify-content-between align-items-center optics-card">
+            <div>
+              <p class="card-description mt-2 counselling-card-heading">Ophthalmic</p>
+            <p class="counselling-value">150</p>
+            <a class="card-description nurse-inner-description-white grey p-2">View Details
+              <span><img src="../../images/details-white.svg" alt=""></span>
+            </a>
+            </div>
+
+
+
+            <div class="grey-card d-flex justify-content-between align-items-center p-3">
+              <div class="mr-1">
+                <p class="nurse-inner-description mt-2">Awaiting</p>
+                <p class="nurse-inner-value">34</p>
+              </div>
+
+              <div>
+                <p class="nurse-inner-description mt-2">Completed</p>
+                <p class="nurse-inner-value">16</p>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-3  ">
+          <div class="p-3 d-flex justify-content-between align-items-center nurse-triage-card">
+            <div>
+              <p class="card-description mt-2 triage-card-heading">Procedure</p>
+            <p class="nurse-value-dark">150</p>
+            <a class="card-description nurse-description-dark grey p-2">View Details
+              <span><img src="../../images/details.svg" alt=""></span>
+            </a>
+            </div>
+
+
+
+            <div class="gold-card d-flex justify-content-between align-items-center p-3">
+              <div class="mr-1">
+                <p class="nurse-inner-description mt-2">Awaiting</p>
+                <p class="nurse-inner-value">34</p>
+              </div>
+
+              <div>
+                <p class="nurse-inner-description mt-2">Completed</p>
+                <p class="nurse-inner-value">16</p>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <div class="col-md-3  ">
+          <div class="p-3 d-flex justify-content-between align-items-center optics-card">
+            <div>
+              <p class="card-description mt-2 counselling-card-heading">Surgery</p>
+            <p class="counselling-value">150</p>
+            <a class="card-description nurse-inner-description-white grey p-2">View Details
+              <span><img src="../../images/details-white.svg" alt=""></span>
+            </a>
+            </div>
+
+
+
+            <div class="green-card  d-flex justify-content-between align-items-center p-3">
+              <div class="mr-1">
+                <p class="nurse-inner-description mt-2">Awaiting</p>
+                <p class="nurse-inner-value">34</p>
+              </div>
+
+              <div>
+                <p class="nurse-inner-description mt-2">Completed</p>
+                <p class="nurse-inner-value">16</p>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <div class="table-holder  ">
+      <div class=" general-card  mb-3 mx-3 px-2 ">
+        <table class="table table-borderless  table-striped mt-4 mx-2">
+          <thead>
+            <tr>
+              <th class="table-heading" scope="col">S/N <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+              <th class="table-heading" scope="col">Patients Name <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+              <th class="table-heading" scope="col">Card No <img src="/images/icons/arrow-.png" alt="" ></th>
+              <th class="table-heading" scope="col">Patient Status <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+              <th class="table-heading" scope="col">Patient No<span><img src="/images/icons/arrow-.png" alt=""></span></th>
+              <th class="table-heading" scope="col">Time of arrival <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+              <th class="table-heading" scope="col">Patient Type <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+              <th class="table-heading" scope="col">Status <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+              <th class="table-heading" scope="col">View<span><img src="/images/icons/arrow-.png" alt=""></span></th>
+              <th class="table-heading" scope="col">Action <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+            </tr>
+          </thead>
+          <tbody>
+
+
+            <tr>
+              <td class="table-content">
+               1
+              </td>
+              <td class="table-content">
+               Alaka Adebayo
+              </td>
+
+              <td class="table-content">
+                8863333
+              </td>
+
+
+              <td class="table-content">
+                HMO
+              </td>
+
+              <td class="table-content">
+                EMED/81130/0620/VPH
+              </td>
+
+              <td class="table-content">
+                17 Jun 2021 10:56 AM
+              </td>
+
+
+              <td class="table-content">
+                Follow Up
+              </td>
+
+
+
+
+
+              <td class="table-content">
+
+
+                <span class="consultation p-2"><img src="../../images/green-square.svg
+                 " alt=""> Consultation</span>
+
+
+             </td>
+
+
+
+
+              <td>
+                 <a href="../profile/profile.html" class="view-btn p-2 ">
+                <span><img src="/images/eye 1.svg" alt="" class="mr-2"></span>
+                View
+              </a>
+            </td>
+
+
+
+
+            <td>
+              <a type="button" href="consultation-main.html" class="btn btn-sm conversation-btn btn-text">
+                <img src="/images/power.svg" alt="" class="mr-2">Initiate Consultation
+             </a>
+            </td>
+
+
+
+
+            </tr>
+
+
+
+            <tr>
+              <td class="table-content">
+               2
+              </td>
+              <td class="table-content">
+               Alaka Adebayo
+              </td>
+
+              <td class="table-content">
+                8863333
+              </td>
+
+
+              <td class="table-content">
+                HMO
+              </td>
+
+              <td class="table-content">
+                EMED/81130/0620/VPH
+              </td>
+
+              <td class="table-content">
+                17 Jun 2021 10:56 AM
+              </td>
+
+
+              <td class="table-content">
+                Follow Up
+              </td>
+
+
+
+              <td class="table-content">
+
+
+                 <span class="consultation p-2"><img src="../../images/green-square.svg
+                  " alt=""> Consultation</span>
+
+
+              </td>
+
+
+
+
+              <td> <a href="../profile/profile.html" class="view-btn p-2 ">
+                <span class="view-text"><img src="/images/eye 1.svg" alt="" class="mr-2"></span>
+                View
+              </a>
+            </td>
+
+
+
+
+            <td>
+              <a type="button" href="" class="btn btn-sm conversation-btn btn-text">
+                <img src="/images/timer.svg" alt="" class="mr-2">Ongoing Consultation
+             </a>
+            </td>
+
+
+
+
+            </tr>
+
+
+
+
+            <tr>
+              <td class="table-content">
+               3
+              </td>
+              <td class="table-content">
+               Alaka Adebayo
+              </td>
+
+              <td class="table-content">
+                8863333
+              </td>
+
+
+              <td class="table-content">
+                HMO
+              </td>
+
+              <td class="table-content">
+                EMED/81130/0620/VPH
+              </td>
+
+              <td class="table-content">
+                17 Jun 2021 10:56 AM
+              </td>
+
+
+              <td class="table-content">
+                Follow Up
+              </td>
+
+
+
+
+
+              <td class="table-content">
+
+
+                <span class="consultation p-2"><img src="../../images/green-square.svg
+                 " alt=""> Consultation</span>
+
+
+             </td>
+
+
+
+
+              <td>
+                 <a href="../profile/profile.html" class="view-btn p-2 ">
+                <span><img src="/images/eye 1.svg" alt="" class="mr-2"></span>
+                View
+              </a>
+            </td>
+
+
+
+
+            <td>
+              <a type="button" href="#" class="btn btn-sm conversation-btn btn-text">
+                <img src="/images/power.svg" alt="" class="mr-2">Initiate Consultation
+             </a>
+            </td>
+
+
+
+
+            </tr>
+
+
+
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  </div>
+
+  <!-- </div> -->
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

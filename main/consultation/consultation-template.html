@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="./css/consultation.css">
+  <link rel="stylesheet" href="">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700&display=swap" rel="stylesheet">
+
+  <title>Consultation</title>
+</head>
+
+<body>
+
+  <div class="sidebar d-flex flex-column justify-content-between  px-3">
+
+
+
+    <div class="d-flex">
+      <span><img class=" ml-1 mt-3 mb-5" src="../../images/emed-sidebar.svg" alt=""></span>
+      <span class="mt-2"> <img src="../../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
+    </div>
+
+
+    <div>
+      <p class="main-menu ml-2">Main Menu</p>
+      <div class="row">
+        <div class="sidebar-menu">
+          <a class="active" href="#">
+            <span class="sidebar-icon mr-2">
+              <img src='../../images/icons/active-icons/dashboard.svg'>
+            </span>
+            Dashboard
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2">
+              <img src="../../images/icons/inactive-icons/records.svg" alt="">
+            </span>
+            Records</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/nurse.svg" alt=""></span>
+            Nurse</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/consultant.svg" alt=""></span>
+            Consultant</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/optics.svg" alt=""></span>
+            Optics</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/pharmacy.svg" alt=""></span>
+            Pharmacy</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/billing.svg" alt=""></span>
+            Billing</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/logs.svg" alt=""></span>
+            Logs</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/reports.svg" alt=""></span>
+            Reports
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/user.svg" alt=""></span>
+            User Management
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="btn__logout">
+      <hr class="underline">
+      <div class="row">
+        <button class="btn logout-button text-white ml-2 mb-3">
+          <span><img src="../../images/logout.svg" alt=""></span>
+          Logout</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="content">
+
+
+    <header class="d-flex justify-content-between align-items-center p-2">
+      <div class="col-md-6">
+        <div class="form-group mb-0">
+
+          <input type="text" class="form-control input-form w-75 pl-5" id="exampleInputPassword1" placeholder="Search">
+
+          <img src="/images/search_icon.svg" alt="search" class="search">
+
+        </div>
+      </div>
+
+      <div class=" d-flex">
+        <span class="bell-navbar px-3 py-2 text-white">
+          <img src="/images/bell.svg" alt=" bell">
+          3
+        </span>
+
+
+        <img src="../../images/profile-image.svg" alt="img" class="ml-5">
+        <div class="ml-3 user mt-1">
+          Ayenibiowo Xavier<br>
+          <span class="name">Optics </span>
+        </div>
+
+
+      </div>
+    </header>
+
+    <div class="wrapper-3 px-3">
+
+      <div class="row mt-4">
+        <a href="optics.html" class="back">
+
+          <img src="../../images/icons/left-arrow.svg" alt="" />Back</a>
+      </div>
+      <div class="d-flex justify-content-between mb-3">
+        <div>
+          <p class="mb-0 dashboard-heading mt-5 ml-1">Alaka Adebayo</p>
+          <p class="mb-0 dashboard-heading ml-1">EMED/58434/0620/VPH</p>
+          <p class="gender-tab mt-1 mb-5 ml-1 p-2 text-center btn-text"><span><img class="mr-2"
+                src="../../images/profile-eye.svg" alt=""></span>Profile</p>
+        </div>
+        <div>
+          <p class="mb-0 dashboard-heading mt-5 mr-3">Mon, Jun 22, 2021</p>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+    <div class="nurse-inner-card mb-3 mx-4">
+
+
+
+
+
+      <div class="row">
+
+
+        <div class="col-12 px-3">
+
+          <div class="nurse-heading-wrapper mb-4 p-4">
+            <div class="row d-flex justify-content-between">
+              <div class="consult-heading ml-5">
+                <p class="nurse-form-heading">Consultant</p>
+                <p class="modal-heading">Input information below</p>
+              </div>
+
+              <div class="">
+
+              </div>
+
+              <div class="consult-buttons">
+                <button class="btn summary-btn p-3 mr-1">Consultation</button>
+                <button class="btn consult-btn p-3">
+                  <img src="../../images/document_white.svg" alt="document">
+                  Summary
+                </button>
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="container">
+          <div class="card consult-card p-5">
+
+            <div class="row">
+              <div class="col-3">
+                <div>
+                  <button class="btn grey-consult-btn mb-2">
+                    <img src="../../images/printer 1.svg" alt="" class="img-fluid mx-2">
+                    Print
+                  </button>
+
+                </div>
+
+                <div>
+                  <button class="btn green-consult-btn">
+                    <img src="../../images/forward 1.svg" alt="" class="img-fluid mx-2">
+                    Send
+                  </button>
+                </div>
+              </div>
+              <div class="col-6">
+
+                <img src="../../images/logo.svg" alt="" class="img-fluid centered-img">
+                <p class="address-text text-center mt-3">Address: 12 Salawu St, Surulere 101283, Lagos</p>
+                <p class="phone-text text-center mt-3">Phone No: 0802 337 2414</p>
+              </div>
+              <div class="col-3">
+                <button class="btn grey-consult-btn mb-2 float-right mx-1">
+                  <img src="../../images/blue_download.svg" alt="" class="centered-img img-fluid mx-2">
+                  Download
+                </button>
+              </div>
+            </div>
+
+
+
+            <div class="row mt-5">
+              <div class="col-3">
+
+              </div>
+              <div class="col-6">
+
+                <p class="address-text text-center mt-3">DAVID HARRISON</p>
+                <p class="address-light-text text-center mt-3">23 Jahi Estate, Lekki</p>
+                <p class="text-center">
+                  <span class="address-text">GENERAL Source of referral:</span>
+                  <span class="address-light-text">None Male, 30 years Old</span>
+                  <span class="address-text">Phone:</span>
+                  <span class="address-light-text">08148247588</span>
+
+                </p>
+              </div>
+              <div class="col-2">
+
+              </div>
+            </div>
+
+            <div class="row mt-3">
+
+
+                <div class="teal-bg phone-text p-3">TRIAGE AND VITALS</div>
+
+
+              <div class="black-background p-3">
+               <span class="white-text text-center">BP: 55/14 mmHg</span>
+               <span class="white-text text-center">HEIGHT: 154m</span>
+               <span class="white-text text-center">WEIGHT: 44kg</span>
+               <span class="white-text text-center">TEMPERATURE:  25’c</span>
+               <span class="white-text text-center">PULSE:  85bpm</span>
+               <span class="white-text text-center">Body Mass Index:  0.00185529</span>
+              </div>
+
+              <div class="green-background phone-text p-3">
+                ALLERGIES
+              </div>
+
+            </div>
+
+
+            <div class="row mt-3">
+
+              <div class="col-12  ">
+              <p class=" phone-text text-center">PRIMARY DIAGNOSIS</p>
+              </div>
+
+            </div>
+
+            <div class="row mt-3">
+
+              <div class="col-12">
+                <table class="table p-3">
+
+                  <tbody>
+                    <tr>
+
+                      <td class="light-text p-3">DISEASE TYPES</td>
+                      <td class="light-text p-3">DISEASE NAME</td>
+
+                    </tr>
+                    <tr>
+
+                      <td class="phone-text p-3">CHIEF COMPLAINT</td>
+                      <td class="light-text p-3"></td>
+
+                    </tr>
+                    <tr>
+
+                      <td class="phone-text p-3">History</td>
+                      <td class="light-text p-3">XXXX</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <td class="phone-text p-3">Surgical History</td>
+                      <td class="light-text p-3">XXXX</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                      <td class="phone-text p-3">Past Medical History</td>
+                      <td class="light-text p-3">XXXX</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                      <td class="phone-text p-3">Drug History</td>
+                      <td class="light-text p-3">XXXX</td>
+
+                    </tr>
+
+
+
+                    <tr>
+
+                      <td class="phone-text p-3">Clinical Examination</td>
+                      <td class="light-text p-3">XXXX</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                      <td class="phone-text p-3">Provisional Diagnosis</td>
+                      <td class="light-text p-3">XXXX</td>
+
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+
+
+
+            </div>
+
+
+            <div class="row mt-3 ">
+              <div class="col-12 teal-bg">
+                <p class=" phone-text text-center mt-3">PARENT HISTORY</p>
+              </div>
+
+            </div>
+
+            <div class="row mt-3">
+
+              <div class="col-12">
+                <table class="table p-3 mt-3">
+
+                  <tbody>
+
+                    <tr>
+
+                      <td class="phone-text p-3">Family History</td>
+                      <td class="light-text p-3">Social History</td>
+
+                    </tr>
+
+                    <tr>
+
+                      <td class="phone-text p-3">Previous Medication</td>
+                      <td class="light-text p-3">Past Medical History</td>
+
+                    </tr>
+
+
+
+                  </tbody>
+                </table>
+              </div>
+
+
+
+
+            </div>
+
+
+
+
+            <div class="row mt-3 ">
+              <div class="col-12 teal-bg">
+                <p class=" phone-text text-center mt-3">PARENT HISTORY</p>
+              </div>
+
+            </div>
+
+            <div class="row mt-3">
+
+              <div class="col-12">
+                <table class="table borderless p-3 mt-3">
+
+                  <tbody>
+
+                    <tr>
+
+                      <td class="signature-text p-3">LABORATORY</td>
+                      <td class="signature-text p-3">RADIOLOGY</td>
+
+                    </tr>
+
+
+
+
+                  </tbody>
+                </table>
+              </div>
+
+
+
+
+            </div>
+
+
+            <div class="row my-3 ">
+              <div class="col-12 teal-bg">
+                <p class=" phone-text text-center mt-3">PRESCRIPTIONS</p>
+              </div>
+
+            </div>
+
+
+            <div class=" row mt-3">
+
+              <div class="col-2">
+                <p class="signature-text ml-2"> Referral
+
+                </p>
+              </div>
+
+              <div class="col-4">
+                <hr>
+              </div>
+
+
+            </div>
+
+            <div class=" row mt-3">
+
+              <div class="col-2">
+                <p class="signature-text ml-2"> Follow Up
+
+                </p>
+              </div>
+
+              <div class="col-4">
+                <hr>
+              </div>
+
+
+            </div>
+
+
+            <div class=" row mt-3">
+
+              <div class="col-2">
+                <p class="signature-text ml-2"> Doctor’s Name
+
+                </p>
+              </div>
+
+              <div class="col-4">
+                <hr>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+
+  <script src="js/optics.js"></script>
+
+</body>
+
+</html>

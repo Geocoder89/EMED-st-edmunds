@@ -56,3 +56,54 @@
 }
 
 
+
+.btn-text {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.1981px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* text */
+
+  color: #344563;
+}
+
+
+.view-btn {
+  font-family: "Source Sans Pro";
+  background-color: #344563;
+  color: #FFFFFF;
+  font-size: 12.1981px;
+  line-height: 15px;
+  text-decoration: none;
+}
+
+.view-btn:hover {
+  background-color: #344563;
+  text-decoration: none;
+}
+
+
+
+ button:focus,input:focus, textarea:focus, select:focus{
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ced4da !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+
+
+.btn:focus {
+  box-shadow: none;
+}

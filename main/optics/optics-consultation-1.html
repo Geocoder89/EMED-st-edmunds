@@ -9,7 +9,7 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="./index.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="../../index.css">
+
   <link rel="stylesheet" href="./css/optics.css">
   <link rel="stylesheet" href="">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
@@ -25,8 +25,8 @@
 
 
     <div class="d-flex">
-      <span><img class=" ml-1 mt-3 mb-5" src="../../images/emed-sidebar.svg" alt=""></span>
-      <span class="mt-2"> <img src="../../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
+      <span><img class=" ml-1 mt-3 mb-5 img-fluid" src="../../images/emed-sidebar.svg" alt=""></span>
+      <span class="mt-2"> <img src="../../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5 img-fluid"></span>
     </div>
 
 
@@ -442,7 +442,7 @@
 
                   </div>
 
-                  <a class="addNew ml-1">Add another history +</a>
+                  <a class="addNew ml-2">Add another history +</a>
 
 
                   <div class="row">
@@ -488,13 +488,13 @@
                         </select>
 
                       </div>
-                      <a class="addNew ml-1">Add another allergy +</a>
+                      <a class="addNew ml-2">Add another allergy +</a>
                     </div>
                   </div>
 
-                  <div class="row">
+                  <div class="row mt-4">
                     <div class="col-12">
-                      <div class="form-group mt-4">
+                      <div class="form-group mt-4 ml-2">
                         <label for="socialHistory" class="profile-label">Social history</label>
                         <select class="form-control nurse-input" id="socialHistory"> <span><img
                               src="../../images/optics-dropdown.svg" alt=""></span>
@@ -507,7 +507,7 @@
 
                       </div>
 
-                      <div class="form-group">
+                      <div class="form-group ml-2">
 
                         <input type="text" id="quantity" class="form-control form-input" placeholder="Input quantity">
                       </div>
@@ -520,7 +520,7 @@
 
                   <div class="row">
                     <div class="col-12">
-                      <div class="form-group mx-2">
+                      <div class="form-group mx-2 mt-2">
                         <label for="systemicHistory" class="profile-label">Family Systemic History</label>
                         <textarea name="" id="systemicHistory" cols="6" rows="6" class="form-control nurse-input"
                           placeholder="Enter family systemic history"></textarea>
@@ -540,13 +540,13 @@
               </div>
 
 
+              <ul class="list-inline action-btns pull-right d-flex mx-3">
+                <li><button type="button" class="btn back-btn text-white prev-step mr-3">Back</button></li>
 
-
-              <ul class="list-inline pull-right d-flex mx-3">
-                <li><a type="button" class="btn back-btn text-white prev-step mr-3">Back</a></li>
-
-                <li><a href="optics-consultation-2.html" type="button" class="btn submit-btn text-white next-step">Next</a></li>
+                <li><button type="button" class="btn submit-btn text-white next-step">Next</button></li>
               </ul>
+
+
 
             </form>
 

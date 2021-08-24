@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
     rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-  <title>Nurse</title>
+  <title>Add Patient</title>
 </head>
 
 <body>
@@ -126,7 +126,7 @@
       <div class="d-flex justify-content-between">
         <div>
           <p class="mb-0 dashboard-heading mt-5">Alaka Adebayo</p>
-          <p class="mb-0 dashboard-heading">EMED/58434/0620/VPH</p>
+          <p class="mb-2 dashboard-heading">EMED/58434/0620/VPH</p>
           <p class="gender-tab p-2 text-center btn-text"><span><img class="mr-2" src="../../images/black-dot.svg"
                 alt=""></span>Female</p>
         </div>
@@ -173,12 +173,12 @@
               <div class="tab-content" id="main_form">
                 <div class="tab-pane active" role="tabpanel" id="step1">
                   <div class="nurse-heading-wrapper mb-2 p-4">
-                    <p class="nurse-form-heading">Personal Information</p>
-                    <p class="modal-heading">Input patient personal information below</p>
+                    <p class="nurse-form-heading ml-1">Personal Information</p>
+                    <p class="modal-heading ml-1">Input patient personal information below</p>
                   </div>
-                  <div class="row">
+                  <div class="row px-4">
                     <div class="col-md-6">
-                      <div class="form-group mx-2">
+                      <div class="form-group mx-2 mt-3">
                         <label for="Patient-Type" class="profile-label">Patient Type <span class="red-text"> *</span></label>
                         <select class="custom-select" id="Patient-Type">
                           <option selected>Select patient type</option>
@@ -190,7 +190,7 @@
                       </div>
                     </div>
                     <div class="col-md-6">
-                      <div class="form-group mx-2">
+                      <div class="form-group mx-2 mt-3">
                         <label for="Surname" class="profile-label">Surname<span class="red-text"> *</span></label>
                         <input type="text" class="form-control nurse-input" id="Surname" placeholder="Enter surname">
                       </div>
@@ -394,10 +394,9 @@
                     <div class="col-md-6">
                       <div class="form-group">
                         <div class="custom-file">
-
-                          <input type="file mt-3" class="custom-file-input modal-input" id="image">
-                          <label class="custom-file-label custom-file-upload mt-3 text-dark" for="image">Click to
-                            Capture Image </label>
+                          <input type="file" class="custom-file-input modal-input" id="inputGroupFile01">
+                          <label class="custom-file-label custom-file-upload mt-4" for="inputGroupFile01">Click to Capture file
+                          </label>
                         </div>
                       </div>
 
@@ -418,9 +417,9 @@
 
 
 
-                      <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                      <div class="custom-control custom-checkbox my-1 ml-2">
                         <input onclick="javascript:ifHmoIsChecked()" type="checkbox" class="custom-control-input" id="hmo">
-                        <label class="custom-control-label" for="hmo">HMO</label>
+                        <label class="custom-control-label mt-3" for="hmo">HMO</label>
                       </div>
 
                       <div id="selectHmo" style="display: none;">
@@ -479,7 +478,7 @@
 
 
 
-                      <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                      <div class="custom-control custom-checkbox my-1 ml-2">
                         <input onclick="javascript:checkReferral()" type="checkbox" class="custom-control-input" id="referral">
                         <label class="custom-control-label profile-label" for="referral">Source of Referral</label>
                       </div>
@@ -502,7 +501,7 @@
 
 
                   </div>
-                  <ul class="list-inline pull-right mx-2">
+                  <ul class="list-inline pull-right mx-3 my-5">
                     <li><button type="button" class="btn submit-btn text-white next-step">Next</button></li>
                   </ul>
                 </div>
@@ -512,9 +511,9 @@
                     <p class="nurse-form-heading">Next of Kin Information</p>
                     <p class="modal-heading">Input next of kin information below</p>
                   </div>
-                  <div class="row">
+                  <div class="row px-4">
                     <div class="col-md-6">
-                      <div class="form-group mx-2">
+                      <div class="form-group mx-2 mt-3">
                         <label for="kin-first-name" class="profile-label">First Name<span class="red-text"> *</span> </label>
                         <input type="text" class="form-control nurse-input" id="kin-first-name"
                           placeholder="Enter first name">
@@ -522,7 +521,7 @@
                     </div>
 
                     <div class="col-md-6">
-                      <div class="form-group mx-2">
+                      <div class="form-group mx-2 mt-3">
                         <label for="kin-last-name*" class="profile-label">Surname<span class="red-text"> *</span> </label>
                         <input type="text" class="form-control nurse-input" id="kin-last-name*"
                           placeholder="Enter surname">
@@ -613,7 +612,7 @@
                   </div>
 
 
-                  <ul class="list-inline pull-right d-flex mx-3">
+                  <ul class="list-inline pull-right d-flex mx-4 my-5">
                     <li><button type="button" class="btn back-btn text-white prev-step mr-2">Back</button></li>
 
                     <li><button type="button" class="btn submit-btn text-white next-step">Continue</button></li>
@@ -627,11 +626,11 @@
                     <p class="nurse-form-heading">Emergency Contact</p>
                     <p class="modal-heading">Input emergency contact information below</p>
                   </div>
-                  <div class="row">
+                  <div class="row px-4">
 
                     <div class="col-md-12">
-                      <div class="form-group">
-                        <p class="profile-label ml-3 mt-3"> Is your emergency’s contact the same as your next of kins contact ?</p>
+                      <div class="form-group mt-3">
+                        <p class="profile-label mt-3"> Is your emergency’s contact the same as your next of kins contact ?</p>
 
 
                         <div class="custom-control custom-radio custom-control-inline">
@@ -647,7 +646,7 @@
 
 
                     <div class="col-md-6">
-                      <div class="form-group mx-2">
+                      <div class="form-group">
                         <label for="emergency-firstName" class="profile-label">First Name <span class="red-text"> *</span></label>
                         <input type="text" class="form-control nurse-input" id="emergency-firstName"
                           placeholder="Enter first name">
@@ -665,7 +664,7 @@
 
 
                     <div class="col-md-6">
-                      <div class="form-group mx-2">
+                      <div class="form-group">
                         <label for="emergency-relationship" class="profile-label">Relationship <span class="red-text"> *</span></label>
                         <select class="custom-select" id="emergency-relationship">
                           <option selected>Select Relationship</option>
@@ -694,7 +693,7 @@
 
 
                   <div class="col-md-6">
-                    <div class="form-group mx-2">
+                    <div class="form-group">
                       <label for="emergency-state" class="profile-label">Residential State</label>
                       <select class="custom-select" id="emergency-state">
                         <option selected>Select state</option>
@@ -709,7 +708,7 @@
 
 
                   <div class="col-md-6">
-                    <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                    <div class="custom-control custom-checkbox mt-4">
                       <input type="checkbox" class="custom-control-input" id="emergencyCheck">
                       <label class="custom-control-label profile-label" for="emergencyCheck">Same as patient?</label>
                     </div>
@@ -717,7 +716,7 @@
                   </div>
 
                   <div class="col-md-6">
-                    <div class="form-group mx-2">
+                    <div class="form-group">
                       <label for="emergency-number" class="profile-label">Phone Number <span class="red-text"> *</span></label>
                       <input type="text" class="form-control nurse-input" id="emergency-number"
                         placeholder="080 0000 0000">
@@ -739,7 +738,7 @@
                   </div>
 
                   <div class="col-md-6">
-                    <div class="form-group mx-2">
+                    <div class="form-group">
                       <label for="emergency-gender" class="profile-label">Gender <span class="red-text"> *</span></label>
                       <select class="custom-select" id="emergency-gender">
                         <option selected>Select Gender</option>
@@ -752,11 +751,11 @@
                   </div>
 
                   </div>
-                  <ul class="list-inline pull-right d-flex mx-3">
-                    <li><button type="button" class="btn back-btn text-white prev-step mr-2">Back</button></li>
+                  <div class="list-inline float-right d-flex mx-4 my-5">
+                    <li></li><button type="button" class="btn back-btn text-white prev-step mr-2">Back</button></li>
 
                     <li><button type="submit" class="btn submit-btn text-white next-step">Submit</button></li>
-                  </ul>
+                  </div>
                 </div>
 
 

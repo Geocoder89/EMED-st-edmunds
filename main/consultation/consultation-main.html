@@ -1,0 +1,2483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="./index.css"> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+ 
+  <link rel="stylesheet" href="./css/consultation.css">
+  <link rel="stylesheet" href="">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Consultation</title>
+</head>
+
+<body>
+
+  <div class="sidebar d-flex flex-column justify-content-between  px-3">
+
+
+
+    <div class="d-flex">
+      <span><img class=" ml-1 mt-3 mb-5" src="../../images/emed-sidebar.svg" alt=""></span>
+      <span class="mt-2"> <img src="../../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
+    </div>
+
+
+    <div>
+      <p class="main-menu ml-2">Main Menu</p>
+      <div class="row">
+        <div class="sidebar-menu">
+          <a class="active" href="#">
+            <span class="sidebar-icon mr-2">
+              <img src='../../images/icons/active-icons/dashboard.svg'>
+            </span>
+            Dashboard
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2">
+              <img src="../../images/icons/inactive-icons/records.svg" alt="">
+            </span>
+            Records</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/nurse.svg" alt=""></span>
+            Nurse</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/consultant.svg" alt=""></span>
+            Consultant</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/optics.svg" alt=""></span>
+            Optics</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/pharmacy.svg" alt=""></span>
+            Pharmacy</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/billing.svg" alt=""></span>
+            Billing</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/logs.svg" alt=""></span>
+            Logs</a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/reports.svg" alt=""></span>
+            Reports
+          </a>
+          <a href="#">
+            <span class="sidebar-icon mr-2"><img src="../../images/icons/inactive-icons/user.svg" alt=""></span>
+            User Management
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="btn__logout">
+      <hr class="underline">
+      <div class="row">
+        <button class="btn logout-button text-white ml-2 mb-3">
+          <span><img src="../../images/logout.svg" alt=""></span>
+          Logout</button>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="content">
+
+
+    <header class="d-flex justify-content-between align-items-center p-2">
+      <div class="col-md-6">
+        <div class="form-group mb-0">
+
+          <input type="text" class="form-control input-form pl-5" id="exampleInputPassword1" placeholder="Search">
+
+          <img src="/images/search_icon.svg" alt="search" class="search">
+
+        </div>
+      </div>
+
+      <div class=" d-flex">
+        <span class="bell-navbar px-3 py-2 text-white">
+          <img src="/images/bell.svg" alt=" bell">
+          3
+        </span>
+
+
+        <img src="../../images/profile-image.svg" alt="img" class="ml-5">
+        <div class="ml-3 user mt-1">
+          Ayenibiowo Xavier<br>
+          <span class="name">Optics </span>
+        </div>
+
+
+      </div>
+    </header>
+
+    <div class="wrapper-3 px-3">
+
+      <div class="row mt-4">
+        <a href="optics.html" class="back">
+
+          <img src="../../images/icons/left-arrow.svg" alt="" />Back</a>
+      </div>
+      <div class="d-flex justify-content-between mb-3">
+        <div>
+          <p class="mb-0 dashboard-heading mt-5">Alaka Adebayo</p>
+          <p class="mb-0 dashboard-heading">EMED/58434/0620/VPH</p>
+          <p class="gender-tab mt-1 mb-3 p-2 text-center btn-text"><span><img class="mr-2"
+                src="../../images/profile-eye.svg" alt=""></span>Profile</p>
+        </div>
+        <div>
+          <p class="mb-0 dashboard-heading mt-5 mr-3">Mon, Jun 22, 2021</p>
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+    <div class="nurse-inner-card  mb-3 mx-3">
+
+
+
+
+
+      <div class="row">
+        <div class="col-3">
+
+          <div class="optics-tab d-flex justify-content-between align-items-center  mx-2 mt-4">
+
+            <div class="row">
+              <div class="col-12 px-3">
+                <div class="optics-tab-heading">
+
+                  <p class="optics-text mx-1">
+                    <span><img src="../../images/pulse.svg" alt="" class="m-2 img-fluid"></span>
+                    Triage and vitals info <img class="ml-5 img-fluid" src="../../images/optics-dropdown.svg" alt="">
+
+
+                  </p>
+
+
+
+                </div>
+
+                <!-- temperature row -->
+                <div class="row">
+                  <div class="col-12 my-2">
+                    <span class="temp-description ml-1 mb-2 p-2">
+                      <img src="../../images/celsius 1.svg" alt="" class="img-fluid mr-3">
+                      Temperature
+                    </span>
+                    <span class=" vitals-value float-right mr-1">25c</span>
+                  </div>
+
+                </div>
+
+                <!-- blood pressure row -->
+
+                <div class="row ">
+                  <div class="col-12 my-2">
+                    <span class="pressure-description ml-1 mb-2 p-2">
+                      <img src="../../images/celsius-red.svg" alt="" class="img-fluid mr-2">
+                      Blood pressure</span>
+                    <span class=" vitals-value float-right mr-1">52/52</span>
+                  </div>
+
+                </div>
+
+
+
+                <!-- pulse row -->
+                <div class="row ">
+                  <div class="col-12 my-2">
+                    <span class="pulse-description ml-1 mb-2 p-2">
+                      <img src="../../images/pulse-icon.svg" alt="" class="img-fluid mr-2">
+                      Pulse</span>
+                    <span class=" vitals-value float-right mr-1">52</span>
+                  </div>
+
+                </div>
+
+
+                <!-- bmi row -->
+                <div class="row ">
+                  <div class="col-12 my-2">
+                    <span class="bmi-description ml-1 mb-2 p-2">
+                      <img src="../../images/bmi 1.svg" alt="" class="img-fluid mr-2">
+                      BMI</span>
+                    <span class=" vitals-value float-right mr-1">0.54554</span>
+                  </div>
+
+                </div>
+
+
+                <!-- Oxygen row -->
+
+                <div class="row ">
+                  <div class="col-12 my-2">
+                    <span class="oxygen-description ml-1 mb-2 p-2">
+                      <img src="../../images/oxygen 1.svg" alt="" class="img-fluid mr-2">
+                      Oxygen saturation</span>
+                    <span class=" vitals-value float-right mr-1">14</span>
+                  </div>
+
+                </div>
+                <!-- Weight row -->
+                <div class="row ">
+                  <div class="col-12 my-2">
+                    <span class="bmi-description ml-1 mb-2 p-2">
+                      <img src="../../images/bmi 1.svg" alt="" class="img-fluid mr-2">
+                      Weight</span>
+                    <span class=" vitals-value float-right mr-1">65</span>
+                  </div>
+
+                </div>
+
+                <!-- sugar level row -->
+                <div class="row ">
+                  <div class="col-12 mt-2 mb-3">
+                    <span class="sugar-description ml-1 mb-2 p-2">
+                      <img src="../../images/sugar-blood-level 1.svg" alt="" class="img-fluid mr-2">
+                      Sugar level</span>
+                    <span class=" vitals-value float-right mr-1">50</span>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+
+
+
+          </div>
+
+
+          <div class="row mt-3">
+            <div class="col-12 px-3">
+              <div class="optics-tab-heading">
+
+
+                <p class="optics-text mx-1">
+                  <span><img src="../../images/optics.svg" alt="" class="mx-3 my-2 img-fluid"></span>
+                  Optics <img class="drop-down img-fluid" src="../../images/optics-dropdown.svg" alt="">
+
+
+                </p>
+
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <!-- complaint row start -->
+          <div class="row  ml-1">
+            <div class="col-12">
+              <div class="complaint-box">
+                <p class="complaint-description">
+                  Chief Complaint: patient or of other people who know the person and can give suitable information,
+                  with the aim of obtaining information useful in formulating a diagnosis and providing medical care
+                  to the patient. The medically relevant complaints reported by the patient.
+                </p>
+              </div>
+
+              <!-- complaint -->
+
+              <p class="complaint-description mt-2">Chief Complaint: 7 (Strong pain) </p>
+
+              <div class="complaint-box">
+                <p class="complaint-description">Duration: 1 Week</p>
+              </div>
+
+
+              <!-- ocular history -->
+              <p class="complaint-description mt-2">Ocular History: Glasses</p>
+              <div class="complaint-box">
+                <p class="complaint-description">Family Ocular History: AS</p>
+              </div>
+
+              <!-- systemic history -->
+              <p class="complaint-description mt-2">Systemic History: AS</p>
+              <div class="complaint-box">
+                <p class="complaint-description">Baby Perinatal: </p>
+              </div>
+
+
+              <!-- family systemic history -->
+
+
+              <p class="complaint-description mt-2">Family Systemic History: Hypertension</p>
+              <div class="complaint-box">
+                <p class="complaint-description">Alergies: Chloroquine</p>
+              </div>
+
+
+              <p class="complaint-description mt-2">Drug History: patient or of other people who know the person and
+                can give suitable information, with the aim of obtaining information </p>
+
+
+
+              <div class="complaint-box">
+                <p class="complaint-description">Social History: Tobacco</p>
+              </div>
+              <p class="complaint-description mt-2">Visual Acuity: patient or of other people who know the person and
+                can give suitable information, with the aim of obtaining information </p>
+
+
+              <div class="complaint-box">
+                <p class="complaint-description">Focimeter Reading: patient or of other people who know the person and
+                  can give suitable information, with the aim of obtaining information </p>
+              </div>
+
+              <!-- od and os -->
+              <div class="my-2">
+                <p class="complaint-description">
+                  Cover Test
+
+                </p>
+                <p class="complaint-description">
+                  Type for OD:</p>
+                <p class="complaint-description"> Type for OS:</p>
+                <p class="complaint-description"> Duration for OD:</p>
+                <p class="complaint-description">
+                  Duration for OS:</p>
+
+                <p class="complaint-description">
+
+                  DIrection for OD:</p>
+
+                <p class="complaint-description">
+                  Direction for OS:</p>
+
+
+
+
+
+              </div>
+
+
+              <!-- colour vision test -->
+              <div class="complaint-box">
+                <p class="complaint-description">Color Vision Test: Yes</p>
+              </div>
+
+
+              <p class="complaint-description mt-2 mb-4">Refraction: Yes </p>
+
+            </div>
+          </div>
+
+
+          <!-- complaint row ends -->
+
+
+          <!-- visit tab start -->
+
+          <div class="visit-tab  my-4  mx-2 ">
+            <div class="row">
+              <div class="col-12">
+                <div class="optics-tab-heading">
+
+                  <p class="optics-text mx-1">
+                    <span><img src="../../images/pharmacy 1.svg" alt="" class="m-2 img-fluid"></span>
+                    Previous Visit <img class="drop-down img-fluid" src="../../images/optics-dropdown.svg" alt="">
+
+
+                  </p>
+
+
+
+                </div>
+
+
+                <table class="table table-striped">
+
+                  <tbody>
+                    <tr>
+                      <td>
+                        <img src="../../images/health-report 1.svg" alt="">
+                        <span class="visit-text">VIS21948893</span>
+                      </td>
+                      <td>
+                        <span class="visit-text">17 feb 2021</span>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <img src="../../images/health-report 1.svg" alt="">
+                        <span class="visit-text">VIS21948893</span>
+                      </td>
+                      <td>
+                        <span class="visit-text">17 May 2021</span>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <img src="../../images/health-report 1.svg" alt="">
+                        <span class="visit-text">VIS21948893</span>
+                      </td>
+                      <td>
+                        <span class="visit-text">17 Jun 2021</span>
+                      </td>
+                    </tr>
+
+
+                    <tr>
+                      <td>
+                        <img src="../../images/health-report 1.svg" alt="">
+                        <span class="visit-text">VIS21948893</span>
+                      </td>
+                      <td>
+                        <span class="visit-text">17 Jul 2021</span>
+                      </td>
+                    </tr>
+                  </tbody>
+
+
+                </table>
+
+
+
+
+
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+
+        <div class="col-9 px-3">
+
+          <div class="nurse-heading-wrapper mb-4 p-4">
+            <div class="row d-flex justify-content-between">
+              <div class="consult-heading">
+                <p class="nurse-form-heading ml-2">Consultant</p>
+                <p class="modal-heading ml-2">Input information below</p>
+              </div>
+
+              <div class="">
+
+              </div>
+
+              <div class="consult-buttons mx-3">
+                <button class="btn consult-btn p-3 mr-1">Consultation</button>
+                <a type="button" href="consultation-template.html" class="btn summary-btn p-3">
+                  <img src="../../images/document 1.svg" alt="document">
+                  Summary
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item tabs mx-1" role="presentation">
+              <a class="nav-link tabs-link active" id="consultation-tab" data-toggle="tab" href="#consultation"
+                role="tab" aria-controls="consultation" aria-selected="true">Consultation</a>
+            </li>
+            <li class="nav-item tabs mx-1" role="presentation">
+              <a class="nav-link tabs-link" id="laboratory-tab" data-toggle="tab" href="#laboratory" role="tab"
+                aria-controls="laboratory" aria-selected="false">Laboratory</a>
+            </li>
+
+            <li class="nav-item tabs mx-1" role="presentation">
+              <a class="nav-link tabs-link" id="ophthalmic-tab" data-toggle="tab" href="#ophthalmic" role="tab"
+                aria-controls="ophthalmic" aria-selected="false">Ophthalmic</a>
+            </li>
+
+            <li class="nav-item tabs mx-1" role="presentation">
+              <a class="nav-link tabs-link" id="treatment-tab" data-toggle="tab" href="#treatment" role="tab"
+                aria-controls="treatment" aria-selected="false">Treatment</a>
+            </li>
+
+
+            <li class="nav-item tabs mx-1" role="presentation">
+              <a class="nav-link tabs-link" id="procedure-tab" data-toggle="tab" href="#procedure" role="tab"
+                aria-controls="procedure" aria-selected="false">Procedure</a>
+            </li>
+
+
+            <li class="nav-item tabs mx-1" role="presentation">
+              <a class="nav-link tabs-link" id="surgery-tab" data-toggle="tab" href="#surgery" role="tab"
+                aria-controls="surgery" aria-selected="false">Surgery</a>
+            </li>
+
+
+          </ul>
+
+
+
+          <div class="tab-content" id="">
+            <div class="tab-pane active" role="tabpanel" id="consultation">
+
+              <form action="">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="serum " class="profile-label">History</label>
+                      <textarea class="form-control nurse-input" id="" rows="6"
+                        placeholder="Enter History"></textarea>
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="presentingComplaint" class="profile-label">Presenting complaint</label>
+                      <textarea class="form-control nurse-input" id="presentingComplaint" rows="6"
+                        placeholder="Enter presenting complaint"></textarea>
+
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="presentingHistory" class="profile-label">History of presenting complaint</label>
+                      <textarea class="form-control nurse-input" id="presentingHistory" rows="6"
+                        placeholder="Enter history of presenting complaint"></textarea>
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="pastOcularHistory" class="profile-label">Past ocular history</label>
+                      <textarea class="form-control nurse-input" id="pastOcularHistory" rows="6"
+                        placeholder="Enter past ocular history"></textarea>
+
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="pastmedicalHistory" class="profile-label">Past medical history</label>
+                      <textarea class="form-control nurse-input" id="pastmedicalHistory" rows="6"
+                        placeholder="Enter past medical history"></textarea>
+
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="familyHistory" class="profile-label">Family history</label>
+                      <textarea class="form-control nurse-input" id="familyHistory" rows="6"
+                        placeholder="Enter family history"></textarea>
+
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="socialHistory" class="profile-label">Social history</label>
+                      <textarea class="form-control nurse-input" id="socialHistory" rows="6"
+                        placeholder="Enter social history"></textarea>
+
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="drugHistory" class="profile-label">Drug history</label>
+                      <textarea class="form-control nurse-input" id="drugHistory" rows="6"
+                        placeholder="Enter drug history"></textarea>
+
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="allergies" class="profile-label">Allergies</label>
+                      <textarea class="form-control nurse-input" id="allergies" rows="6"
+                        placeholder="Enter allergies"></textarea>
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="observation" class="profile-label">Observation on Examination</label>
+                      <textarea class="form-control nurse-input" id="observation" rows="6"
+                        placeholder="Enter observation"></textarea>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+
+                <div id="accordion">
+                  <h5 class="mb-0" id="headingOne">
+                    <a class=" btn-link ml-3" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                      aria-controls="collapseOne">
+                      Extraocular muscle movement
+                    </a>
+                  </h5>
+
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+
+                    <div class="row ">
+
+                      <div class="col-6"></div>
+                      <div class="col-6 mt-3">
+                        <button type="button" class="btn back-btn-sm float-right text-white mx-3">OD</button>
+                        <button type="button" class="btn save-btn-sm text-white float-right mx-3">OS</button>
+                      </div>
+                    </div>
+
+                    <div class="row mt-2">
+                      <div class="col-10 mx-auto">
+                        <img src="../../images/Arrow-diagram.svg" class="img-fluid" alt="">
+                      </div>
+                    </div>
+
+                    <div class="row mt-2">
+                      <div class="col-6">
+                        <div class="form-group mx-3 mt-3">
+
+
+                          <label for="RSR" class="profile-label">RSR</label>
+                          <input type="text" class=" form-control nurse-input" id="RSR" placeholder="Enter RSR">
+
+
+                        </div>
+
+
+                      </div>
+
+
+
+                      <div class="col-6">
+                        <div class="form-group mx-3 mt-3">
+
+
+                          <label for="RIO" class="profile-label">RIO</label>
+                          <input type="text" class=" form-control nurse-input" id="RIO" placeholder="Enter RIO">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+                    <div class="row mt-2">
+                      <div class="col-6">
+                        <div class="form-group mx-3 mt-3">
+
+
+                          <label for="RLR" class="profile-label">RLR</label>
+                          <input type="text" class=" form-control nurse-input" id="RLR" placeholder="Enter RLR">
+
+
+                        </div>
+
+
+                      </div>
+
+
+
+                      <div class="col-6">
+                        <div class="form-group mx-3 mt-3">
+
+
+                          <label for="RMR" class="profile-label">RMR</label>
+                          <input type="text" class=" form-control nurse-input" id="RMR" placeholder="Enter RMR">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+                    <div class="row mt-2">
+                      <div class="col-6">
+                        <div class="form-group mx-3 mt-3">
+
+
+                          <label for="RIR" class="profile-label">RIR</label>
+                          <input type="text" class=" form-control nurse-input" id="RIR" placeholder="Enter RIR">
+
+
+                        </div>
+
+
+                      </div>
+
+
+
+                      <div class="col-6">
+                        <div class="form-group mx-3 mt-3">
+
+
+                          <label for="RSO" class="profile-label">RSO</label>
+                          <input type="text" class=" form-control nurse-input" id="RSO" placeholder="Enter RSO">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+
+                  </div>
+                </div>
+
+
+
+
+                <div id="accordion">
+                  <h5 class="mb-0" id="headingTwo">
+                    <a class=" btn-link ml-3 mt-3" data-toggle="collapse" data-target="#collapseTwo"
+                      aria-expanded="true" aria-controls="collapseTwo">
+                      Slit Lamp Examination
+                    </a>
+                  </h5>
+
+
+                  <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+
+
+                    <div class="row mt-2">
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OD">
+
+
+                        </div>
+
+
+                      </div>
+
+                      <div class="col-2">
+                        <p class="examination-text">Lid</p>
+                      </div>
+
+
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+                    <div class="row mt-2">
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OD">
+
+
+                        </div>
+
+
+                      </div>
+
+                      <div class="col-2">
+                        <p class="examination-text">Conjuntiva</p>
+                      </div>
+
+
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+
+                    <div class="row mt-2">
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OD">
+
+
+                        </div>
+
+
+                      </div>
+
+                      <div class="col-2">
+                        <p class="examination-text">Cornea</p>
+                      </div>
+
+
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+
+                    <div class="row mt-2">
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter RSR">
+
+
+                        </div>
+
+
+                      </div>
+
+                      <div class="col-2">
+                        <p class="examination-text">Anterior
+                          Chamber</p>
+                      </div>
+
+
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter RSR">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+
+
+                    <div class="row mt-2">
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OD">
+
+
+                        </div>
+
+
+                      </div>
+
+                      <div class="col-2">
+                        <p class="examination-text">Iris</p>
+                      </div>
+
+
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+                    <div class="row mt-2">
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OD">
+
+
+                        </div>
+
+
+                      </div>
+
+                      <div class="col-2">
+                        <p class="examination-text">Pupil</p>
+                      </div>
+
+
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+
+
+                    <div class="row mt-2">
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OD">
+
+
+                        </div>
+
+
+                      </div>
+
+                      <div class="col-2">
+                        <p class="examination-text">Lens</p>
+                      </div>
+
+
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+
+
+
+                    <div class="row mt-2">
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OD">
+
+
+                        </div>
+
+
+                      </div>
+
+                      <div class="col-2">
+                        <p class="examination-text">Fundus</p>
+                      </div>
+
+
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+
+
+                    <div class="row mt-2">
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OD">
+
+
+                        </div>
+
+
+                      </div>
+
+                      <div class="col-2">
+                        <p class="examination-text">Disc</p>
+                      </div>
+
+
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+
+                    <div class="row mt-2">
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OD">
+
+
+                        </div>
+
+
+                      </div>
+
+                      <div class="col-2">
+                        <p class="examination-text">Vessels</p>
+                      </div>
+
+
+                      <div class="col-5">
+                        <div class="form-group mx-3">
+
+
+                          <label for="" class="profile-label">&nbsp;</label>
+                          <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+
+
+
+
+
+                  </div>
+                </div>
+
+
+                <p class="ml-3 my-3 exam-type">Intra Ocular Pressure (IOP)</p>
+
+                <div class="row mt-2">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="IOP" class="profile-label">IOP</label>
+                      <input type="text" class=" form-control nurse-input" id="IOP" placeholder="Enter for OD">
+
+
+                    </div>
+
+
+                  </div>
+
+
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="" class="profile-label">&nbsp;</label>
+                      <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+
+
+
+                <div class="row ml-1 mt-2">
+                  <div class="form-group mx-2 mt-1">
+                    <label for="Gonioscopy" class="exam-type">Goniscopy</label>
+                    <div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                          class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1">Direct</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                          class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2">Indirect</label>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+
+                <div class="form-group mx-2 mt-1">
+                  <label for="GSS" class="exam-type">Gonioscopy Standard System</label>
+                  <div class="ml-1">
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="gss1" name="gss" class="custom-control-input">
+                      <label class="custom-control-label" for="gss1">Scheie System</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="gss2" name="gss" class="custom-control-input">
+                      <label class="custom-control-label" for="gss2">Shaffer System</label>
+                    </div>
+
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" id="gss3" name="gss" class="custom-control-input">
+                      <label class="custom-control-label" for="gss3">Spaeth System</label>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row mt-4">
+
+
+                  <div class="col-6">
+                    <button type="button" class="btn save-btn-sm  text-white space-left">OD</button>
+                    <div class="row">
+                      <div class="col-12">
+                        <img src="../../images/cross.svg" alt="cross" class="img-fluid">
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-6">
+                    <button type="button" class="btn save-btn-sm text-white space-left">OS</button>
+                    <div class="col-12">
+                      <img src="../../images/cross.svg" alt="cross" class="img-fluid">
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="sq" class="profile-label">Angle</label>
+                      <select class="form-control nurse-input" id="sq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for SQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+
+                      </select>
+
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="sq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="sq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for SQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+                        I
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="nq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="nq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for NQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+
+                      </select>
+
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="tq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="tq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for TQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+                        I
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="iq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="iq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for IQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+
+                      </select>
+
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="iq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="iq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for IQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+                        I
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="tq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="tq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for TQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+
+                      </select>
+
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="n1" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="n1" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for NQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+                        I
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="sq" class="profile-label mt-2">Pigmentation</label>
+                      <select class="form-control nurse-input" id="sq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for SQ</option>
+                        <option value="1" class="select-text">None</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+
+                      </select>
+
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="sq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="sq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for SQ</option>
+                        <option value="1" class="select-text">None</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+                        I
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="nq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="nq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for NQ</option>
+                        <option value="1" class="select-text">None</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+
+                      </select>
+
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="tq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="tq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for TQ</option>
+                        <option value="1" class="select-text">None</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+                        I
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="iq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="iq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for IQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+
+                      </select>
+
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="iq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="iq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for IQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+                        I
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="tq" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="tq" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected disabled class="select-text">Select for TQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+
+                      </select>
+
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-1">
+
+
+                      <label for="n1" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="n1" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected class="select-text">Select for NQ</option>
+                        <option value="1" class="select-text">Wide</option>
+                        <option value="2" class="select-text">I</option>
+                        <option value="3" class="select-text">II</option>
+                        <option value="4" class="select-text">III</option>
+                        <option value="5" class="select-text">IV</option>
+                        I
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="row mt-2">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="OD" class="profile-label">Binocular Indirect Ophthalmoscopy</label>
+                      <input type="text" class=" form-control nurse-input" id="OD" placeholder="Enter for OD">
+
+
+                    </div>
+
+
+                  </div>
+
+
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="" class="profile-label">&nbsp;</label>
+                      <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+
+
+
+                <div class="row mt-2">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="OD" class="profile-label">Diagnosis </label>
+                      <input type="text" class=" form-control nurse-input" id="OD" placeholder="Enter for OD">
+
+
+                    </div>
+
+
+                  </div>
+
+
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="" class="profile-label">&nbsp;</label>
+                      <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+
+
+                <div class="row mt-2">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="OD" class="profile-label">Provisional Diagnosis</label>
+                      <input type="text" class=" form-control nurse-input" id="OD" placeholder="Enter for OD">
+
+
+                    </div>
+
+
+                  </div>
+
+
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="" class="profile-label">&nbsp;</label>
+                      <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+
+                <div class="row mt-2">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="OD" class="profile-label">Differential Diagnosis</label>
+                      <input type="text" class=" form-control nurse-input" id="OD" placeholder="Enter for OD">
+
+
+                    </div>
+
+
+                  </div>
+
+
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="" class="profile-label">&nbsp;</label>
+                      <input type="text" class=" form-control nurse-input" id="" placeholder="Enter for OS">
+
+
+                    </div>
+
+
+                  </div>
+                </div>
+
+
+                <div class="row mt-2 ml-3">
+
+
+
+                  <div class="custom-control custom-checkbox my-3">
+
+                    <input type="checkbox " class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label profile-label float-right" for="customCheck1">Schedule A Follow
+                      Up?</label>
+                  </div>
+
+
+
+
+                </div>
+
+
+
+
+
+                <div class="row ml-2 mt-2">
+                  <div class="form-group mx-2 mt-1">
+                    <label for="Gonioscopy" class="profile-label">Investigation required?</label>
+                    <div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="investigation1" name="investigation"
+                          class="custom-control-input">
+                        <label class="custom-control-label" for="investigation1">Laboratory Investigation</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="investigation2" name="investigation"
+                          class="custom-control-input">
+                        <label class="custom-control-label" for="investigation2">Ophthalmic Investigation</label>
+                      </div>
+
+
+                      <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="investigation3" name="investigation"
+                          class="custom-control-input">
+                        <label class="custom-control-label" for="investigation3">Both</label>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+                <div class="action-btns my-5 float-right mx-3">
+                  <button type="button" class="btn back-btn text-white mr-3">Back</button>
+                  <button type="button" class="btn save-btn text-white">Save</button>
+                </div>
+
+              </form>
+
+            </div>
+
+
+
+
+            <div class="tab-pane" role="tabpanel" id="laboratory">
+              <form action="">
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="complaint-level" class="profile-label">Laboratory</label>
+                      <select class="form-control nurse-input" id="laboratory" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected class="select-text">Fasting Blood Sugar</option>
+                        <option value="1" class="select-text">Random Blood Sugar</option>
+                        <option value="2" class="select-text">Hiv Screening</option>
+
+                      </select>
+
+                      <!-- <label for="procedure" class="profile-label">Procedures</label>
+                      <input type="text" class=" form-control nurse-input" id="procedure" placeholder="Yag Laser Capsulotomy"> -->
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6 mt-5">
+                    <button class="btn more-btn py-2">Add More
+                      <img src="../../images/plus.svg" alt="plus" class="img-fluid ml-2">
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="serum " class="profile-label">&nbsp;</label>
+                      <textarea class="form-control nurse-input" id="" rows="6" placeholder=""></textarea>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="serum " class="profile-label">Results</label>
+                      <textarea class="form-control nurse-input" id="" rows="6"
+                        placeholder="Enter Result"></textarea>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+                <div class="form-group my-5 float-right mx-3">
+                  <button type="button" class="btn back-btn text-white mr-3">Back</button>
+                  <button type="button" class="btn save-btn text-white">Order</button>
+                </div>
+
+
+              </form>
+            </div>
+
+
+            <div class="tab-pane" role="tabpanel" id="ophthalmic">
+              <form action="">
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="complaint-level" class="profile-label">Laboratory</label>
+                      <select class="form-control nurse-input" id="laboratory" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected class="select-text">Fasting Blood Sugar</option>
+                        <option value="1" class="select-text">Random Blood Sugar</option>
+                        <option value="2" class="select-text">Hiv Screening</option>
+
+                      </select>
+
+                      <!-- <label for="procedure" class="profile-label">Procedures</label>
+                        <input type="text" class=" form-control nurse-input" id="procedure" placeholder="Yag Laser Capsulotomy"> -->
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-3">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="complaint-level" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="position" aria-placeholder="position">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option disabled selected class="select-text">Add Position</option>
+                        <option class="select-text">OD</option>
+                        <option value="1" class="select-text">OS</option>
+                        <option value="2" class="select-text">Both</option>
+
+                      </select>
+
+                      <!-- <label for="procedure" class="profile-label">Procedures</label>
+                        <input type="text" class=" form-control nurse-input" id="procedure" placeholder="Yag Laser Capsulotomy"> -->
+                    </div>
+
+
+                  </div>
+
+
+                  <div class="col-3 mt-5">
+                    <button class="btn more-btn py-2">Add More
+                      <img src="../../images/plus.svg" alt="plus" class="img-fluid ml-2">
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="serum " class="profile-label">&nbsp;</label>
+                      <textarea class="form-control nurse-input" id="" rows="6" placeholder=""></textarea>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="serum " class="profile-label">Results</label>
+                      <textarea class="form-control nurse-input" id="" rows="6"
+                        placeholder="Enter Result"></textarea>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+                <div class="form-group my-5 float-right mx-3">
+                  <button type="button" class="btn back-btn text-white mr-3">Back</button>
+                  <button type="button" class="btn save-btn text-white">Order</button>
+                </div>
+
+
+              </form>
+            </div>
+
+
+
+            <div class="tab-pane" role="tabpanel" id="treatment">
+              <form action="">
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="route" class="profile-label">Route</label>
+                      <select class="form-control nurse-input" id="route" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option disabled selected class="select-text">Select Route</option>
+                        <option value="1" class="select-text">Guttae</option>
+                        <option value="2" class="select-text">Oral</option>
+                        <option value="3" class="select-text">Intradermal</option>
+
+
+                      </select>
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="qualifier" class="profile-label">Qualifier</label>
+                      <select class="form-control nurse-input" id="qualifier" aria-placeholder="position">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option disabled selected class="select-text">Select qualifier</option>
+                        <option class="select-text">Tablet</option>
+                        <option value="1" class="select-text">Capsule</option>
+                        <option value="2" class="select-text">Syrup</option>
+
+                      </select>
+
+                      <!-- <label for="procedure" class="profile-label">Procedures</label>
+                        <input type="text" class=" form-control nurse-input" id="procedure" placeholder="Yag Laser Capsulotomy"> -->
+                    </div>
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="drug" class="profile-label">Drug</label>
+                      <input type="text" class=" form-control nurse-input" id="drug" placeholder="Enter Drug">
+
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="dosage" class="profile-label">Dosage</label>
+                      <select class="form-control nurse-input" id="qualifier" aria-placeholder="position">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option disabled selected class="select-text">Select Dosage</option>
+                        <option class="select-text">Hourly</option>
+                        <option value="1" class="select-text">Two Hourly</option>
+                        <option value="2" class="select-text">Four Hourly</option>
+
+                      </select>
+
+
+                    </div>
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="duration" class="profile-label">Duration</label>
+                      <select class="form-control nurse-input" id="duration" aria-placeholder="laboratory">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option disabled selected class="select-text">Select Duration</option>
+                        <option value="1" class="select-text">24 Hours</option>
+                        <option value="2" class="select-text">1 Week</option>
+                        <option value="3" class="select-text">2 Weeks</option>
+
+
+                      </select>
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="weight" class="profile-label">Weight</label>
+                      <select class="form-control nurse-input" id="weight" aria-placeholder="position">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option disabled selected class="select-text">Select Weight</option>
+                        <option class="select-text"></option>
+                        <option value="1" class="select-text"></option>
+                        <option value="2" class="select-text"></option>
+
+                      </select>
+
+
+                    </div>
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="remarks" class="profile-label">Remarks</label>
+                      <textarea class="form-control nurse-input" id="remarks" rows="6"
+                        placeholder="Enter Instructions"></textarea>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="nonDrugTreatment" class="profile-label">Non Drug Treatment</label>
+                      <textarea class="form-control nurse-input" id="nonDrugTreatment" rows="6"
+                        placeholder="Enter non drug treatment"></textarea>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="form-group mx-3 mt-2">
+                  <label for="Counselling" class="profile-label mr-2">Referral?</label>
+
+                  <span class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline3">Yes</label>
+                  </span>
+                  <span class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline4">No</label>
+                  </span>
+
+
+                </div>
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group ml-3">
+                      <label for="referral" class="profile-label">&nbsp;</label>
+                      <input type="text" class=" form-control nurse-input" id="referral" placeholder="Enter referral">
+                    </div>
+
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group ml-3">
+                      <label for="referralPurpose" class="profile-label">&nbsp;</label>
+                      <input type="text" class=" form-control nurse-input" id="referralPurpose"
+                        placeholder="Enter purpose">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="action-btns float-right mx-5">
+                  <button type="button" class="btn back-btn text-white mr-3">Back</button>
+                  <button type="button" class="btn save-btn text-white">Add drug+</button>
+                </div>
+
+
+              </form>
+            </div>
+
+
+
+            <div class="tab-pane" role="tabpanel" id="procedure">
+              <form action="">
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="procedure" class="profile-label">Procedures</label>
+                      <select class="form-control nurse-input" id="procedure" aria-placeholder="procedure">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option selected class="select-text">Yag Laser Capsulotomy</option>
+                        <option value="1" class="select-text">Yag Laser Iridotomy</option>
+                        <option value="2" class="select-text">Argon Laser Trabeculoplasty</option>
+
+                      </select>
+
+
+                    </div>
+
+
+                  </div>
+
+                  <div class="col-3">
+                    <div class="form-group mx-3 mt-3">
+
+
+                      <label for="complaint-level" class="profile-label">&nbsp;</label>
+                      <select class="form-control nurse-input" id="position" aria-placeholder="position">
+                        <span><img src="../../images/optics-dropdown.svg" alt=""></span>
+                        <option disabled selected class="select-text">Add Position</option>
+                        <option class="select-text">OD</option>
+                        <option value="1" class="select-text">OS</option>
+                        <option value="2" class="select-text">Both</option>
+
+                      </select>
+
+                      <!-- <label for="procedure" class="profile-label">Procedures</label>
+                        <input type="text" class=" form-control nurse-input" id="procedure" placeholder="Yag Laser Capsulotomy"> -->
+                    </div>
+
+
+                  </div>
+
+
+                  <div class="col-3 mt-5">
+                    <button class="btn more-btn py-2">Add More
+                      <img src="../../images/plus.svg" alt="plus" class="img-fluid ml-2">
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="" class="profile-label">&nbsp;</label>
+                      <textarea class="form-control nurse-input" id="" rows="6" placeholder=""></textarea>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+
+                      <label for="procedure" class="profile-label"> Procedures </label>
+                      <input type="text" class=" form-control nurse-input" id="procedure" placeholder="Input Types">
+
+                    </div>
+                  </div>
+
+
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3 ">
+
+                      <label for="timestamp" class="profile-label">Time Stamp</label>
+                      <input type="time" class=" form-control nurse-input" id="timestamp" placeholder="Time Stamp">
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+                <div class="row">
+                  <div class="col-12">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="inputParameters" class="profile-label">&nbsp;</label>
+                      <textarea class="form-control nurse-input" id="inputParameters" rows="6"
+                        placeholder="Input Parameters"></textarea>
+
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+                <div class="action-btns float-right mx-3">
+                  <button type="button" class="btn back-btn text-white mr-3">Back</button>
+                  <button type="button" class="btn save-btn text-white">Order</button>
+                </div>
+
+
+              </form>
+            </div>
+
+
+
+            <div class="tab-pane" role="tabpanel" id="surgery">
+              <form action="">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="inputParameters" class="profile-label">Consent Notes</label>
+                      <textarea class="form-control nurse-input" id="inputParameters" rows="6"
+                        placeholder="Input Parameters"></textarea>
+
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+
+                      <label for="consent-timestamp" class="profile-label">&nbsp;</label>
+                      <input type="time" class=" form-control nurse-input" id="consent-timestamp"
+                        placeholder="Time Stamp">
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 ml-3 ">
+
+                      <label for="date" class="profile-label">Date</label>
+                      <input type="date" class=" form-control nurse-input" id="date" placeholder="Select date">
+
+                    </div>
+                  </div>
+                  <div class="col-6">
+
+                    <div class="form-group mt-3 mx-3">
+                      <label for="surgeon" class="profile-label">Surgeon</label>
+                      <input type="text" class=" form-control nurse-input" id="surgeon" placeholder="Enter surgeon">
+                    </div>
+
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 ml-3 ">
+                      <label for="nurse" class="profile-label">Assistant/ Scrub Nurse</label>
+                      <input type="text" class=" form-control nurse-input" id="nurse"
+                        placeholder="Enter Assistant/ scrub nurse">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="traineeSurgeon" class="profile-label">Trainee Surgeon</label>
+                      <input type="text" class=" form-control nurse-input" id="traineeSurgeon"
+                        placeholder="Enter trainee surgeon">
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 ml-3 ">
+                      <label for="procedures" class="profile-label">Procedures</label>
+                      <input type="text" class=" form-control nurse-input" id="procedures" placeholder="Input Text">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+
+                      <label for="procedure-timestamp" class="profile-label">&nbsp;</label>
+                      <input type="time" class=" form-control nurse-input" id="procedure-timestamp" placeholder="">
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="consultant" class="profile-label">Consultant</label>
+                      <input type="text" class=" form-control nurse-input" id="consultant" placeholder="Input Text">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+
+                      <label for="consultant-timestamp" class="profile-label">&nbsp;</label>
+                      <input type="time" class=" form-control nurse-input" id="consultant-timestamp" placeholder="">
+
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="feedback" class="profile-label">Feedback</label>
+                      <input type="text" class=" form-control nurse-input" id="feedback" placeholder="Input Text">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-2">
+
+                      <label for="timestamp" class="profile-label">Time Stamp</label>
+                      <input type="time" class=" form-control nurse-input" id="timestamp" placeholder="Time Stamp">
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="surgicalNotes" class="profile-label">Surgical notes</label>
+                      <textarea class="form-control nurse-input " id="surgicalNotes" rows="6"
+                        placeholder="Enter surgical notes"></textarea>
+
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-2">
+                      <label for="preOp" class="profile-label">Pre-op Instructions/ Medication</label>
+                      <textarea class="form-control nurse-input" id="preOp" rows="6"
+                        placeholder="Enter pre-op instructions/ medication"></textarea>
+
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="row">
+                  <div class="col-6">
+                    <div class="form-group mt-3 mx-3">
+                      <label for="postOp" class="profile-label">Post Op Instructions/ Medication</label>
+                      <textarea class="form-control nurse-input" id="postOp" rows="6"
+                        placeholder="Enter post op instructions/ medication"></textarea>
+
+                    </div>
+                  </div>
+                  <div class="col-6"></div>
+                </div>
+
+                <div class="action-btns float-right mx-3">
+                  <button type="button" class="btn back-btn text-white mr-3">Back</button>
+                  <button type="button" class="btn save-btn text-white">Order</button>
+                </div>
+              </form>
+            </div>
+
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+
+  <script src="js/optics.js"></script>
+
+</body>
+
+</html>

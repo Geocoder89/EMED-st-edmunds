@@ -9,7 +9,8 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="./index.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="../../index.css">
+  <link rel="stylesheet" href="./css/nurse.css">
+  <!-- <link rel="stylesheet" href="../../index.css"> -->
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap"
     rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
@@ -23,8 +24,8 @@
 
 
     <div class="d-flex">
-      <span><img class=" ml-1 mt-3 mb-5" src="../images/emed-sidebar.svg" alt=""></span>
-      <span class="mt-2"> <img src="../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5"></span>
+      <span><img class=" ml-1 mt-3 mb-5 img-fluid" src="../../images/emed-sidebar.svg" alt=""></span>
+      <span class="mt-2"> <img src="../../images/logo.svg" alt="" class="sidebar-logo  ml-1 mt-3 mb-5 img-fluid"></span>
     </div>
 
 
@@ -79,7 +80,7 @@
       <hr class="underline">
       <div class="row">
         <button class="btn logout-button text-white ml-2 mb-3">
-          <span><img src="../images/logout.svg" alt=""></span>
+          <span><img src="../../images/logout.svg" alt=""></span>
           Logout</button>
       </div>
     </div>
@@ -97,7 +98,7 @@
       <div class="col-md-6">
         <div class="form-group mb-0">
 
-           <input type="text" class="form-control input-form w-75 pl-5" id="exampleInputPassword1" placeholder="Search">
+          <input type="text" class="form-control input-form w-75 pl-5" id="exampleInputPassword1" placeholder="Search">
 
           <img src="../../images/search_icon.svg" alt="search" class="search">
 
@@ -124,7 +125,7 @@
     <div class="wrapper px-3">
       <div class="d-flex justify-content-between mb-3">
         <div>
-          <p class="mb-0 dashboard-heading mt-5">Nurse Dashboard</p>
+          <p class="mb-0 dashboard-heading mt-5 mb-2">Nurse Dashboard</p>
           <a href="investigation-order.html" type="button" class="btn investigation-btn text-white p-2 mb-4">
             <img class="mx-2" src="../../images/medical-report.svg
             " alt="">
@@ -142,26 +143,26 @@
       <div class="row  mb-4 row-sizing">
 
         <div class="col-md-3  ">
-          <div class="p-2 d-flex justify-content-between align-items-center nurse-triage-card">
+          <div class="p-3 d-flex justify-content-between align-items-center nurse-triage-card">
             <div>
-              <p class="card-description mt-2 triage-card-heading">Triage and Vitals</p>
-            <p class="nurse-value-dark">150</p>
-            <a class="card-description nurse-description-dark grey p-2">View Details
-              <span><img src="../../images/details.svg" alt=""></span>
-            </a>
+              <p class="card-description triage-card-heading">Triage and Vitals</p>
+              <p class="nurse-value-dark">150</p>
+              <a class="card-description nurse-description-dark grey p-2">View Details
+                <span><img src="../../images/details.svg" alt=""></span>
+              </a>
             </div>
 
 
 
-            <div class="green-card d-flex justify-content-between align-items-center p-3 mt-3">
-              <div class="mr-1">
-                <p class="nurse-inner-description mt-2">Awaiting</p>
-                <p class="nurse-inner-value">34</p>
+            <div class="green-card h-100 d-flex justify-content-between align-items-center px-2 py-4">
+              <div class="">
+                <p class="nurse-inner-description">Awaiting</p>
+                <p class="nurse-inner-value mb-0">34</p>
               </div>
 
-              <div>
-                <p class="nurse-inner-description mt-2">Completed</p>
-                <p class="nurse-inner-value">16</p>
+              <div class="">
+                <p class="nurse-inner-description">Completed</p>
+                <p class="nurse-inner-value text-center mb-0">16</p>
               </div>
 
             </div>
@@ -174,26 +175,23 @@
 
 
         <div class="col-md-3  ">
-          <div class="p-2 d-flex justify-content-between align-items-center optics-card">
+          <div class="p-3 d-flex justify-content-between align-items-center optics-card">
             <div>
-              <p class="card-description mt-2 counselling-card-heading">Glasses Counselling</p>
-            <p class="counselling-value">150</p>
-            <a class="card-description nurse-inner-description-white grey p-2">View Details
-              <span><img src="../../images/details-white.svg" alt=""></span>
-            </a>
+              <p class="card-description counselling-card-heading">Glasses Counselling</p>
+              <p class="counselling-value">150</p>
+              <a class="card-description nurse-inner-description-white grey p-2">View Details
+                <span><img src="../../images/details-white.svg" alt=""></span>
+              </a>
             </div>
 
 
 
-            <div class="grey-card d-flex justify-content-between align-items-center p-3 mt-3">
-              <div class="mr-1">
-                <p class="nurse-inner-description mt-2">Awaiting</p>
-                <p class="nurse-inner-value">34</p>
-              </div>
+            <div class="grey-card  p-2">
 
-              <div>
-                <p class="nurse-inner-description mt-2">Completed</p>
-                <p class="nurse-inner-value">16</p>
+
+              <div class="p-2">
+                <p class="nurse-inner-description text-center">Completed</p>
+                <p class="nurse-inner-value text-center">16</p>
               </div>
 
             </div>
@@ -205,26 +203,22 @@
 
 
         <div class="col-md-3  ">
-          <div class="p-2 d-flex justify-content-between align-items-center nurse-triage-card">
+          <div class="p-3 d-flex justify-content-between align-items-center nurse-triage-card">
             <div>
-              <p class="card-description mt-2 triage-card-heading">Surgery Counselling</p>
-            <p class="nurse-value-dark">150</p>
-            <a class="card-description nurse-description-dark grey p-2">View Details
-              <span><img src="../../images/details.svg" alt=""></span>
-            </a>
+              <p class="card-description  triage-card-heading">Surgery Counselling</p>
+              <p class="nurse-value-dark">150</p>
+              <a class="card-description nurse-description-dark grey p-2">View Details
+                <span><img src="../../images/details.svg" alt=""></span>
+              </a>
             </div>
 
 
 
-            <div class="gold-card d-flex justify-content-between align-items-center p-3 mt-3">
-              <div class="mr-1">
-                <p class="nurse-inner-description mt-2">Awaiting</p>
-                <p class="nurse-inner-value">34</p>
-              </div>
+            <div class="gold-card p-2">
 
-              <div>
-                <p class="nurse-inner-description mt-2">Completed</p>
-                <p class="nurse-inner-value">16</p>
+              <div class="p-2">
+                <p class="nurse-inner-description text-center">Completed</p>
+                <p class="nurse-inner-value text-center">16</p>
               </div>
 
             </div>
@@ -235,26 +229,23 @@
         </div>
 
         <div class="col-md-3  ">
-          <div class="p-2 d-flex justify-content-between align-items-center optics-card">
+          <div class="p-3 d-flex justify-content-between align-items-center optics-card">
             <div>
-              <p class="card-description mt-2 counselling-card-heading">Procedure Counselling</p>
-            <p class="counselling-value">150</p>
-            <a class="card-description nurse-inner-description-white grey p-2">View Details
-              <span><img src="../../images/details-white.svg" alt=""></span>
-            </a>
+              <p class="card-description  counselling-card-heading">Procedure Counselling</p>
+              <p class="counselling-value">150</p>
+              <a class="card-description nurse-inner-description-white grey p-2">View Details
+                <span><img src="../../images/details-white.svg" alt=""></span>
+              </a>
             </div>
 
 
 
-            <div class="green-card  d-flex justify-content-between align-items-center p-3 mt-3">
-              <div class="mr-1">
-                <p class="nurse-inner-description mt-2">Awaiting</p>
-                <p class="nurse-inner-value">34</p>
-              </div>
+            <div class="green-card  p-2">
 
-              <div>
-                <p class="nurse-inner-description mt-2">Completed</p>
-                <p class="nurse-inner-value">16</p>
+
+              <div class="p-2">
+                <p class="nurse-inner-description text-center">Completed</p>
+                <p class="nurse-inner-value text-center">16</p>
               </div>
 
             </div>
@@ -270,17 +261,22 @@
 
 
     <div class="table-holder  ">
-      <div class=" general-card  mb-3 mx-3 px-2 ">
-        <table class="table table-borderless  table-striped mt-4 mx-3">
+      <div class=" general-card  mb-5 mx-3 px-2 ">
+        <table class="table table-borderless  table-striped mt-4  px-4">
           <thead>
             <tr>
               <th class="table-heading" scope="col">S/N <span><img src="/images/icons/arrow-.png" alt=""></span></th>
-              <th class="table-heading" scope="col">Patients Name <span><img src="/images/icons/arrow-.png" alt=""></span></th>
-              <th class="table-heading" scope="col">Card No <img src="/images/icons/arrow-.png" alt="" ></th>
-              <th class="table-heading" scope="col">Patient Status <span><img src="/images/icons/arrow-.png" alt=""></span></th>
-              <th class="table-heading" scope="col">Patient No<span><img src="/images/icons/arrow-.png" alt=""></span></th>
-              <th class="table-heading" scope="col">Time of arrival <span><img src="/images/icons/arrow-.png" alt=""></span></th>
-              <th class="table-heading" scope="col">Patient Type <span><img src="/images/icons/arrow-.png" alt=""></span></th>
+              <th class="table-heading" scope="col">Patients Name <span><img src="/images/icons/arrow-.png"
+                    alt=""></span></th>
+              <th class="table-heading" scope="col">Card No <img src="/images/icons/arrow-.png" alt=""></th>
+              <th class="table-heading" scope="col">Patient Status <span><img src="/images/icons/arrow-.png"
+                    alt=""></span></th>
+              <th class="table-heading" scope="col">Patient No<span><img src="/images/icons/arrow-.png" alt=""></span>
+              </th>
+              <th class="table-heading" scope="col">Time of arrival <span><img src="/images/icons/arrow-.png"
+                    alt=""></span></th>
+              <th class="table-heading" scope="col">Patient Type <span><img src="/images/icons/arrow-.png"
+                    alt=""></span></th>
               <th class="table-heading" scope="col">Status <span><img src="/images/icons/arrow-.png" alt=""></span></th>
               <th class="table-heading" scope="col">View<span><img src="/images/icons/arrow-.png" alt=""></span></th>
               <th class="table-heading" scope="col">Action <span><img src="/images/icons/arrow-.png" alt=""></span></th>
@@ -291,10 +287,10 @@
 
             <tr>
               <td class="table-content">
-               1
+                1
               </td>
               <td class="table-content">
-               Alaka Adebayo
+                Alaka Adebayo
               </td>
 
               <td class="table-content">
@@ -323,32 +319,40 @@
 
 
 
+
+
+
+
               <td class="table-content">
 
 
                 <span class="consultation p-2"><img src="../../images/green-square.svg
-                 " alt=""> Consultation</span>
+                   " alt=""> Consultation</span>
 
 
-             </td>
-
-
-
-
-              <td> <a href="" class="gold-btn p-2 ">
-                <span><img src="/images/gold-eye.svg" alt="" class="mr-2"></span>
-                View
-              </a>
-            </td>
+              </td>
 
 
 
 
-            <td>
-              <a type="button" href="#" class="btn btn-sm conversation-btn btn-text">
-                <img src="/images/timer.svg" alt="" class="mr-2">Ongoing Consultation
-             </a>
-            </td>
+
+
+
+              <td>
+                <a href="../profile/profile.html" class="view-btn p-2 ">
+                  <span><img src="/images/eye 1.svg" alt="" class="mr-2"></span>
+                  View
+                </a>
+              </td>
+
+
+
+
+              <td>
+                <a type="button" href="#" class="btn btn-sm conversation-btn btn-text">
+                  <img src="/images/timer.svg" alt="" class="mr-2">Ongoing Consultation
+                </a>
+              </td>
 
 
 
@@ -357,27 +361,27 @@
 
             <tr>
               <td class="table-content">
-               2
+                2
               </td>
               <td class="table-content">
-               Alaka Adebayo
-              </td>
-
-              <td class="table-content">
-               8863333
-              </td>
-
-
-              <td class="table-content">
-              HMO
+                Alaka Adebayo
               </td>
 
               <td class="table-content">
-              EMED/81130/0620/VPH
+                8863333
+              </td>
+
+
+              <td class="table-content">
+                HMO
               </td>
 
               <td class="table-content">
-               17 Jun 2021  10:56 AM
+                EMED/81130/0620/VPH
+              </td>
+
+              <td class="table-content">
+                17 Jun 2021 10:56 AM
               </td>
 
 
@@ -399,37 +403,32 @@
 
 
 
-              <td> <a href="" class="gold-btn p-2 ">
-                <span><img src="/images/gold-eye.svg" alt="" class="mr-2"></span>
-                View
-              </a>
-            </td>
+              <td> <a href="../profile/profile.html" class="view-btn p-2 ">
+                  <span class="view-text"><img src="/images/eye 1.svg" alt="" class="mr-2"></span>
+                  View
+                </a>
+              </td>
 
 
 
 
               <td>
 
+                <div class="dropdown">
+                  <a class="btn btn-text initiate-btn p-2 red-text dropdown-toggle" type="button"
+                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Intiate
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item nurse-dropdown" href="nurse-triage.html">Triage</a>
+                    <a class="dropdown-item nurse-dropdown" href="nurse-glasses.html">Glass Counselling</a>
+                    <a class="dropdown-item nurse-dropdown" href="nurse-surgery.html">Surgery Counselling</a>
+                    <a class="dropdown-item nurse-dropdown" href="nurse-procedure.html">Procedure Counselling</a>
+                  </div>
 
-                <div class="">
-                  <ul class="list-inline">
-                    <li class="list-inline-item dropdown dropright">
-                      <a type="button" href="#" class="btn btn-sm btn-text initiate-btn red-text"  data-toggle="dropdown">
-                        Intiate  <img class="ml-2" src="/images/red-arrow-down.svg" alt="" class="mr-2">
-                      </a>
-
-
-                      <div class="dropdown-menu small-drop-down text-center ">
-                        <a href="nurse-triage.html" class="dropdown-item nurse-dropdown" >Triage</a>
-                        <a href="nurse-glasses.html" class="dropdown-item nurse-dropdown">Glass Counselling</a>
-                        <a href="nurse-surgery.html" class="dropdown-item nurse-dropdown">Surgery Counselling</a>
-                        <a href="nurse-procedure.html" class="dropdown-item nurse-dropdown">Procedure Counselling</a>
-                      </div>
-                    </li>
-                    <a type="button" href="#" class="btn btn-sm initiate-btn p-2">
+                  <span> <a type="button" href="#" class="btn btn-sm initiate-btn p-2">
                       <img class="" src="/images/power-red.svg" alt="">
-                    </a>
-                  </ul>
+                    </a></span>
                 </div>
 
 
@@ -442,10 +441,10 @@
 
             <tr>
               <td class="table-content">
-               3
+                3
               </td>
               <td class="table-content">
-               Alaka Adebayo
+                Alaka Adebayo
               </td>
 
               <td class="table-content">
@@ -475,7 +474,7 @@
               <td class="table-content">
 
 
-                 <span class="consultation p-2"><img src="../../images/green-square.svg
+                <span class="consultation p-2"><img src="../../images/green-square.svg
                   " alt=""> Consultation</span>
 
 
@@ -484,20 +483,20 @@
 
 
 
-              <td> <a href="" class="gold-btn p-2 ">
-                <span><img src="/images/gold-eye.svg" alt="" class="mr-2"></span>
-                View
-              </a>
-            </td>
+              <td> <a href="../profile/profile.html" class="view-btn p-2 ">
+                  <span class="view-text"><img src="/images/eye 1.svg" alt="" class="mr-2"></span>
+                  View
+                </a>
+              </td>
 
 
 
 
-            <td>
-              <a type="button" href="#" class="btn btn-sm conversation-btn btn-text">
-                <img src="/images/timer.svg" alt="" class="mr-2">Ongoing Consultation
-             </a>
-            </td>
+              <td>
+                <a type="button" href="#" class="btn btn-sm conversation-btn btn-text">
+                  <img src="/images/timer.svg" alt="" class="mr-2">Ongoing Consultation
+                </a>
+              </td>
 
 
 
@@ -550,11 +549,10 @@
 
 
 
-              <td>
-                <a type="button" href="" class="btn btn-sm gold-btn">
-                   <img src="/images/gold-eye.svg" alt="" class="mr-2">View
+              <td> <a href="../profile/profile.html" class="view-btn p-2 ">
+                  <span class="view-text"><img src="/images/eye 1.svg" alt="" class="mr-2"></span>
+                  View
                 </a>
-
               </td>
 
 
@@ -562,28 +560,22 @@
 
               <td>
 
+                <div class="dropdown">
+                  <a class="btn btn-text initiate-btn p-2 red-text dropdown-toggle" type="button"
+                    id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Intiate
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item nurse-dropdown" href="nurse-triage.html">Triage</a>
+                    <a class="dropdown-item nurse-dropdown" href="nurse-glasses.html">Glass Counselling</a>
+                    <a class="dropdown-item nurse-dropdown" href="nurse-surgery.html">Surgery Counselling</a>
+                    <a class="dropdown-item nurse-dropdown" href="nurse-procedure.html">Procedure Counselling</a>
+                  </div>
 
-                <div class="">
-                  <ul class="list-inline">
-                    <li class="list-inline-item dropdown dropright">
-                      <a type="button" href="#" class="btn btn-sm btn-text initiate-btn red-text p-2"  data-toggle="dropdown">
-                        Intiate  <img class="ml-2" src="/images/red-arrow-down.svg" alt="" class="mr-2">
-                      </a>
-
-
-                      <div class="dropdown-menu small-drop-down text-center ">
-                        <a href="nurse-triage.html" class="dropdown-item nurse-dropdown" >Triage</a>
-                        <a href="nurse-glasses.html" class="dropdown-item nurse-dropdown">Glass Counselling</a>
-                        <a href="nurse-surgery.html" class="dropdown-item nurse-dropdown">Surgery Counselling</a>
-                        <a href="nurse-procedure.html" class="dropdown-item nurse-dropdown">Procedure Counselling</a>
-                      </div>
-                    </li>
-                    <a type="button" href="#" class="btn btn-sm initiate-btn p-2">
+                  <span> <a type="button" href="#" class="btn btn-sm initiate-btn p-2">
                       <img class="" src="/images/power-red.svg" alt="">
-                    </a>
-                  </ul>
+                    </a></span>
                 </div>
-
 
               </td>
 

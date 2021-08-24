@@ -159,7 +159,7 @@ span.fa {
   font-size: 15px;
   line-height: 19px;
 }
-\ .main-content {
+ .main-content {
   display: flex;
   width: 100%;
 }
@@ -349,7 +349,7 @@ border: 1px solid rgba(223, 228, 229, 0.5);
   /* identical to box height */
 
   /* neutral */
-
+/* margin-top: 7rem; */
   color: #ffffff;
 }
 
@@ -360,6 +360,28 @@ border: 1px solid rgba(223, 228, 229, 0.5);
 
 }
 
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ced4da !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+
+
+.btn:focus {
+  box-shadow: none;
+}
+
+
+.custom-select:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ced4da !important;
+  outline: 0;
+  box-shadow: none;
+}
 
 
 
@@ -483,6 +505,7 @@ top: 0px; */
 .grey-card {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 3.65992px;
+  /* width: 42%; */
 }
 
 .inner-description {
@@ -535,7 +558,7 @@ top: 0px; */
   background: #ffffff;
   border: 1px solid rgba(223, 228, 229, 0.5);
   border-radius: 5px;
-  margin-top: -160px;
+  margin-top: -150px;
   z-index: 90;
 }
 .row-sizing {
@@ -577,17 +600,32 @@ top: 0px; */
   color: #344563;
 }
 
-.view-btn {
+.gold-btn {
   background: #fff7e5;
   border-radius: 5.22777px;
+  font-family: 'Source Sans Pro',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 12.1981px;
+line-height: 15px;
+
+/* other color */
+
+color: #FFAB00;
+
+}
+
+.gold-btn:hover {
+  color: #FFAB00;
+  cursor: pointer;
 }
 
 .btn-text {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 12.1981px;
+  line-height: 15px;
   /* identical to box height */
 
   /* text */
@@ -595,16 +633,20 @@ top: 0px; */
   color: #344563;
 }
 
-.gold-btn {
+.view-btn {
   font-family: "Source Sans Pro";
-  background-color: #fff7e5;
-  color: #ffab00;
+  background-color: #344563;
+  color: #FFFFFF;
   font-size: 12.1981px;
   line-height: 15px;
+  text-decoration: none;
 }
 
-.gold-btn:hover {
-  color: #ffab00;
+.view-btn:hover {
+  background-color: #344563;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 
@@ -649,6 +691,33 @@ top: 0px; */
   align-items: center;
   color: #344563;
   width: 80%;
+}
+
+
+.triage-sm {
+  /* green accent */
+
+  background: #fbe9e9;
+
+  border-radius: 5.3px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+  width: 40%;
+}
+
+
+.triage-sm span {
+  background: #d32027;
+
+  width: 4px;
+  height: 4px;
+  border-radius: 2.61388px;
 }
 
 .triage span {
@@ -751,6 +820,27 @@ top: 0px; */
   border-radius: 4px;
 }
 
+.upload-button {
+  /* neutral */
+
+
+border: 1px solid #22333B;
+border-radius: 4px;
+font-family: 'Source Sans Pro',sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 131% */
+
+
+/* Header text color */
+
+color: #0E0E0E;
+
+
+}
+
 .bg-card {
   background: #ffffff;
   box-shadow: 0px 8.75px 26.25px rgba(209, 213, 223, 0.5);
@@ -768,7 +858,7 @@ top: 0px; */
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
-  font-size: 17.5px;
+  font-size: 14px;
   line-height: 18px;
   color: #ffffff;
 }
@@ -829,7 +919,6 @@ top: 0px; */
   font-size: 18px;
   line-height: 23px;
   /* identical to box height */
-  margin: 0 auto;
   letter-spacing: 0.1px;
 
   /* Header text color */
@@ -839,16 +928,34 @@ top: 0px; */
 
 .modal-input {
   /* light bg */
-  width: 300px;
+  /* width: 300px; */
   height: 48px;
   background: #f9f9fc;
   /* light bg */
-
+  font-family: 'Source Sans Pro',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
   border: 1px solid #f9f9fc;
   box-sizing: border-box;
   border-radius: 2px;
 }
 
+
+
+
+.custom-select {
+  font-family: 'Source Sans Pro',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #1D2B4F;
+}
 select {
   font-family: "Open Sans";
   font-style: normal;
@@ -908,7 +1015,6 @@ input[type="file"] {
 }
 
 .custom-file-upload {
-  width: 300px;
   height: 48px;
   background: #f9f9fc;
   /* light bg */
@@ -916,7 +1022,7 @@ input[type="file"] {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  line-height: 19px;
+  line-height: 28px;
 
   /* inactive color */
   color: #b5b5b5;
@@ -1031,6 +1137,7 @@ input[type="file"] {
 .filter {
   border-radius: 4px;
   outline: none;
+  width: 50%;
 }
 
 .card-number {
@@ -1130,6 +1237,8 @@ input[type="file"] {
 
 .nurse-triage-card {
   background: #fbfbfb;
+  border-radius: 2.68706px;
+
 }
 
 .triage-card-heading {
@@ -1808,8 +1917,13 @@ border-radius: 5px;
   font-size: 14px;
   line-height: 19px;
 
+  text-decoration: none;
   background: #22333b;
 border-radius: 5px;
+}
+
+.submit-btn:hover {
+  text-decoration: none;
 }
 
 
